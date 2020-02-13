@@ -11,3 +11,4 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
 
 ## Lista
 - [x] Notas e Moedas - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1021) - 2 horas
+- [x] Media Ponderada - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1040) - 2 horas
