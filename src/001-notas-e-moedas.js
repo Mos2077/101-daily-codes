@@ -1,4 +1,4 @@
-// EXERCÍCIO ======================================================
+// EXERCÍCIO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 // Leia um valor de ponto flutuante com duas casas decimais. 
 // Este valor representa um valor monetário.
 // A seguir, calcule o menor número de notas e moedas possíveis no qual o valor pode ser decomposto. 
@@ -14,7 +14,9 @@
 
 // Obs: Utilize ponto (.) para separar a parte decimal
 
-// CÓDIGO =======================================================
+
+
+// CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
 // Escreva qualquer valor aqui
 // Este é o valor de entrada do usuário, mas não estamos trabalhando com o DOM, apenas Js, portanto, modifique por aqui mesmo esse valor
