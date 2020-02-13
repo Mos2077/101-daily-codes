@@ -1,4 +1,7 @@
 // EXERCÍCIO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/1040
+
 // Leia um valor de ponto flutuante com duas casas decimais. 
 // Este valor representa um valor monetário.
 // A seguir, calcule o menor número de notas e moedas possíveis no qual o valor pode ser decomposto. 
@@ -13,8 +16,6 @@
 // Imprima a quantidade mínima de notas e moedas necessárias para trocar o valor inicial, conforme exemplo fornecido.
 
 // Obs: Utilize ponto (.) para separar a parte decimal
-
-
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
