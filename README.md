@@ -10,5 +10,6 @@ Utilizo o programa RunJs para resolver qualquer exercício, e fazer testes simpl
 Viu um código e tem uma solução melhor? É só dar clonar o repositório, fazer suas alterações e enviar uma `pull request` :)
 
 ## Lista
-- [x] Notas e Moedas - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1021) - 2 horas
-- [x] Media Ponderada - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1040) - 2 horas
+- [x] 001 - Notas e Moedas - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1021) - 2 horas
+- [x] 002 - Media Ponderada - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1040) - 2 horas
+- [x] 003 - Tempo de Jogo - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1047) - 1 hora
