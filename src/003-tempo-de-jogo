@@ -18,17 +18,27 @@
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
 // Esta é a entrada do usuário, e o significado está descrito enredo do exercício
-// Basicamente:
+// mas basicamente:
 // Primeiro número: hora inicial
 // Segundo número: minuto inicial
 // Terceiro número: hora final
-// Quarto número: 
+// Quarto número: minuto final
 const entrada = "12 0 12 0";
 
+// Aqui transformamos a string em um array de números
+// O método split() divide a string em um array de strings,
+// O critério de separação da string é o que passamos como argumento
+// No caso, enviamos uma string com um espaço vazio
+// E o método map() percorre este array, manipula item por item e retorna um novo array
+// No caso, percorremos o array retornado pelo método split, e manipulamos as strings transformando elas em números e retornamos esse array de números
 const valores = entrada.split(" ").map(valor => Number(valor));
 
+// Como sabemos a ordem dos valores da data inicial e final do jogo, então utilizamos a desestruturação de array
 const [hInicial, minInicial, hFinal, minFinal] = valores;
 
+// Uma variavel que recebe true ou false
+// Ela recebe true, caso o jogo comece em um dia e termine no outro
+// E recebe false, caso o jogo comece e termine no mesmo dia
 const useODiaSeguinte = hInicial > hFinal || minInicial > minFinal;
 
 const base = new Date();
