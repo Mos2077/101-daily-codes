@@ -23,7 +23,7 @@ const porHora = 10;
 // Calculamos o salário multiplicando o valor recebido por hora pelas horas trabalhadas
 const salario = horas * porHora;
 
-// Aqui mostramos no console o número do funcionário ebo salário
+// Aqui mostramos no console o número do funcionário e seu salário, respectivamente
 // Nota: usamos o toFixed() para forçar que o número, no caso o salário, fique com duas casas decimais
 console.log(`NUMBER = ${id}`); 
 console.log(`SALARY = U$ ${salario.toFixed(2)}`); 
