@@ -16,3 +16,4 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
 - [x] 004 - Cálculo Simples - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1010) - 10 minutos
 - [x] 005 - Intervalo - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1037) - 15 minutos
 - [x] 006 - Cédulas - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1018) - 10 minutos
+- [x] 007 - Salário - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1008) - 15 minutos
