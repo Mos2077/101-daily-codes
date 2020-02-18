@@ -10,3 +10,20 @@
 // Imprima o número e o salário do funcionário, conforme exemplo fornecido, com um espaço em branco antes e depois da igualdade. No caso do salário, também deve haver um espaço em branco após o $.
 
 // CÓDIGO
+
+// Ponto de entrada do número do funcionário, número inteiro
+const id = 20;
+
+// Ponto de entrada do número de horas trabalhadas, número inteiro
+const horas = 50;
+
+// Ponto de entrada do valor recebido por hora, número flutuante
+const porHora = 10;
+
+// Calculamos o salário multiplicando o valor recebido por hora pelas horas trabalhadas
+const salario = horas * porHora;
+
+// Aqui mostramos no console o número do funcionário ebo salário
+// Nota: usamos o toFixed() para forçar que o número, no caso o salário, fique com duas casas decimais
+console.log(`NUMBER = ${id}`); 
+console.log(`SALARY = U$ ${salario.toFixed(2)}`); 
