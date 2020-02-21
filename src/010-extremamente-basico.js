@@ -16,3 +16,14 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
+// Ponto de entrada para os valores A e B, substitua por qualquer número sedesejar
+const A = Number("10");
+const B = Number("9");
+
+// X recebe a soma de A com B
+// Lembre-se de forçar que A e B sejam números com o método de conversão de tipos Number(), 
+// senão, X irá apresentar algo como: 23 ao tentarmos somar 2 + 3
+const X = A + B;
+
+// Em seguida, mostramos no console
+console.log(`X = ${X}`);
