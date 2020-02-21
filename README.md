@@ -19,4 +19,4 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
 - [x] 007 - Salário - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1008) - 15 minutos
 - [x] 008 - Formula de Bháskara - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1036) - 15 minutos
 - [x] 009 - Teste de Seleção 1 - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1035) - 20 minutos
-- [x] 010 - Extremamente Básico - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1001) - 15 minutos
+- [x] 010 - Extremamente Básico - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1001) - 3 minutos
