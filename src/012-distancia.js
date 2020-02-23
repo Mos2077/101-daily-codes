@@ -19,3 +19,9 @@
 
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+// Lemos a distância de afastamento do carro Y para o X
+const distancia = Number("30");
+
+// E essa distancia * 2 é o tempo que levou para alcançar essa distancia
+console.log(`${distancia * 2} minutos`);
