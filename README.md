@@ -22,3 +22,4 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
 - [x] 010 - Extremamente Básico - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1001) - 3 minutos
 - [x] 011 - Números Positivos - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1060) - 7 minutos
 - [x] 012 - Distância - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1016) - 2 minutos
+- [x] 013 - Nota Esquecida - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/3055) - 2 minutos
