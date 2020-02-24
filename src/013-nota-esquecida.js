@@ -33,3 +33,29 @@
 // • Para um conjunto de casos de testes valendo 10 pontos, as duas notas das provas são iguais.
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+// Ponto de entrada da nota que João se lembra
+const nota = Number("58");
+
+// Ponto de entrada do valor da média que João lembra
+const media = Number("42");
+
+// A expressão abaixo determina a nota esquecida por joão
+console.log(media * 2 - nota);
+
+// Pra chegar a expressão que determina a nota esquecida,
+// É só isolar o valor da nota esquecida nessa equação que determina a média:
+// se...
+// x + y / 2 = m
+// Onde, 
+// x = nota da prova 1
+// y = nota da prova 2
+// m = média
+
+// então se queremos descobrir a nota da prova 2, e termos a nota da prova 1 e o valor da média, então apenas isolamos y:
+// x + y / 2 = m
+// x + y = 2m
+// y = 2m - x
+// Traduzindo, fica:
+// média vezes 2 menos o valor da nota
+// media * 2 - nota, exatamente o que está no console.log
