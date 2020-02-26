@@ -18,3 +18,20 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
+const a = Number(lines.shift()),
+  b = Number(lines.shift()),
+  c = Number(lines.shift());
+
+const pesoA = a * 2,
+  pesoB = b * 3,
+  pesoC = c * 5;
+
+const dividendo = pesoA + pesoB + pesoC,
+  divisor = 10;
+
+const media = dividendo / divisor;
+
+const message = "MEDIA = " + media.toFixed(1);
+
+console.log(message);
+
