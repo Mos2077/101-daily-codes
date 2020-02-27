@@ -15,3 +15,9 @@
 
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+const litros = Number(lines.shift());
+const distancia = Number(lines.shift());
+const media = litros / distancia;
+const message = `${media.toFixed(3)} km/l`;
+console.log(message);
