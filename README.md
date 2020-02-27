@@ -25,3 +25,4 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
 - [x] 013 - Nota Esquecida - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/3055) - 5 minutos
 - [x] 014 - LED - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1168) - 15 minutos
 - [x] 015 - Média 2 - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1006) - 4 minutos
+- [x] 016 - Consumo - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1014) - 2 minutos
