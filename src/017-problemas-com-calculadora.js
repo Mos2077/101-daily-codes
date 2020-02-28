@@ -15,3 +15,12 @@
 
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+const casosTeste = Number("3");
+for (let i = 0; i < casosTeste; i++) {
+  const entrada = "Ab23s249ttu21";
+  const one = Number(entrada.substring(2, 4));
+  const two = Number(entrada.substring(5, 8));
+  const three = Number(entrada.substring(11, 13));
+  console.log(one + two + three);
+}
