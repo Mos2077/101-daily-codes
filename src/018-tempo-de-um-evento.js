@@ -1,4 +1,4 @@
-// EXERCÍCIO 
+// EXERCÍCIO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
 // URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/1061
 
@@ -26,7 +26,7 @@
 // Obs: Considere que o evento do caso de teste para o problema tem duração mínima de 1 minuto.
 
 
-// CÓDIGO
+// CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
 // Primeiro começamos lendo o dia do início do evento
 // Neste exemplo, a data de início é o dia 5
