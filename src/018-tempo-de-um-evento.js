@@ -27,3 +27,48 @@
 
 
 // CÓDIGO
+
+const [day1] = "Dia 7".split(" ")[1];
+const [hour1, min1, seconds1] = "08 : 12 : 23"
+  .split(":")
+  .map(item => item.trim());
+
+const [day2] = "Dia 4".split(" ")[1];
+const [hour2, min2, seconds2] = "08 : 13 : 43"
+  .split(":")
+  .map(item => item.trim());
+
+const useNextMonth = Number(day2) - Number(day1) < 0;
+console.log(useNextMonth);
+const base = new Date();
+
+const initialDate = new Date(
+  base.getFullYear(),
+  base.getMonth(),
+  day1,
+  hour1,
+  min1,
+  seconds1
+);
+// useNextMonth ? base.getMonth() : base.getMonth() + 1
+const finalDate = new Date(
+  base.getFullYear(),
+  useNextMonth ? base.getMonth() + 1 : base.getMonth(),
+  day2,
+  hour2,
+  min2,
+  seconds2
+);
+
+const difMili = finalDate - initialDate;
+
+let difDays = Math.floor((difMili / (1000 * 60 * 60 * 24)) % 7);
+let difHoras = Math.floor((difMili / (1000 * 60 * 60)) % 24);
+let difMinutos = Math.floor((difMili / (1000 * 60)) % 60);
+let difSeconds = Math.floor((difMili / 1000) % 60);
+
+console.log(`${difDays} dia(s)`);
+console.log(`${difHoras} hora(s)`);
+console.log(`${difMinutos} minuto(s)`);
+console.log(`${difSeconds} segundo(s)`);
+
