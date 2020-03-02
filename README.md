@@ -29,3 +29,4 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
 - [x] 017 - Problemas com a calculadora - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/2694) - 10 minutos
 - [x] 018 - Tempo de um Evento - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1061) - 15 minutos
 - [x] 019 - Frase Completa - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1551) - 15 minutos
+- [x] 020 - Lanche - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1038) - 5 minutos
