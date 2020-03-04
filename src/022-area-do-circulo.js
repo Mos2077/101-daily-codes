@@ -17,8 +17,22 @@
 
 // Código
 
+
+// Por que não usamos Math.pi ao invés de declarar o valor de pi na variável diretamente?
+// Porque o próprio exercício te dá o valor de pi, então precisamos considerar o pi dado nesse exercício
 const pi = 3.14159;
-const r = lines.shift();
+
+// Armazenamos o valor do rádio
+const r = 2;
+
+// Calculamos a área usando o pi * r^2
+// O operador "**" Elena hum número (à esquerda) a um valor (à direita)
+// Nesse formato:
+// X ** Y é igual a X^Y
 const area = pi * (r ** 2);
+
+// Criamos a mensagem e usamos o .toFixed(4) para obrigar que a área tenha 4 casas decimais
 const message = `A=${area.toFixed(4)}`;
+
+// Mostramos a mensagem no console
 console.log(message);
