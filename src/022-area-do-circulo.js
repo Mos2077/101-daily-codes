@@ -15,5 +15,10 @@
 // com 4 casas após o ponto decimal. Utilize variáveis de dupla precisão (double). Como todos os problemas, não esqueça de imprimir o fim de linha após o resultado, caso contrário, você receberá "Presentation Error".
 
 
-
 // Código
+
+const pi = 3.14159;
+const r = lines.shift();
+const area = pi * (r ** 2);
+const message = `A=${area.toFixed(4)}`;
+console.log(message);
