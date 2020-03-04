@@ -15,8 +15,8 @@
 // com 4 casas após o ponto decimal. Utilize variáveis de dupla precisão (double). Como todos os problemas, não esqueça de imprimir o fim de linha após o resultado, caso contrário, você receberá "Presentation Error".
 
 
-// Código
 
+// Código
 
 // Por que não usamos Math.pi ao invés de declarar o valor de pi na variável diretamente?
 // Porque o próprio exercício te dá o valor de pi, então precisamos considerar o pi dado nesse exercício
