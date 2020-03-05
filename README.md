@@ -32,6 +32,7 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
 - [x] 020 - Lanche - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1038) - 5 minutos
 - [x] 021 - Aliteração - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1263) - 20 minutos
 - [x] 022 - Área do Círculo - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1002) - 5 minutos
+- [x] 023 - Coordenadas de um Ponto - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1041) - 10 minutos
 
 
 
