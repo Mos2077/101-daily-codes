@@ -22,3 +22,25 @@
 
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+const [x, y] = [5,0];
+
+if(!x && !y){
+  console.log("Origem");
+}else{
+  if(!x){
+    console.log("Eixo Y");
+  }else if(!y){
+    console.log("Eixo X");
+  }else{
+    if(x > 0 && y > 0){
+      console.log("Q1");
+    }else if(x > 0 && y < 0){
+      console.log("Q4")
+    }else if(x < 0 && y > 0){
+      console.log("Q2")
+    }else if(x < 0 && y < 0){
+      console.log("Q3")
+    }
+	}
+}
