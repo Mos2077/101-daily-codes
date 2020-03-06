@@ -13,6 +13,12 @@
 
 // CÓDIGO
 
+// Criamos um for que:
+// Imprime a variável num a cada repetição
+// Iniciamos a variável num com 2, pois assim mostra a saída do exercício
+// Repetimos esse for enquanto a variável num for menor ou igual a 100
+// E para não se tornar um loop infinito, nós acrescentamos 2 à variável num a cada repetição
 for(let num = 2; num <= 100; num+= 2){
+  // E a cada repetição mostramos a variável num no console
   console.log(num)
 }
