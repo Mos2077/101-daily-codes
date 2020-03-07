@@ -1,4 +1,4 @@
-// EXERCÍCIO 
+// EXERCÍCIO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
 // URL: 
 
@@ -33,7 +33,7 @@
 // O final da entrada é determinado por EOF.
 
 
-// CÓDIGO
+// CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
 // Ponto de entrada, esta é a variável que armazena o texto em um tipo simplificado de markdown
 let string = "I saw _Chelydra serpentina_ in *Centennial Park*.";
