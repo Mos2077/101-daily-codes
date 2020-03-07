@@ -1,6 +1,6 @@
 // EXERCÍCIO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
-// URL: 
+// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/1239
 
 // RESUMO: Faça um mini rich text: a entrada é um texto que permite "_" (para itálico) e "*" para negrito, 
 // você precisa transformar esse texto (usando "_" e "*") em HTML (que usa "<b>" e </b> para negrito e "<i>" e "</i>" para itálico)
