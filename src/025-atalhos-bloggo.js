@@ -35,29 +35,80 @@
 
 // CÓDIGO
 
+// Ponto de entrada, esta é a variável que armazena o texto em um tipo simplificado de markdown
 let string = "I saw _Chelydra serpentina_ in *Centennial Park*.";
 
+// Criamos um array, e esse array contém todas as letras da string anterior, então ela vai estar com este valor:
+// Obs: Esse array também vai incluir espaços
+// [
+//   'I', ' ', 's', 'a', 'w', ' ',
+//   '_', 'C', 'h', 'e', 'l', 'y',
+//   'd', 'r', 'a', ' ', 's', 'e',
+//   'r', 'p', 'e', 'n', 't', 'i',
+//   'n', 'a', '_', ' ', 'i', 'n',
+//   ' ', '*', 'C', 'e', 'n', 't',
+//   'e', 'n', 'n', 'i', 'a', 'l',
+//   ' ', 'P', 'a', 'r', 'k', '*',
+//   '.'
+// ]
 const letters = string.split("");
+
+// Como vamos entrar em um laço de repetição baseado no array letters, não podemos modificar diretamente esse mesmo array:
+// Temos de criar uma cópia para altermos esta durante a repetição, e não o próprio array letters
 const formattedLetters = letters;
 
+// Esta é a variável que define se estamos procurando pela tag de fechamento ("</x>") ou de início ("<b>") do itálico
+// Se está false, então estamos procurando pela tag de início
+// Se está true, estão estamos procurando pela tag de fechamento
+// Começa false por que iniciamos procurando pela tag de início, 
+// não há sentido em procurar pela tag de fechamento visto que nem usando a tag de início ainda
 let searchingItalicEndTag = false;
+
+// A mesma função da anterior, só que para o negrito
 let searchingBoldEndTag = false;
 
+// Entramos um laço de repetição que vai repetir o código para cada letra da frase, ou seja, vai percorrer o array letters
 for (let i = 0; i < letters.length; i++) {
+  // Pegamos a letra atual, usando o índice como base
   const letter = letters[i];
-
+  
+  // Criamos umas variáveis para definir a tag de início e fechamento do itálico
+  // Pra que? Pra não ficar diretamente nas condicionais que iremos fazer a frente
   const initItalicTag = "<i>";
   const endItalicTag = "</i>";
-
+  
+  // A mesma coisa só que para o negrito
   const initBoldTag = "<b>";
   const endBoldTag = "</b>";
-
+  
+  // Se a letra atual for um underline: "_"  (símbolo que representa o itálico) ...
   if (letter === "_") {
+    // ...entramos nesse bloco de código
+    
+    // Aqui fazemos uma substituição:
+    // Pegamos a formattedLetters, 
+    // no índice que está esta letra atual 
+    // e colocamos no lugar dela a tag de fechamento caso a variável "searchingItalicEndTag" seja true, 
+    // se ela for false, então colocamos a tag de início
     formattedLetters[i] = searchingItalicEndTag ? endItalicTag : initItalicTag;
+    
+    // Agora que já substituimos, adicionamos a tag de fechamento, 
+    // então agora vamos procurar pela tag de início, então colocamos false na variável que agora estava true
+    // Ou fazemos o contrário, caso tenhamos colocado a tag de início agora
     searchingItalicEndTag = !searchingItalicEndTag;
-  } else if (letter === "*") {
+  } 
+  // Se não, se a letra atual for o asterisco: "*" (símbolo que representa o negrito) ...
+  else if (letter === "*") {
+    // ...entramos nesse bloco de código
     formattedLetters[i] = searchingBoldEndTag ? endBoldTag : initBoldTag;
     searchingBoldEndTag = !searchingBoldEndTag;
   }
+  
+  // Obs: se a letra não for nem um underline nem um asterisco, então não precisamos fazer nada
+  // afinal, o que nós queremos é só substituir os "_" e "*" por suas respectivas tags de início ou de fechamento, 
+  // não queremos manipular nada na string além disso
 }
+
+// Criamos uma string a partir de um array usando o "join()"
+// Como nós juntamos o array que estava com a formatação em HTML, e transformamos em uma string, basta mostrar no console:
 console.log(formattedLetters.join(""));
