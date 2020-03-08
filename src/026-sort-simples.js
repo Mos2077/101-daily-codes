@@ -15,3 +15,12 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
+const numbers = [6, 5, 4, 21];
+
+const numbersCopy = [...numbers];
+
+numbers.sort((a, b) => a - b);
+
+console.log(numbers.join("\n"));
+console.log("");
+console.log(numbersCopy.join("\n"));
