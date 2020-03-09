@@ -30,7 +30,7 @@ if (b.length > a.length) {
   // Se caímos aqui, então o segundo elemento é menor ou igual ao primeiro elemento
   // É a primeira condição a se validar, agora vamos para a próxima:
   
-  // Nós pegamos a substring no final da string a equivalente ao tamanho da string b
+  // Nós pegamos a substring do final da string a equivalente ao tamanho da string b
   // "123456" - A
   // "56" - B
   // "56" - Variável Substring
@@ -40,7 +40,7 @@ if (b.length > a.length) {
   // "765" - Variável Substring
   const substring = a.substring(a.length - b.length);
   
-  // Caso esssa substring seja igual ao valor b, então ela encaixa na string a
+  // Caso essa substring seja igual ao valor b, então ela encaixa na string a
   if (substring === b) {
     console.log("encaixa");
   } else {
