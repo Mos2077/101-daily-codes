@@ -10,4 +10,18 @@
 // Saída
 // Para cada caso de entrada imprima uma mensagem indicando se o segundo valor encaixa no primeiro valor, confome exemplo abaixo.
 
+
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+const [a, b] = ["5678690", "78690"];
+
+if (b.length > a.length) {
+  console.log("nao encaixa");
+} else {
+  const substring = a.substring(a.length - b.length);
+  if (substring === b) {
+    console.log("encaixa");
+  } else {
+    console.log("nao encaixa");
+  }
+}
