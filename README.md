@@ -37,6 +37,7 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
 - [x] 025 - Atalhos Bloggo - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1239) - 1 hora
 - [x] 026 - Sort Simples - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1042) - 10 minutos
 - [x] 027 - Encaixa ou Não I - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1240) - 10 minutos
+- [x] 028 - Aumento de Salário - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1048) - 5 minutos
 
 
 
