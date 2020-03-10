@@ -1,8 +1,8 @@
 // EXERCÍCIOS <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
+// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/1048
 
 // A empresa ABC resolveu conceder um aumento de salários a seus funcionários de acordo com a tabela abaixo:
-
 
 // Salário	Percentual de Reajuste
 // 0 - 400.00
