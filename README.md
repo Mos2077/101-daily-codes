@@ -38,6 +38,7 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
 - [x] 026 - Sort Simples - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1042) - 10 minutos
 - [x] 027 - Encaixa ou Não I - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1240) - 10 minutos
 - [x] 028 - Aumento de Salário - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1048) - 5 minutos
+- [x] 029 - Positivos e Média - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1064) - 10 minutos
 
 
 
