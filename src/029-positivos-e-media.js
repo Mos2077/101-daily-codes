@@ -1,4 +1,4 @@
-// EXERCÍCIO
+// EXERCÍCIO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
 // URL: https://www.urionlinejudge.com.br/judge/en/problems/view/1064
 
@@ -14,7 +14,7 @@
 // A próxima linha deve mostrar a média dos valores positivos digitados.
 
 
-// CÓDIGO
+// CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
 let numbers = [6, 9, 7, 2, 9, 1];
 let positives = [];
