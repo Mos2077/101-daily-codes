@@ -21,7 +21,7 @@ let positives = [];
 let sum = 0;
 
 for(let i = 0; i < 6; i++){
-  const num = Number(lines.shift());
+  const num = numbers[i];
   if(num >= 0){
     positives.push(num);
     sum += num;
