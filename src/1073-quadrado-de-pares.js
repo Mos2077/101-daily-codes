@@ -28,3 +28,9 @@ for (let print = 2; print <= num; print+=2) {
   console.log(print + "^2 = " + (print ** 2));
 }
 
+// Saída esperada com o valor 8 na entrada:
+// 2^2 = 4
+// 4^2 = 16
+// 6^2 = 36
+// 8^2 = 64
+
