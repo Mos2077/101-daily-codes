@@ -21,7 +21,8 @@
 
 // Escreva qualquer valor aqui
 // Este é o valor de entrada do usuário, mas não estamos trabalhando com o DOM, apenas Js, portanto, modifique por aqui mesmo esse valor
-let valor = 2;
+// Portanto, neste exercício, esse valor se refere ao valor em dinheiro que vamos trocar (cento e sessenta e sete reais e cinquenta centavos)
+let valor = 167.50;
 
 // Variáveis que armazenam os valores permitidos de notas e moedas, respectivamente
 const notas = [100, 50, 20, 10, 5, 2];
