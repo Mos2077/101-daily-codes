@@ -15,3 +15,16 @@
 
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+// Declaramos o número de entrada do programa
+const num = 8;
+
+// Criamos um for que:
+// Declara uma variável que começa com o valor 2 (print)
+// Esse for vai se repetir enquanto print for menor ou igual a num (pois o exercício os pede para incluir o número de entrada caso ele for par)
+// E incrementamos 2 à variável print a cada repetição do for
+for (let print = 2; print <= num; print+=2) {
+  // Mostramos no console o valor de print, elevado ao quadrado = print ** 2... o que resulta em: "PRINT_VALUE^2 = PRINT_VALUE AO QUADRADO"
+  console.log(print + "^2 = " + (print ** 2));
+}
+
