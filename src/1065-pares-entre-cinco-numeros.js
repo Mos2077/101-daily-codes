@@ -12,3 +12,10 @@
 
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+let evenCount = 0;
+for (let i = 0; i < 5; i++) {
+  const num = Number("8");
+  if (num % 2 === 0) evenCount++;
+}
+console.log(evenCount + " valores pares");
