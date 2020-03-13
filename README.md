@@ -40,6 +40,7 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
 - [x] 028 - Aumento de Salário - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1048) - 5 minutos
 - [x] 029 - Positivos e Média - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1064) - 10 minutos
 - [x] 030 - Quadrado de Pares - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1073) - 8 minutos
+- [x] 031 - Pares entre Cinco Números - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1065) - 2 minutos
 
 
 
