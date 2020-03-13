@@ -107,3 +107,10 @@ else {
 function arredondar(numero, casas) {
   return numero.toFixed(casas);
 }
+
+// Saída esperada para a entrada principal: "5 5 5 5" e a entrada secundária (a nota do exame final) com "6.4":
+// 'Media: 5.0'
+// 'Aluno em exame.'
+// 'Nota do exame: 6.4'
+// 'Aluno aprovado.'
+// 'Media final: 5.7'
