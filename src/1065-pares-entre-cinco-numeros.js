@@ -13,9 +13,22 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
+// Números que vamos analisar, um por um, e contar quantos deles são pares
+const numbers = [7, -5, 6, -4, 12];
+
+// Variável que conta quantos números pares têm no array fixo de 5 posições
 let evenCount = 0;
-for (let i = 0; i < 5; i++) {
-  const num = Number("8");
+
+// For que vai permitir percorrer por cada elemento do array numbers e verificar se o número é par ou não
+for (let i = 0; i < numbers.length; i++) {
+  // Em cada repetição, pegamos o número atual
+  const num = numbers[i];
+  
+  // E verificamos: se o resto da divisão desse número por 2 for igual a 0, então este número é par, se for, então adicionamos 1 à variável evenCount
+  // Nota: a instrução ++ é uma abreviação para: evenCount = evenCount + 1
   if (num % 2 === 0) evenCount++;
 }
+
+// Mostramos no console a quantidade de números pares
 console.log(evenCount + " valores pares");
+
