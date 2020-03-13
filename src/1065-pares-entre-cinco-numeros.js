@@ -32,3 +32,5 @@ for (let i = 0; i < numbers.length; i++) {
 // Mostramos no console a quantidade de números pares
 console.log(evenCount + " valores pares");
 
+// Saída esperada com esse valor de entrada: [7, -5, 6, -4, 12]
+// '3 valores pares'
