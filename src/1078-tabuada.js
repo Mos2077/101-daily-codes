@@ -13,8 +13,19 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
+// Variável que armazena o número que servirá de base para a tabuada (N)
 const num = 5;
 
+// Vamos criar um for que vai repetir 10 vezes
+// No início deste for, nós declaramos a variável i com valor inicial 1
+// A cada repetição, esse valor aumenta 1
+// Vamos repetir esse for até que o i seja no máximo 10 (por isso esse for se repete 10 vezes)
 for (let i = 1; i <= 10; i++) {
+  // Para cada repetição, nós mostramos a mensagem composta da seguinte forma:
+  // VARIAVEL_DINAMICA_QUE_COMEÇA_COM_UM = variável i
+  // NUMERO_DECLARADO_NO_INICIO_DO_PROGRAMA = variável num
+  // VARIAVEL_DINAMICA_QUE_COMEÇA_COM_UM x NUMERO_DECLARADO_NO_INICIO_DO_PROGRAMA = VARIAVEL_DINAMICA_QUE_COMEÇA_COM_UM * NUMERO_DECLARADO_NO_INICIO_DO_PROGRAMA
+  
+  // E colocamos essa mensagem para ser exibida no console a cada repetição
   console.log(i + " x " + num + " = " + i * num);
 }
