@@ -41,6 +41,7 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
 - [x] 029 - Positivos e Média - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1064) - 10 minutos
 - [x] 030 - Quadrado de Pares - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1073) - 8 minutos
 - [x] 031 - Pares entre Cinco Números - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1065) - 2 minutos
+- [x] 032 - Tabuada - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1078) - 1 minutos
 
 
 
