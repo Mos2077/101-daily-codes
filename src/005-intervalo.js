@@ -37,3 +37,7 @@ else if (entrada > 50 && entrada <= 75) console.log("Intervalo (50,75]");
 
 // Caso não caia em nenhum dos casos anteriores, então o intervalo é maior que 75 e menor ou igual a 100
 else console.log("Intervalo (75,100]");
+
+
+// Saída esperada para quando a entrada tiver o valor de 10.2:
+// 'Intervalo [0,25]'
