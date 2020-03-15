@@ -43,3 +43,6 @@ const message = average.toFixed(1);
 // Mostramos no console a mensagem acima
 console.log(message);
 
+
+// Saída esperada para o array de números [6.5, 4.3, 6.2]: 
+// '5.7'
