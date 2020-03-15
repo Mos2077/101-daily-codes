@@ -11,7 +11,7 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
 
 ## Lista
 - [x] 001 - Notas e Moedas - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1021) - 2 horas
-- [x] 002 - Media Ponderada - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1040) - 2 horas
+- [x] 002 - Média Ponderada - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1040) - 2 horas
 - [x] 003 - Tempo de Jogo - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1047) - 1 hora
 - [x] 004 - Cálculo Simples - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1010) - 10 minutos
 - [x] 005 - Intervalo - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1037) - 15 minutos
