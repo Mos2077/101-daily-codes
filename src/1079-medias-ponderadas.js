@@ -1,5 +1,7 @@
 // EXERCÍCIO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
+// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/1079
+
 // Resumo: Ler a quantidade de casos de teste, e para cada caso de teste, ler 3 números, com pesos 2, 3 e 5, respectivamente, 
 // e mostrar a média entre eles com uma casa decimal
 
@@ -14,3 +16,17 @@
 
 // Saída
 // Para cada caso de teste, imprima a média ponderada dos 3 valores, conforme exemplo abaixo.
+
+
+// CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+const [a, b, c] = [6.5, 4.3, 6.2];
+
+const dividend = a * 2 + b * 3 + c * 5;
+const div = 10;
+
+const average = dividend / div;
+
+const message = average.toFixed(1);
+
+console.log(message);
