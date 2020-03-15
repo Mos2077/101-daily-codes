@@ -22,3 +22,13 @@ for(let num = 2; num <= 100; num+= 2){
   // E a cada repetição mostramos a variável num no console
   console.log(num)
 }
+
+// Como não há entrada, a saída esperada é esta:
+// 2
+// 4
+// 6
+// 8
+// ...
+// 96
+// 98
+// 100
