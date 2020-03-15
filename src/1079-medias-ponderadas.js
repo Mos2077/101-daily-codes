@@ -20,13 +20,26 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
+// Aqui é ponto de entrada dos valores
+// Pegamos o primeiro, segundo e terceiro número de que modo?
+// Desestruturando o array que criamos
+// Mais divertido do que criar para cada número uma variável, não acha? hasuh
 const [a, b, c] = [6.5, 4.3, 6.2];
 
+// Calculamos o dividendo (a parte de cima da divisão)
+// Como assim? Pra entender mais um pouquinho de média ponderada, podes clicar neste link:
+// https://www.todamateria.com.br/media/
 const dividend = a * 2 + b * 3 + c * 5;
-const div = 10;
 
+// E o divisor, é simplesmente a soma de todos os pesos
+const div = 2 + 3 + 5;
+
+// Calculamos a média dividindo o dividendo pelo divisor
 const average = dividend / div;
 
+// Criamos a mensagem arredondando a média para uma casa decimal
 const message = average.toFixed(1);
 
+// Mostramos no console a mensagem acima
 console.log(message);
+
