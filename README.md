@@ -43,6 +43,7 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
 - [x] 031 - Pares entre Cinco Números - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1065) - 2 minutos
 - [x] 032 - Tabuada - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1078) - 1 minutos
 - [x] 033 - Médias Ponderadas - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1079) - 5 minutos
+- [x] 034 - Maior e Posição - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1080) - 2 minutos
 
 
 
