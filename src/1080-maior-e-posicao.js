@@ -44,3 +44,7 @@ for(let i = 0; i < numbers.length; i++){
 // Aqui em baixo apenas imprimimos os valores da variável maior e sua posição
 console.log(maior);
 console.log(index);
+
+// Saída esperada para o array de números [2, 6, 8, 1, 10]:
+// '10'
+// '5'
