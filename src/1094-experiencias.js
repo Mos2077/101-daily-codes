@@ -2,6 +2,11 @@
 
 // URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/1094
 
+// RESUMO: Ler o número de caso de teste, e para cada caso de teste:
+// ler uma string (que contém a quantidade e a letra que representa qual animal)
+// No final, mostrar um relatório:
+// O total de animais, o total e a porcentagem de cada animal
+
 // Maria acabou de iniciar seu curso de graduação na faculdade de medicina e precisa de sua ajuda para organizar os experimentos 
 //de um laboratório o qual ela é responsável. Ela quer saber no final do ano, 
 // quantas cobaias foram utilizadas no laboratório e o percentual de cada tipo de cobaia utilizada.
