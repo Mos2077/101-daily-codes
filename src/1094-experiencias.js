@@ -1,39 +1,24 @@
-const cases = Number(lines.shift());
+// EXERCÍCIO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
-const animals = {
-  C: {
-    name: "coelhos",
-    count: 0
-  },
-  R: {
-    name: "ratos",
-    count: 0
-  },
-  S: {
-    name: "sapos",
-    count: 0
-  },
-  getTotal: function() {
-    return this.C.count + this.R.count + this.S.count;
-  },
-  getPercentOf: function(animal) {
-    const targetCount = this[animal].count;
-    const total = this.getTotal();
-    const percent = (targetCount * 100) / total;
-    return percent.toFixed(2);
-  }
-};
+// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/1094
 
-for (let caseIndex = 0; caseIndex < cases; caseIndex++) {
-  const experiment = lines.shift();
-  const [quantity, animal] = experiment.split(" ");
-  animals[animal].count += Number(quantity);
-}
+// Maria acabou de iniciar seu curso de graduação na faculdade de medicina e precisa de sua ajuda para organizar os experimentos 
+//de um laboratório o qual ela é responsável. Ela quer saber no final do ano, 
+// quantas cobaias foram utilizadas no laboratório e o percentual de cada tipo de cobaia utilizada.
 
-console.log("Total: " + animals.getTotal() + " cobaias");
-console.log("Total de coelhos: " + animals.C.count);
-console.log("Total de ratos: " + animals.R.count);
-console.log("Total de sapos: " + animals.S.count);
-console.log("Percentual de coelhos: " + animals.getPercentOf("C") + " %");
-console.log("Percentual de ratos: " + animals.getPercentOf("R") + " %");
-console.log("Percentual de sapos: " + animals.getPercentOf("S") + " %");
+// Este laboratório em especial utiliza três tipos de cobaias: sapos, ratos e coelhos. 
+// Para obter estas informações, ela sabe exatamente o número de experimentos que foram realizados, 
+// o tipo de cobaia utilizada e a quantidade de cobaias utilizadas em cada experimento.
+
+// Entrada
+// A primeira linha de entrada contém um valor inteiro N que indica os vários casos de teste que vem a seguir. 
+// Cada caso de teste contém um inteiro Quantia (1 ≤ Quantia ≤ 15) que representa a quantidade de cobaias utilizadas e um caractere 
+// Tipo ('C', 'R' ou 'S'), indicando o tipo de cobaia (R:Rato S:Sapo C:Coelho).
+
+// Saída
+// Apresente o total de cobaias utilizadas, o total de cada tipo de cobaia utilizada 
+// e o percentual de cada uma em relação ao total de cobaias utilizadas, 
+// sendo que o percentual deve ser apresentado com dois dígitos após o ponto.
+
+
+// CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
