@@ -35,7 +35,11 @@
 // S para Sapo
 const inputs = ["10 C", "6 R", "15 S", "5 C", "14 R"];
 
-// Variável (Objeto) que vai guardar o simbolo (chaves do objeto: C, R, S), nome (Dentro de cada Enum há o nome do animal) e contador de cada animal (Também dentro de cada Enum há a propriedade count). Além destes, esta variável também possui 2 métodos (Mesma coisa que funções)
+// Variável (Objeto) que vai guardar:
+// o simbolo (chaves do objeto: C, R, S), 
+// nome (Dentro de cada Enum há o nome do animal) 
+// e contador de cada animal (Também dentro de cada Enum há a propriedade count).
+// Além destes, esta variável também possui 2 métodos (Mesma coisa que funções)
 const animals = {
   C: {
     name: "coelhos",
@@ -55,7 +59,10 @@ const animals = {
   getTotal: function() {
     return this.C.count + this.R.count + this.S.count;
   },
-  // Esta função/método recebe um parãmetro, que é o símbolo/Enum do animal ('C','R' ou 'S') e retorna a porcentagem da espécie do animal recebida como parâmetro comparado ao objeto todo (Por exemplo, se esse objeto guarda a contagem de: 5 coelhos, 5 sapos e 0 ratos. então a porcentamge de ratos é 0%, já a porcentagem dos coelhos é 50%, e a porcentagem dos sapos também é 50%)
+  // Esta função/método recebe um parãmetro, que é o símbolo/Enum do animal ('C','R' ou 'S')
+  // e retorna a porcentagem da espécie do animal recebida como parâmetro comparado ao objeto todo 
+  // (Por exemplo, se esse objeto guarda a contagem de: 5 coelhos, 5 sapos e 0 ratos. então a porcentamge de ratos é 0%, 
+  // já a porcentagem dos coelhos é 50%, e a porcentagem dos sapos também é 50%)
   getPercentOf: function(animal) {
     // Para retornar a porcentagem, usamos uma lógica bem simples:
     // 1. Pegamos o total de animais (de todas as espécies)
@@ -69,7 +76,8 @@ const animals = {
     // TOTAL.X = TOTAL_DE_CERTO_ANIMAL.100
     // X = (TOTAL_DE_CERTO_ANIMAL.100) / TOTAL 
     
-    // Essa variável pega o total (count) de certo animal usando o animal (que é uma string) para pegar a chave, key correspondente deste mesmo objeto
+    // Essa variável pega o total (count) de certo animal usando o animal (que é uma string) 
+    // para pegar a chave, key correspondente deste mesmo objeto
     const targetCount = this[animal].count;
     
     // Pegamos o total usando o método que criamos anteriormente
@@ -84,7 +92,8 @@ const animals = {
 };
 
 
-// Agora que já deixamos a estrutura do nosso laboratório pronto para fazer os experimentos, vamos percorrer o array de animais pra preencher este laboratório
+// Agora que já deixamos a estrutura do nosso laboratório pronto para fazer os experimentos, 
+// vamos percorrer o array de animais pra preencher este laboratório
 
 // Este for vai percorrer cada elemento do array "inputs"
 for (let caseIndex = 0; caseIndex < inputs.length; caseIndex++) {
@@ -96,7 +105,8 @@ for (let caseIndex = 0; caseIndex < inputs.length; caseIndex++) {
   // Sabendo que esse elemento é uma string, dividimos esta string pegando a quatidade e o símbolo/enum do mesmo  
   const [quantity, animal] = experiment.split(" ");
   
-  // Acessamos o objeto animal, na key ANIMAL e na propriedade count adicionamos ele mesmo + a quantidade especificada no elemento do array
+  // Acessamos o objeto animal, na key ANIMAL 
+  // e na propriedade count adicionamos ele mesmo + a quantidade especificada no elemento do array
   animals[animal].count += Number(quantity);
 }
 
@@ -119,7 +129,7 @@ console.log("Percentual de sapos: " + animals.getPercentOf("S") + " %");
 
 
 
-// Saída esperada para a entrada sendo como o array de strings 'Total: 50 cobaias' ["10 C", "6 R", "15 S", "5 C", "14 R"];
+// Saída esperada para a entrada sendo como o array de strings ["10 C", "6 R", "15 S", "5 C", "14 R"]:
 // 'Total: 50 cobaias'
 // 'Total de coelhos: 15'
 // 'Total de ratos: 20'
