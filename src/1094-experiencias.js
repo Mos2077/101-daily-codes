@@ -28,7 +28,7 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
-const cases = Number(lines.shift());
+const inputs = ["10 C", "6 R", "15 S", "5 C", "14 R"];
 
 const animals = {
   C: {
@@ -54,8 +54,8 @@ const animals = {
   }
 };
 
-for (let caseIndex = 0; caseIndex < cases; caseIndex++) {
-  const experiment = lines.shift();
+for (let caseIndex = 0; caseIndex < inputs.length; caseIndex++) {
+  const experiment = inputs[caseIndex];
   const [quantity, animal] = experiment.split(" ");
   animals[animal].count += Number(quantity);
 }
