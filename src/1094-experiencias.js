@@ -68,3 +68,13 @@ console.log("Percentual de coelhos: " + animals.getPercentOf("C") + " %");
 console.log("Percentual de ratos: " + animals.getPercentOf("R") + " %");
 console.log("Percentual de sapos: " + animals.getPercentOf("S") + " %");
 
+
+// Saída esperada para a entrada sendo como o array de strings 'Total: 50 cobaias' ["10 C", "6 R", "15 S", "5 C", "14 R"];
+// 'Total: 50 cobaias'
+// 'Total de coelhos: 15'
+// 'Total de ratos: 20'
+// 'Total de sapos: 15'
+// 'Percentual de coelhos: 30.00 %'
+// 'Percentual de ratos: 40.00 %'
+// 'Percentual de sapos: 30.00 %'
+
