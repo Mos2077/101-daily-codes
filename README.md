@@ -1,7 +1,7 @@
 # 101 Exercícios em JavaScript
 
 ## Sobre
-Apenas alguns exercícios resolvidos utilizando JavaScript, exercícios estes, retirados da plataforma [URI Online](https://www.urionlinejudge.com.br/). Um exercício será postado por dia. Nota: este repostório não mostra a resposta, e sim expõe a lógica e o passo a passo que eu utilizei pra resolver o exercício. O repositório que contém as respostas líquidas, [é este](https://github.com/LaksCastro/uri-online-solutions)
+Apenas alguns exercícios resolvidos utilizando JavaScript, exercícios estes, retirados da plataforma [URI Online](https://www.urionlinejudge.com.br/). Um exercício será postado por dia. Nota: este repostório não mostra a resposta, e sim expõe a lógica e o passo a passo que utilizei pra resolver o exercício. O repositório que contém as respostas líquidas, [é este](https://github.com/LaksCastro/uri-online-solutions)
 
 ## Get Started
 Utilizo o programa RunJs para resolver qualquer exercício, e fazer testes simples em Js, e você pode fazer o download na [página oficial.](https://runjs.dev/)
