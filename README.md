@@ -47,6 +47,7 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
 - [x] 034 - Maior e Posição - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1080) - 2 minutos
 - [x] 035 - Experiências - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1094) - 15 minutos
 - [x] 036 - Sequência IJ 4 - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1098) - 3 minutos
+- [x] 037 - Sequência de Números e Soma - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1101) - 8 minutos
 
 
 
