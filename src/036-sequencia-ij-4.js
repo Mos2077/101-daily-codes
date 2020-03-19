@@ -1,3 +1,7 @@
+
+
+// CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
 // Vamos criar um for que vai:
 // Criar uma variável chamada i que vai começar por 0
 // Essa variável vai ganhar 0.2 a cada repetição
