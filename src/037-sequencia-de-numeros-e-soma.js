@@ -1,3 +1,4 @@
+// EXERCÍCIO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
 // URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/1101
 
@@ -8,6 +9,9 @@
 
 // Saída
 // Para cada dupla de valores, imprima a sequência do menor até o maior e a soma deles, conforme exemplo abaixo
+
+
+// CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
 let min = 20;
 let max = 25;
