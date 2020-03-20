@@ -13,12 +13,24 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
-const [a, b] = [10, 5];
+// Aqui declaramos a sequência de dois números que vamos trabalhar
+const numeros = "2, 3";
 
+// Transformamos a variável "numeros", que é uma string, em um array, com dois elementos (que são os números da sequência)
+// Então desestruturamos esse array pegamos o numero a, e o número b
+const [a, b] = numeros.split(" ").map(item => Number(item));
+
+// Caso a seja igual ao b, imprimimos no console...
 if (a === b) {
-  getout = true;
+  // ... "Iguais"
+  console.log("Iguais");
 } else if (a > b) {
+  // Se a for maior que b, quer dizer que a sequência está neste formato: (10 (a é maior), 5 (b é menor))
+  // Então imprimimos no console "Descrescente"
   console.log("Decrescente");
 } else {
+  // Se não for nenhum dos casos anteriores, então quer dizer que o número b é maior que o número a
+  // Logo, isto forma uma sequência crescente, então imprimimos no console:
   console.log("Crescente");
 }
+
