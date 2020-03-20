@@ -34,3 +34,6 @@ if (a === b) {
   console.log("Crescente");
 }
 
+// Saída esperada para a sequência (em string) "2, 3":
+// 'Crescente'
+
