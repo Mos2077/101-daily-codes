@@ -49,6 +49,7 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
 - [x] 036 - Sequência IJ 4 - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1098) - 3 minutos
 - [x] 037 - Sequência de Números e Soma - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1101) - 8 minutos
 - [x] 038 - Crescente e Decrescente - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1113) - 4 minutos
+- [x] 039 - Dividindo X por Y - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1116) - 10 minutos
 
 
 
