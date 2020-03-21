@@ -21,3 +21,6 @@ const [a, b] = string.split(" ").map(item => Number(item));
 
 if (b === 0) console.log("divisao impossivel");
 else console.log((a / b).toFixed(1));
+
+// Saída esperada para a entrada como os números (em string) "10 6":
+// '1.7'
