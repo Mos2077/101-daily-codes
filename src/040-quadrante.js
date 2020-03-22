@@ -13,17 +13,65 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
+// Ponto de entrada, uma string que representa o ponto no eixo cartesiano que vamos analisar
 const string = "2 2";
+
+// Usamos o método split e map para pegar os 2 números presentes na string
 const [x, y] = string.split(" ").map(item => Number(item));
+
+// Analisamos cada caso:
+
+// 1. Primeiro caso:
+// Se x e y for maior que zero, ele está presente nesta parte do eixo:
+//       + y . . .
+//         | . . . 
+//         | . . .  
+// - x ___________ + x
+//         |
+//         |
+//       - y
+
+
 if (x > 0 && y > 0) {
   console.log("primeiro");
-} else if (x > 0 && y < 0) {
+} 
+// 2. Segundo caso:
+// Se x for maior que zero e y for menor que zero, então o ponto está presente nesta parte do eixo:
+//        + y 
+//          | 
+//          |   
+// - x __________ + x
+//          | . . .
+//          | . . . 
+//        - y . . .
+else if (x > 0 && y < 0) {
   console.log("quarto");
-} else if (x < 0 && y > 0) {
+} 
+
+// 3. Terceiro caso:
+// Se x for menor que zero, e y for maior que zero, então o ponto está presente nesta parte do eixo:
+//     . . . + y 
+//     . . .| 
+//     . . .|   
+// - x ___________ + x
+//          |
+//          |
+//           - y
+else if (x < 0 && y > 0) {
   console.log("segundo");
-} else if (x < 0 && y < 0) {
+} 
+
+// 4. Quarto e ultimo caso:
+// Se x e y forem menor que zero, então o ponto está presente nesta parte do eixo:
+//          + y 
+//          | 
+//          |   
+// - x ___________ + x
+//     . . .|
+//     . . .|
+//     . . . - y
+else if (x < 0 && y < 0) {
   console.log("terceiro");
-}
 
 // Saída esperada para a entrada como uma string com o ponto (2, 2) no eixo cartesiano:
 // 'primeiro'
