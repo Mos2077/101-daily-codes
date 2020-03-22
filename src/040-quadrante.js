@@ -24,3 +24,7 @@ if (x > 0 && y > 0) {
 } else if (x < 0 && y < 0) {
   console.log("terceiro");
 }
+
+// Saída esperada para a entrada como uma string com o ponto (2, 2) no eixo cartesiano:
+// 'primeiro'
+
