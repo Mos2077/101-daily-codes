@@ -34,3 +34,6 @@ else{
     // ... logo, imprima no console "notas invalidas"
     console.log("notas invalidas");
 }
+
+// Saída esperada para as notas 10 e 2:
+// 'media = 6'
