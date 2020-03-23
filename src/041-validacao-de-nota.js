@@ -19,7 +19,7 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
-// Notas a serem avaliadas pelo programa
+// Ponto de entrdda, são as notas a serem avaliadas pelo programa
 const nota1 = 10;
 const nota2 = 2;
 
