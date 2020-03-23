@@ -19,18 +19,11 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
-const input = require('fs').readFileSync('/dev/stdin', 'utf8');
-const lines = input.split('\n');
+const nota1 = 10;
+const nota2 = 2;
 
-const numbers = [];
-
-let validNumbers = numbers.length === 2;
-
-while(!validNumbers){
-    const num = Number(lines.shift());
-    if(num >= 0 && num <= 10) numbers.push(num);
-    else console.log("nota invalida");
-    validNumbers = numbers.length === 2;
+if(nota1 >= 0 && nota1 <= 10 && nota2 >= 0 && nota2 <= 10) {
+    console.log("media = " + ((nota1 + nota2) / 2));
+}else{
+    console.log("notas invalidas");
 }
-
-console.log("media = " + ((numbers[0] + numbers[1]) / 2));
