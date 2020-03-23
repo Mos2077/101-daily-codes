@@ -14,6 +14,7 @@
 // Quando duas notas válidas forem lidas, deve ser impressa a mensagem "media = " seguido do valor do cálculo. 
 // O valor deve ser apresentado com duas casas após o ponto decimal.
 
+
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
 const input = require('fs').readFileSync('/dev/stdin', 'utf8');
