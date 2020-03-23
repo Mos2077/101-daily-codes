@@ -1,3 +1,5 @@
+// EXERCÍCIO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
 // Faça um programa que leia as notas referentes às duas avaliações de um aluno. 
 // Calcule e imprima a média semestral. 
 // Faça com que o algoritmo só aceite notas válidas (uma nota válida deve pertencer ao intervalo [0,10]). 
@@ -11,6 +13,8 @@
 // Se uma nota inválida  for lida, deve ser impressa a mensagem "nota invalida".
 // Quando duas notas válidas forem lidas, deve ser impressa a mensagem "media = " seguido do valor do cálculo. 
 // O valor deve ser apresentado com duas casas após o ponto decimal.
+
+// CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
 const input = require('fs').readFileSync('/dev/stdin', 'utf8');
 const lines = input.split('\n');
