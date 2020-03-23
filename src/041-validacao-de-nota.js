@@ -19,11 +19,18 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
+// Notas a serem avaliadas pelo programa
 const nota1 = 10;
 const nota2 = 2;
 
+// Se amba as notas forem maiores ou iguais a zero e menores ou iguais a dez, então as notas são válidas...
 if(nota1 >= 0 && nota1 <= 10 && nota2 >= 0 && nota2 <= 10) {
+    // Portanto, imprimimos no console a nota1 + nota2  / 2
+    // Lembre-se de adicionar os parênteses, pois sem eles, primeiro será feita a divisão, e não a soma dos números
     console.log("media = " + ((nota1 + nota2) / 2));
-}else{
+}
+// Porém, caso os números falhem em algum teste acima, então as notas não são válidas
+else{
+    // ... logo, imprima no console "notas invalidas"
     console.log("notas invalidas");
 }
