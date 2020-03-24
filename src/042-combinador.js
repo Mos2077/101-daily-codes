@@ -1,3 +1,7 @@
+// RESUMO: pega duas strings, "ab" e "cd" por exemplo, 
+// e faz uma nova string intercalando entre a primeira letra da primeira string + a primeira letra da segunda string
+// e faz isso pras seguintes, então as duas strings "ab" e "cd" combinadas ficariam "acbd"
+
 // Implemente um programa denominado combinador, que recebe duas strings e deve combiná-las, alternando as letras de cada string, 
 // começando com a primeira letra da primeira string, seguido pela primeira letra da segunda string, 
 // em seguida pela segunda letra da primeira string, e assim sucessivamente. 
