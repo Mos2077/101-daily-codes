@@ -1,3 +1,5 @@
+// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/1238
+
 // RESUMO: pega duas strings, "ab" e "cd" por exemplo, 
 // e faz uma nova string intercalando entre a primeira letra da primeira string + a primeira letra da segunda string
 // e faz isso pras seguintes, então as duas strings "ab" e "cd" combinadas ficariam "acbd"
