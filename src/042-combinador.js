@@ -1,3 +1,5 @@
+// EXERCÍCIO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
 // URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/1238
 
 // RESUMO: pega duas strings, "ab" e "cd" por exemplo, 
@@ -16,6 +18,9 @@
 
 // Saída
 // Combine as duas cadeias de caracteres da entrada como mostrado no exemplo abaixo e exiba a cadeia resultante.
+
+
+// CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
 const stringA = "ab";
 const stringB = "cd";
