@@ -38,3 +38,6 @@ for (let i = 0; i < lastIndex; i++) {
   if (currentB) finalString.push(currentB);
 }
 console.log(finalString.join(""));
+
+// Saída esperada para a combinação das duas strings: "ab" e "cd"
+// 'acbd'
