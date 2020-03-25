@@ -33,3 +33,10 @@ for (let i = 1; i <= num; i++) {
   // Em seguida, apenas imprimimos no console a variável i seguida de seu quadrado e cubo
   console.log(`${i} ${square} ${cube}`);
 }
+
+// Saída esperada para a quantidade de repetições igual a 5:
+// '1 1 1'
+// '2 4 8'
+// '3 9 27'
+// '4 16 64'
+// '5 25 125'
