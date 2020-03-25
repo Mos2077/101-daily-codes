@@ -53,6 +53,7 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
 - [x] 040 - Quadrante - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1115) - 3 minutos
 - [x] 041 - Validação de Nota - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1117) - 5 minutos
 - [x] 042 - Combinador - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1238) - 10 minutos
+- [x] 043 - Quadrado e ao Cubo - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1143) - 3 minutos
 
 
 
