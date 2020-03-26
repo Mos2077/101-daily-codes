@@ -7,3 +7,9 @@
 
 // Saída
 // Imprima a saída conforme o exemplo fornecido.
+
+const num = Number("7");
+
+for (let i = 1; i <= num * 4; i += 4) {
+  console.log(`${i} ${i + 1} ${i + 2} PUM`);
+}
