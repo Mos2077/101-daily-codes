@@ -55,6 +55,8 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
 - [x] 042 - Combinador - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1238) - 10 minutos
 - [x] 043 - Quadrado e ao Cubo - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1143) - 3 minutos
 - [x] 044 - PUM - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1142) - 3 minutos
+- [x] 045 - Tipo de Combustível - [URI Online](https://www.urionlinejudge.com.br/judge/pt/problems/view/1134) - 5 minutos
+
 
 
 
