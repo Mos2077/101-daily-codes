@@ -71,7 +71,7 @@ console.log("Gasolina: " + gasoline);
 console.log("Diesel: " + diesel);
 
 
-// Saída esperada para o valor [1, 1, 2, 2, 3, 3, 9, 4] como entradas do usuário:
+// Saída esperada para o array de números [1, 1, 2, 2, 3, 3, 9, 4] como entradas do usuário:
 // 'MUITO OBRIGADO'
 // 'Alcool: 2'
 // 'Gasolina: 2'
