@@ -16,6 +16,9 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
+const inputs = [1, 1, 2, 2, 3, 3, 9, 4];
+let i = 0;
+
 let getout = false;
 
 let alcohol = 0;
@@ -23,7 +26,7 @@ let gasoline = 0;
 let diesel = 0;
 
 while (!getout) {
-  const code = Number(lines.shift());
+  const code = inputs[i];
   switch (code) {
     case 1:
       alcohol++;
@@ -38,6 +41,7 @@ while (!getout) {
       getout = true;
       break;
   }
+  i++;
 }
 console.log("MUITO OBRIGADO");
 console.log("Alcool: " + alcohol);
