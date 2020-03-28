@@ -58,7 +58,7 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
 | 043 | Quadrado e ao Cubo          | https://www.urionlinejudge.com.br/judge/pt/problems/view/1143 | 3             |
 | 044 | PUM                         | https://www.urionlinejudge.com.br/judge/pt/problems/view/1142 | 3             |
 | 045 | Tipo de Combustível         | https://www.urionlinejudge.com.br/judge/pt/problems/view/1134 | 5             |
-| 046 | ?????                       | ?????                                                         | ?????         |
+| 046 | Idades                      | https://www.urionlinejudge.com.br/judge/pt/problems/view/1154 | 3             |
 
 
 
