@@ -19,3 +19,7 @@ if (num % 2 === 0) console.log("0");
 
 // Se não, imprimos 1
 else console.log("1");
+
+
+// Saída esperada para o número 11:
+// '1'
