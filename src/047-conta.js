@@ -1,3 +1,5 @@
+// EXERCÍCIO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
 // Dois amigos pedem ao atendente de uma lanchonete propor um desafio, de modo que quem acertasse mais, não precisaria pagar a conta. Então foi proposto o seguinte: Dado o seguinte somatório abaixo, informar o resultado, com uma quantidade de termos no mesmo:
 
 // S = 1 - 1 + 1 - 1 + 1 - 1 + 1 - 1 ...
@@ -10,6 +12,8 @@
 // Saída
 // Para cada caso de teste imprima um número S, que é o resultado da soma dos N termos da expressão.
 
+
+// CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
 // Ponto de entrada do usuário
 const num = 11;
