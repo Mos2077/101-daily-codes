@@ -59,6 +59,7 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
 | 044 | PUM                         | https://www.urionlinejudge.com.br/judge/pt/problems/view/1142 | 3             |
 | 045 | Tipo de Combustível         | https://www.urionlinejudge.com.br/judge/pt/problems/view/1134 | 5             |
 | 046 | Idades                      | https://www.urionlinejudge.com.br/judge/pt/problems/view/1154 | 3             |
+| 047 | Conta                       | https://www.urionlinejudge.com.br/judge/pt/problems/view/1866 | 5             |
 
 
 
