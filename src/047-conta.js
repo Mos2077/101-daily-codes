@@ -2,6 +2,8 @@
 
 // URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/1866
 
+// RESUMO: Ler um número, se ele for par, imprima '0' no console, se não, imprima '1'
+
 // Dois amigos pedem ao atendente de uma lanchonete propor um desafio, de modo que quem acertasse mais, não precisaria pagar a conta. Então foi proposto o seguinte: Dado o seguinte somatório abaixo, informar o resultado, com uma quantidade de termos no mesmo:
 
 // S = 1 - 1 + 1 - 1 + 1 - 1 + 1 - 1 ...
