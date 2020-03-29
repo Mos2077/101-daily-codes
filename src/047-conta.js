@@ -11,7 +11,11 @@
 // Para cada caso de teste imprima um número S, que é o resultado da soma dos N termos da expressão.
 
 
+// Ponto de entrada do usuário
 const num = 11;
 
+// Se o número for par, imprimimos "0" no console
 if (num % 2 === 0) console.log("0");
+
+// Se não, imprimos 1
 else console.log("1");
