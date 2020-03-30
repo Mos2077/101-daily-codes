@@ -22,3 +22,59 @@
 // conforme o exemplo abaixo.
 
 // A média deve ser impressa com dois dígitos após o ponto decimal.
+
+
+const teste = ["-3.5", "3.5", "11.0", "10.0", "4", "1", "8.0", "9.0", "2"];
+let b = 0;
+const lines = {
+  shift: () => {
+    const a = teste[b];
+    b++;
+    return a;
+  }
+};
+
+const isValid = value => value <= 10 && value >= 0;
+
+let getout = false;
+
+let numA = null;
+let numB = null;
+
+while (!getout) {
+  const num = Number(lines.shift());
+
+  if (!isValid(num)) {
+    console.log("nota invalida");
+    continue;
+  }
+
+  if (numA === null) {
+    numA = num;
+    continue;
+  }
+
+  numB = num;
+
+  const average = (numA + numB) / 2;
+  let validResponse = false;
+  numA = null;
+  numB = null;
+  console.log("media = " + average.toFixed(2));
+
+  let response = null;
+  do {
+    console.log("novo calculo (1-sim 2-nao)");
+
+    response = lines.shift();
+
+    switch (response) {
+      case "1":
+        getout = false;
+        break;
+      case "2":
+        getout = true;
+        break;
+    }
+  } while (response !== "1" && response !== "2");
+}
