@@ -27,8 +27,16 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
+// Parte do código que servirá de testes (simulação da entrada do usuário) [][][][][][][][]
+
+// Array que contém as entradas do usuário
 const teste = ["-3.5", "3.5", "11.0", "10.0", "4", "1", "8.0", "9.0", "2"];
+
+// Index de teste também que percorrerá o array que simula as entradas do usuário
 let b = 0;
+
+// Aqui declaramos um objeto (lines) com uma propriedade: shift, que é uma função que retorna uma das entradas do usuário,
+// E na próxima vez que ela for chamada, ela devolverá o próximo valor de entrada
 const lines = {
   shift: () => {
     const a = teste[b];
@@ -37,21 +45,38 @@ const lines = {
   }
 };
 
+// Termina o código de teste [][][][][][][][]
+
+// Função em forma de Arrow Function que recebe uma nota e retorna true se essa nova for válida e false caso ela não seja válida
+// Quando uma nota é válida? Quando ela está entre o intervalo [0, 10] com os dois inclusos
 const isValid = value => value <= 10 && value >= 0;
 
+// Variável que armazena se o usuário quer sair ou não do programa
 let getout = false;
 
+// Variáveis que armazenam a nota A e B, respectivamente
 let numA = null;
 let numB = null;
 
+// Aqui iniciamos o laço de repetição do valor das entradas do usuário (no caso, elas estão sendo simuladas pelo código de teste)
 while (!getout) {
+  // Lemos a entrada, (uma nota, seja A ou B, veremos isso depois)
   const num = Number(lines.shift());
-
+  
+  // Primeiro verificamos se a nota é válida ou não, usando a função criada anteriormente,
+  // E então, verificamos se a nota não é válida, usando o operador de negação "!"
   if (!isValid(num)) {
+    // Caso não seja válida, imprimimos no console "nota invalida"
     console.log("nota invalida");
+    
+    // E pedimos para o "while" continuar a repetição
+    // Nota: esse "continue" faz com que o "while" pule todo o código daqui pra baixo, 
+    // ou seja, voltamos para o início do código dentro do while
+    // Ficamos nesse loop até que haja pelo menos uma nota válida
     continue;
   }
-
+  
+  
   if (numA === null) {
     numA = num;
     continue;
