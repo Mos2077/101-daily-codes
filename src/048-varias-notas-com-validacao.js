@@ -81,3 +81,13 @@ while (!getout) {
     }
   } while (response !== "1" && response !== "2");
 }
+
+// Saída esperada para a entrada simulada igual ao array ["-3.5", "3.5", "11.0", "10.0", "4", "1", "8.0", "9.0", "2"]:
+// 'nota invalida'
+// 'nota invalida'
+// 'media = 6.75'
+// 'novo calculo (1-sim 2-nao)'
+// 'novo calculo (1-sim 2-nao)'
+// 'media = 8.50'
+// 'novo calculo (1-sim 2-nao)'
+// true
