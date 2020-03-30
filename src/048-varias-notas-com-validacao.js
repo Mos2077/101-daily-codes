@@ -76,34 +76,56 @@ while (!getout) {
     continue;
   }
   
-  
+  // Caso a nota A ainda não esteja definida, então quer dizer que nem definimos a nota A, portanto...
   if (numA === null) {
+    // Declaramos ela aqui, dando o valor da nota atual
     numA = num;
+    
+    // E pedimos para o while continuar o laço ignorando o código abaixo deste
     continue;
   }
-
+  
+  // Bom, se chegamos aqui, é por que já temos a nota A, então vamos declarar a nota B
   numB = num;
-
+  
+  // Em seguida, como já temos as duas notas, calculamos a média
   const average = (numA + numB) / 2;
-  let validResponse = false;
+ 
+  // E aqui mostramos a média no console com duas casas decimais
+  console.log("media = " + average.toFixed(2));
+  
+  // E aqui zeramos novamente a nota A e B, afinal, terminamos a operação de calcular a média das notas
   numA = null;
   numB = null;
-  console.log("media = " + average.toFixed(2));
-
+  
+  // Variável que vai armazenar a resposta do usuário para a pergunta "Você quer fazer mais um cálculo? (1-sim 2-nao)"
+  // Portanto, qualquer valor fora de 1 ou 2, é inválido
   let response = null;
+  
+  // Vamos iniciar um laço de repetição que ocorre no mínimo uma vez, o "do while {}"
   do {
+    
+    // Perguntamos se o usuário quer continuar fazendo cálculos
     console.log("novo calculo (1-sim 2-nao)");
-
+    
+    // Lemos a resposta dele
     response = lines.shift();
-
+    
+    // Fazemos um switch na resposta
     switch (response) {
+      // Caso a resposta seja 1, então ele quer fazer um novo cálculo, logo declaramos a nossa variável getout como false
       case "1":
         getout = false;
         break;
+      // Caso a resposta seja 2, então ele quer quer sair do programa, logo declaramos a nossa variável getout como true
       case "2":
         getout = true;
         break;
+      // Caso ele tenha respondido qualquer coisa fora de 1 e 2, então o laço vai continuar perguntando ao usuário
+      
     }
+    // Pois aqui colocamos a seguinte verificação: 
+    // continue executando esse laço de repetição enquanto a resposta for diferente de 1 e 2
   } while (response !== "1" && response !== "2");
 }
 
