@@ -1,3 +1,4 @@
+// EXERCÍCIO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
 // Escreva um programa para ler as notas da primeira e a segunda avaliação de um aluno. Calcule e imprima a média semestral.
 // O programa só deverá aceitar notas válidas (uma nota válida deve pertencer ao intervalo [0,10]). 
@@ -23,6 +24,8 @@
 
 // A média deve ser impressa com dois dígitos após o ponto decimal.
 
+
+// CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
 const teste = ["-3.5", "3.5", "11.0", "10.0", "4", "1", "8.0", "9.0", "2"];
 let b = 0;
