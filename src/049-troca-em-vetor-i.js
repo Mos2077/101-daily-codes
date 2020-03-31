@@ -25,3 +25,10 @@ arr.reverse();
 for(let i = 0; i < 5; i++){
     console.log("N[" + i + "] = " + arr[i]);
 }
+
+// Saída esperada para o array de testes []:
+// 'N[0] = 41'
+// 'N[1] = 58'
+// 'N[2] = 61'
+// 'N[3] = 5'
+// 'N[4] = 10'
