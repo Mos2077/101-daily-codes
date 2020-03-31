@@ -12,14 +12,20 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
+// Ao invés de 20, vamos tentar reverter um array de 5 posições apenas
 let teste = [10, 5, 61, 58, 41];
 
+// Array que armazenará as entradas do usuário (simuladas pelo array "teste")
 let arr = [];
 
+// Fazemos um for para percorrer 5 vezes...
 for(let i = 0; i < 5; i++){
+    // E a cada repetição, lemos uma entrada do usuário
     arr[i] = teste[i];
 }
 
+// Revertemos o array
+// Nota: o método reverse() inverte o array original, por isso não é necessário armazenar em nenhuma variável
 arr.reverse();
 
 for(let i = 0; i < 5; i++){
