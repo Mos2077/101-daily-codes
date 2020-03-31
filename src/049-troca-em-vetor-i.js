@@ -29,7 +29,9 @@ for(let i = 0; i < 5; i++){
 // Nota: o método reverse() inverte o array original, por isso não é necessário armazenar em nenhuma variável
 arr.reverse();
 
+// Então criamos outro for para repetir 5 vezes
 for(let i = 0; i < 5; i++){
+    // A cada repetição é mostrado no console o array inverso (portanto os valores irão aparecer invertidos no console)
     console.log("N[" + i + "] = " + arr[i]);
 }
 
