@@ -11,9 +11,15 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
+// A entrada será o número quatro
 const qtdLines = 4;
 
-for (let a = 0, b = 0; a < 1000; a++, b === qtdLines - 1 ? (b = 0) : b++) {
+// Vamos criar um for que vai repetir, ao invés de 1000 vezes como pede o exercício, apenas 20.
+// Ou seja, no início do laço vamos declarar as variáveis a e b, ambas com o valor 0
+// E para cada repetição, vamos acrescentar 1 à variável a, e fazer a seguinte operação ternária para a variável b:
+// Se b for igual ao número de entrada menos um, então dê o valor de 0, se não, acrescente mais um
+for (let a = 0, b = 0; a < 20; a++, b === qtdLines - 1 ? (b = 0) : b++) {
+  // E então, para cada repetição, mostre no console o valor de "a", como index do array e "b" como número relativo à entrada
   console.log("N[" + a + "] = " + b);
 }
 
