@@ -16,9 +16,19 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
+// Ponto de entrada, que vamos usar o valor 1 de demonstração
 const n = 1;
 
+// Vamos criar um for que repetirá 10 vezes,
+// e nesse for vamos declarar:
+// uma variável a que servirá para permitir repetirmos o código 10x
+// E usarmos como index da matriz, como pede o exercício
+// E usar b como o valor relativo à entrada e ao index da matriz
+// Onde, a cada index passado, o valor de b se torna o dobro do valor anterior
+// E b terá o valor inicial de n, que é o valor da entrada
 for (let a = 0, b = n; a < 10; a++, b *= 2) {
+  // Com isso, dentro do for, podemos simplesmente mostrar a como o index da matriz 
+  // e b como o número resultante
   console.log("N[" + a + "] = " + b);
 }
 
