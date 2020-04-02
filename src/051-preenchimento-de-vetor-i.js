@@ -11,10 +11,7 @@
 // Para cada posição do vetor, escreva "N[i] = X", onde i é a posição do vetor e X é o valor armazenado na posição i. 
 // O primeiro número do vetor N (N[0]) irá receber o valor de V.
 
-const input = require('fs').readFileSync('/dev/stdin', 'utf8');
-const lines = input.split('\n');
-
-const n = Number(lines.shift());
+const n = 1;
 
 for (let a = 0, b = n; a < 10; a++, b *= 2) {
   console.log("N[" + a + "] = " + b);
