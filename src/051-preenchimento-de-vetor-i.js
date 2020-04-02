@@ -16,3 +16,15 @@ const n = 1;
 for (let a = 0, b = n; a < 10; a++, b *= 2) {
   console.log("N[" + a + "] = " + b);
 }
+
+// Saída esperada para a entrada como o número 1:
+// 'N[0] = 1'
+// 'N[1] = 2'
+// 'N[2] = 4'
+// 'N[3] = 8'
+// 'N[4] = 16'
+// 'N[5] = 32'
+// 'N[6] = 64'
+// 'N[7] = 128'
+// 'N[8] = 256'
+// 'N[9] = 512'
