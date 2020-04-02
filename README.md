@@ -63,6 +63,4 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
 | 048 | Várias Notas Com Validação  | https://www.urionlinejudge.com.br/judge/pt/problems/view/1118 | 15            |
 | 049 | Troca em Vetor I            | https://www.urionlinejudge.com.br/judge/pt/problems/view/1175 | 2             |
 | 050 | Preenchimento de Vetor II   | https://www.urionlinejudge.com.br/judge/pt/problems/view/1177 | 20            |
-
-
-
+| 051 | Preenchimento de Vetor I    | https://www.urionlinejudge.com.br/judge/pt/problems/view/1173 | 3             |
