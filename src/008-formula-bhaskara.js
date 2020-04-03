@@ -41,3 +41,8 @@ if (!divisor || delta < 0) {
   console.log(`R1 = ${x1.toFixed(5)}`);
   console.log(`R2 = ${x2.toFixed(5)}`);
 }
+
+// Saída esperada para a entrada como os coeficientes 10.3, 203 e 5 (a, b e c, respectivamente):
+// 'R1 = -0.02466'
+// 'R2 = -19.68408'
+
