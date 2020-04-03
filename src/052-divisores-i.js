@@ -1,3 +1,5 @@
+// EXERCÍCIO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
 // Ler um número inteiro N e calcular todos os seus divisores.
 
 // Entrada
@@ -5,6 +7,9 @@
 
 // Saída
 // Escreva todos os divisores positivos de N, um valor por linha.
+
+
+// CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
 // Começamos com o ponto de entrada, o valor que vamos analisar
 const num = 4;
