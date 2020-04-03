@@ -11,3 +11,8 @@ const num = 4;
 for (let cont = 1; cont <= num; cont++) {
   if (num % cont === 0) console.log(cont);
 }
+
+// Saída esperada para a entrada como o número 4:
+// 1
+// 2
+// 4
