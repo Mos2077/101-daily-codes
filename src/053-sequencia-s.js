@@ -9,3 +9,12 @@
 // Saída
 // A saída contém um valor correspondente ao valor de S.
 // O valor deve ser impresso com dois dígitos após o ponto decimal.
+
+let s = 1;
+
+for (let divisor = 2; divisor <= 100; divisor++) {
+  const currentDiv = 1 / divisor;
+  s += currentDiv;
+}
+
+console.log(s.toFixed(2));
