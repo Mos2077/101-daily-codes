@@ -15,13 +15,21 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
+// Valor que vai armazenar a soma de todas as frações
 let s = 1;
 
+// Vamos criar um "for" que vai criar fraç]ao por fração, 
+// começando pelo 2 por que as frações começam pelo 1/2
 for (let divisor = 2; divisor <= 100; divisor++) {
+  // Variável que armazena a fração atual
   const currentDiv = 1 / divisor;
+  
+  // Somamos o valor da fração atual à variável "s"
   s += currentDiv;
 }
 
+// Quando o for acabar, a variável "s" terá o valor da soma de todas as frações
+// Então basta imprimir no console com duas casas decimais
 console.log(s.toFixed(2));
 
 
