@@ -65,4 +65,5 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
 | 050 | Preenchimento de Vetor II   | https://www.urionlinejudge.com.br/judge/pt/problems/view/1177 | 20            |
 | 051 | Preenchimento de Vetor I    | https://www.urionlinejudge.com.br/judge/pt/problems/view/1173 | 3             |
 | 052 | Divisores I                 | https://www.urionlinejudge.com.br/judge/pt/problems/view/1157 | 8             |
+| 053 | Sequência S                 | https://www.urionlinejudge.com.br/judge/pt/problems/view/1155 | 3             |
 
