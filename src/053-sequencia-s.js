@@ -23,3 +23,7 @@ for (let divisor = 2; divisor <= 100; divisor++) {
 }
 
 console.log(s.toFixed(2));
+
+
+// Saída esperada para este exercício
+// '5.19'
