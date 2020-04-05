@@ -52,3 +52,7 @@ else if (nota > 61 && nota <= 85) console.log("B");
 
 // Se for maior que 85... A
 else if (nota > 85) console.log("A");
+
+
+// Saída esperada para a nota 72
+// 'B'
