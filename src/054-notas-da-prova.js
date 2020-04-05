@@ -13,8 +13,6 @@
 // Conversando com outros professores, ela recebeu a sugestão de utilizar a seguinte tabela, 
 // relacionando as notas numéricas com as notas de conceitos:
 
-
-
 // O problema é que Rosy já deu as notas no sistema numérico, e terá que converter as notas para o sistema de letras. 
 // Porém, Rosy precisa preparar as próximas aulas (para manter a qualidade que a tornou reconhecida), 
 // e não tem tempo suficiente para fazer a conversão das notas manualmente.
