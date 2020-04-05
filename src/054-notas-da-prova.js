@@ -35,10 +35,7 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
-const input = require('fs').readFileSync('/dev/stdin', 'utf8');
-const lines = input.split('\n');
-
-const nota = 5
+const nota = 5;
 
 if (nota === 0) console.log("E");
 else if (nota >= 1 && nota <= 35) console.log("D");
