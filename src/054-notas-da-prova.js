@@ -2,6 +2,9 @@
 
 // URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2344
 
+// RESUMO: Leia um inteiro entre 0 e 100, e converta para o sistema de letras "A", "B", "C", "D" ou "E". 
+// Usando de base a tabela que está presente na URL.
+
 // Rosy é uma talentosa professora do Ensino Médio que já ganhou muitos prêmios pela qualidade de sua aula. 
 // Seu reconhecimento foi tamanho que foi convidada a dar aulas em uma escola da Inglaterra. 
 // Mesmo falando bem inglês, Rosy ficou um pouco apreensiva com a responsabilidade, 
