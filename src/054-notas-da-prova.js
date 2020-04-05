@@ -1,5 +1,7 @@
 // EXERCÍCIO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
+// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2344
+
 // Rosy é uma talentosa professora do Ensino Médio que já ganhou muitos prêmios pela qualidade de sua aula. 
 // Seu reconhecimento foi tamanho que foi convidada a dar aulas em uma escola da Inglaterra. 
 // Mesmo falando bem inglês, Rosy ficou um pouco apreensiva com a responsabilidade, 
