@@ -19,10 +19,12 @@
 // Você deve escrever um programa que recebe uma nota no sistema numérico e determina o conceito correspondente.
 
 // Entrada
-// A entrada contém um único conjunto de testes, que deve ser lido do dispositivo de entrada padrão (normalmente o teclado). A entrada contém uma única linha com um número inteiro N (0 ≤ N ≤ 100), representando uma nota de prova no sistema numérico.
+// A entrada contém um único conjunto de testes, que deve ser lido do dispositivo de entrada padrão (normalmente o teclado). 
+// A entrada contém uma única linha com um número inteiro N (0 ≤ N ≤ 100), representando uma nota de prova no sistema numérico.
 
 // Saída
-// Seu programa deve imprimir, na saída padrão, uma letra (A, B, C, D, ou E em maiúsculas) representando o conceito correspondente à nota dada na entrada.
+// Seu programa deve imprimir, na saída padrão, uma letra (A, B, C, D, ou E em maiúsculas) 
+// representando o conceito correspondente à nota dada na entrada.
 
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
