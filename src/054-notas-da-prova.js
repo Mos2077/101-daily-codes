@@ -35,10 +35,20 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
+// Esta é a entrada que converteremos para o sistema de letras
 const nota = 72;
 
+// Se nota for 0, então é letra E...
 if (nota === 0) console.log("E");
+
+// Se for maior que 1 e menor que 35... D
 else if (nota >= 1 && nota <= 35) console.log("D");
+
+// Se for maior que 35 e menor que 60... C
 else if (nota > 35 && nota <= 60) console.log("C");
+
+// Se for maior que 61 e menor que 85... B
 else if (nota > 61 && nota <= 85) console.log("B");
+
+// Se for maior que 85... A
 else if (nota > 85) console.log("A");
