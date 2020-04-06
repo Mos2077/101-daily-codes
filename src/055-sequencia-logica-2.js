@@ -13,8 +13,8 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
-const interval = 4;
-const max = 50;
+const interval = 5;
+const max = 30;
 
 for (let a = 1; a <= max; a += interval) {
   const initial = a;
