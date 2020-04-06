@@ -13,12 +13,8 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
-const input = require('fs').readFileSync('/dev/stdin', 'utf8');
-const lines = input.split('\n');
-
-const string = lines.shift();
-
-const [interval, max] = string.split(" ").map(item => Number(item));
+const interval = 4;
+const max = 50;
 
 for (let a = 1; a <= max; a += interval) {
   const initial = a;
