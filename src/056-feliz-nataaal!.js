@@ -23,3 +23,6 @@ const string = "Feliz nat" + _ + "l!";
 
 console.log(string);
 
+
+// Saída esperada para o nível de felicidade natalina 10:
+// 'Feliz nataaaaaaaaaal!'
