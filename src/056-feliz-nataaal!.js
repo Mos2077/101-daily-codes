@@ -13,14 +13,21 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
+// Ponto de entrada, que representa o nível de felicidade natalina
 const happiness = 10;
 
+// Então criamos um array com o tamanho igual ao nível
 const _ = Array.from({ length: happiness })
+  // A a partir desse array de tamanho N (definido pela variável "happiness") vazio, 
+  // substituímos por um array do mesmo tamanho, só que populado com N letras "a"
   .map(() => "a")
+  // E em seguida, juntamos todas essas letras "a" em uma string só!
   .join("");
 
+// Formamos a string final, juntando a frase e colocando os "a"'s entre o "t" e o "l"
 const string = "Feliz nat" + _ + "l!";
 
+// E mostramos no console
 console.log(string);
 
 
