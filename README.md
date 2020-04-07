@@ -70,3 +70,4 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
 | 055 | Sequência Lógica 2          | https://www.urionlinejudge.com.br/judge/pt/problems/view/1145 | 30            |
 
 https://www.urionlinejudge.com.br/judge/pt/problems/view/2483
+Feliz Nataaal!
