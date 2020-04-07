@@ -13,10 +13,7 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
-const input = require('fs').readFileSync('/dev/stdin', 'utf8');
-const lines = input.split('\n');
-
-const happiness = Number(lines.shift());
+const happiness = 10;
 
 const _ = Array.from({ length: happiness })
   .map(() => "a")
@@ -25,3 +22,4 @@ const _ = Array.from({ length: happiness })
 const string = "Feliz nat" + _ + "l!";
 
 console.log(string);
+
