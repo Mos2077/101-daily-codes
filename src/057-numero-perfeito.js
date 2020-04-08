@@ -2,6 +2,9 @@
 
 // URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/1164
 
+// RESUMO: Ler um número N, somar todos os seus números divisores entre um até N - 1 
+// e imprimir o "número é perfeito" se a soma for igual ao número, caso contrário, imprima "o número não é perfeito"
+
 // Na matemática, um número perfeito é um número inteiro para o qual a soma de todos os seus divisores positivos próprios 
 // (excluindo ele mesmo) é igual ao próprio número. Por exemplo o número 6 é perfeito, pois 1+2+3 é igual a 6.
 // Sua tarefa é escrever um programa que imprima se um determinado número é perfeito ou não.
