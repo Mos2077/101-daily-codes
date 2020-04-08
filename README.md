@@ -69,3 +69,6 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
 | 054 | Notas da Prova              | https://www.urionlinejudge.com.br/judge/pt/problems/view/2344 | 5             |
 | 055 | Sequência Lógica 2          | https://www.urionlinejudge.com.br/judge/pt/problems/view/1145 | 30            |
 | 056 | Feliz Nataaal!              | https://www.urionlinejudge.com.br/judge/pt/problems/view/2483 | 2             |
+| 057 | Número Perfeito             | https://www.urionlinejudge.com.br/judge/pt/problems/view/1164 | 5             |
+
+
