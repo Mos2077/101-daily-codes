@@ -23,16 +23,24 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
+// Número de entrada, é o número que vamos analisar se é perfeito ou não
 const num = 28;
 
+// Variável que vai armazenar a soma de todos seus divisores
 let sum = 0;
 
+// For que vai percorrer do 1 até o número N - 1
 for (let a = 1; a < num; a++) {
+  // Para cada número:
+  // Verificamos se é divisível pelo número N (usando o operador de resto da divisão)
+  // Se for, incrementamos o valor no número atual ("a") à variável que guarda a soma dos divisores
   if (num % a === 0) sum += a;
 }
 
-const message = num + (sum === num ? " eh perfeito" : " nao eh perfeito");
+// Se a variável for soma for igual ao número N, então ele é perfeito
+const message = num + (sum === num ? " é perfeito" : " nao é perfeito");
 
+// Imprimimos a mensagem no console
 console.log(message);
 
 // Saída esperada para o número 28:
