@@ -18,6 +18,8 @@
 // Para cada caso de teste de entrada, imprima a mensagem “X eh perfeito” ou “X nao eh perfeito”, 
 // de acordo com a especificação fornecida.
 
+// Nota: tenho um pequeno toc com palavras substituindo acento por "h",
+// então vou usar acento ao invés de "h" e quebrar um pouco a saída exercício
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
@@ -33,3 +35,5 @@ const message = num + (sum === num ? " eh perfeito" : " nao eh perfeito");
 
 console.log(message);
 
+// Saída esperada para o número 28:
+// '28 eh perfeito'
