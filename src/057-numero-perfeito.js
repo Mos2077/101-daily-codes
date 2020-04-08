@@ -1,3 +1,5 @@
+// CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
 // URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/1164
 
 // Na matemática, um número perfeito é um número inteiro para o qual a soma de todos os seus divisores positivos próprios 
