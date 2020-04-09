@@ -34,4 +34,7 @@ if (level <= 8000) console.log("Inseto!");
 else console.log("Mais de 8000!");
 
 
+// Saída esperada para o nível 8001:
+// 'Mais de 8000!'
+
 
