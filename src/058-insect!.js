@@ -24,9 +24,13 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
+// Ponto de entrada, inteiro que representa o nível
 const level = 8001;
 
+// Se o nível for menor ou igual a 8000 imprimimos "Inseto!"
 if (level <= 8000) console.log("Inseto!");
+
+// Se for maior que 8000 imprimimos "Mais de 8000!"
 else console.log("Mais de 8000!");
 
 
