@@ -2,6 +2,10 @@
 
 // URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2862
 
+// RESUMO: Ler um inteiro N
+// Se N for maior que 8000 imprima "Mais de 8000!"
+// Se não, imprima "Inseto!"
+
 // Devita é o príncipe dos Calsadins. 
 // Juntamente com Pana, eles vão atrás de Tataroko, o nome de nascimento de Kogu, para tentar dominar o mundo. 
 // Ele possui um rastreador que mede o nível de energia de qualquer ser vivo. Todos os seres com o nível menor ou igual a 8000, 
