@@ -23,6 +23,7 @@
 const level = 8001;
 
 if (level <= 8000) console.log("Inseto!");
+else console.log("Mais de 8000!");
 
-console.log("Mais de 8000!");
+
 
