@@ -16,17 +16,9 @@
 // Para cada valor lido, imprima o texto correspondente.
 
 
-const input = require('fs').readFileSync('/dev/stdin', 'utf8');
-const lines = input.split('\n');
+const level = 8001;
 
-const casesLength = Number(lines.shift());
+if (level <= 8000) console.log("Inseto!");
 
-for (let caseIndex = 0; caseIndex < casesLength; caseIndex++) {
-  const level = Number(lines.shift());
+console.log("Mais de 8000!");
 
-  if (level <= 8000) {
-    console.log("Inseto!");
-    continue;
-  }
-  console.log("Mais de 8000!");
-}
