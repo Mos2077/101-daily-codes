@@ -16,6 +16,8 @@
 // Para cada valor lido, imprima o texto correspondente.
 
 
+// CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
 const level = 8001;
 
 if (level <= 8000) console.log("Inseto!");
