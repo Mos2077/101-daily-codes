@@ -27,3 +27,9 @@ for (let index = 1; index < n; index++) {
 
 console.log("Menor valor: " + lowest);
 console.log("Posicao: " + lowestIndex);
+
+
+// Saída esperada para o array [2, 6, 2, 5, -6]
+// 'Menor valor: -6'
+// 'Posicao: 4'
+
