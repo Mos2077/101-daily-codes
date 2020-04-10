@@ -11,11 +11,8 @@
 // A primeira linha apresenta a mensagem “Menor valor:” seguida de um espaço e do menor valor lido na entrada. A segunda linha apresenta a mensagem “Posicao:” seguido de um espaço e da posição do vetor na qual se encontra o menor valor lido, lembrando que o vetor inicia na posição zero.
 
 
-const input = require('fs').readFileSync('/dev/stdin', 'utf8');
-const lines = input.split('\n');
-
-const n = Number(lines.shift());
-const arrayN = lines.shift().split(" ").map(item => Number(item));
+const n = 5;
+const arrayN = [2, 6, 2, 5, -6];
 
 let lowest = arrayN[0];
 let lowestIndex = 0;
