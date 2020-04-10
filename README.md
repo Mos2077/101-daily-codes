@@ -71,5 +71,6 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
 | 056 | Feliz Nataaal!              | https://www.urionlinejudge.com.br/judge/pt/problems/view/2483 | 2             |
 | 057 | Número Perfeito             | https://www.urionlinejudge.com.br/judge/pt/problems/view/1164 | 5             |
 | 058 | Inseto!                     | https://www.urionlinejudge.com.br/judge/pt/problems/view/2862 | 5             |
+| 059 | Menor e Posição             | https://www.urionlinejudge.com.br/judge/pt/problems/view/1180 | 8             |
 
 
