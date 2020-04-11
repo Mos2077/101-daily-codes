@@ -11,10 +11,13 @@
 // Saída
 // Imprima a quantidade de números múltiplos de 2, 3, 4 e 5 presentes na lista. Observe a formatação da saída nos exemplos, pois ela deve ser seguida rigorosamente.
 
-
-const input = require('fs').readFileSync('/dev/stdin', 'utf8');
-const lines = input.split('\n');
-
+// Um objeto no formato:
+// { 
+//    "Número que representa a número múltiplo em questão, nomeada de key": {
+//      "count": "Inteiro que representa a quantidade de vezes que esse múltiplo está presente na sequência do array"
+//    }
+// }
+// Inicie todos os números múltiplos com 0
 let multiples = {
   "2": {
     count: 0
@@ -30,18 +33,27 @@ let multiples = {
   }
 };
 
+// Atalho para:
+// Object.keys(multiples).forEach(func);
 const getKeys = func => Object.keys(multiples).forEach(func);
 
+// Chama a função getKey passando uma função A
 const addMultiple = a =>
   getKeys(key => {
+    // Função A
+    // Função que recebe um número e verifica se ele é múltiplo por "key"
+    // "key" é a chave do objeto que definimos no objeto de entrada
+    // Se a for múltiplo por "key", então adicione 1 na prop "count" do objeto.key
+    // Onde "key" sempre está representando um número múltiplo
     a % Number(key) === 0 && multiples[key].count++;
   });
 
-const n = Number(lines.shift());
-
-const arr = lines
-  .shift()
-  .split(" ")
+// String de número que vamos analisar...
+const arr = [2, 5, 4, 20, 10]
+  // Para cada número... chamamos a função addMultiple, passando o número em questão como parâmetro
   .forEach(item => addMultiple(Number(item)));
 
+// Para cada "key" do objeto inicial, 
+// mostramos no console sua prop count como a quantidade de vezes que ele aparece no array que analisamos
+// E pegamos sua "key" e mostramos como o número múltiplo
 getKeys(key => console.log(multiples[key].count + " Multiplo(s) de " + key));
