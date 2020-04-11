@@ -58,7 +58,7 @@ const arr = [2, 5, 4, 20, 10]
 // E pegamos sua "key" e mostramos como o número múltiplo
 getKeys(key => console.log(multiples[key].count + " Multiplo(s) de " + key));
 
-// Saída esperada para o array de números []:
+// Saída esperada para o array de números [2, 5, 4, 20, 10]:
 // '4 Multiplo(s) de 2'
 // '0 Multiplo(s) de 3'
 // '2 Multiplo(s) de 4'
