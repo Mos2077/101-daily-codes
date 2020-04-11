@@ -2,6 +2,8 @@
 
 // URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2060
 
+// RESUMO: Leia um array de números, e veja nesse array, quantos são divisíveis por 2, 3, 4, 5
+
 // Bino e Cino são colegas inseparáveis. Bino gosta de criar desafios matemáticos para Cino resolver. Desta vez, Bino gerou uma lista de números e perguntou ao Cino quantos números da lista são múltiplos de 2, 3, 4 e 5.
 
 // Esse desafio pode parecer simples, porém, quando a lista contém muitos números, Cino se confunde e acaba errando alguns cálculos. Para ajudar Cino, faça um programa para resolver o desafio de Bino.
