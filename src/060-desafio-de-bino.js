@@ -57,3 +57,9 @@ const arr = [2, 5, 4, 20, 10]
 // mostramos no console sua prop count como a quantidade de vezes que ele aparece no array que analisamos
 // E pegamos sua "key" e mostramos como o número múltiplo
 getKeys(key => console.log(multiples[key].count + " Multiplo(s) de " + key));
+
+// Saída esperada para o array de números []:
+// '4 Multiplo(s) de 2'
+// '0 Multiplo(s) de 3'
+// '2 Multiplo(s) de 4'
+// '3 Multiplo(s) de 5'
