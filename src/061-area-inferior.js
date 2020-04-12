@@ -41,3 +41,6 @@ for (let a = 0; a < x; a++) {
 }
 
 console.log(sum.toFixed());
+
+// Saída esperada para a leitrua constante de valor 10 na matriz bidimensional:
+// '300'
