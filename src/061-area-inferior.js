@@ -1,13 +1,13 @@
-// https://www.urionlinejudge.com.br/judge/pt/problems/view/1188
+Leia um caractere maiúsculo, que indica uma operação que deve ser realizada e uma matriz M[12][12]. Em seguida, calcule e mostre a soma ou a média considerando somente aqueles elementos que estão na área inferior da matriz, conforme ilustrado abaixo (área verde).
 
-// Read an uppercase character that indicates an operation that will be performed in an array M[12][12]. Then, calculate and print the sum or average considering only that numbers that are included in the green area of this array, like shown in the following figure.
 
-// Input
-// The first line of the input contains a single uppercase character O ('S' or 'M'), indicating the operation Sum or Average (Média in portuguese) to be performed with the elements of the array. Follow 144 floating-point numbers (double) of the array.
 
-// Output
-// Print the calculated result (sum or average), with one digit after the decimal point.
 
+Entrada
+A primeira linha de entrada contem um único caractere Maiúsculo O ('S' ou 'M'), indicando a operação (Soma ou Média) que deverá ser realizada com os elementos da matriz. Seguem os 144 valores de ponto flutuante de dupla precisão (double) que compõem a matriz.
+
+Saída
+Imprima o resultado solicitado (a soma ou média), com 1 casa após o ponto decimal.
 
 
 const input = require('fs').readFileSync('/dev/stdin', 'utf8');
