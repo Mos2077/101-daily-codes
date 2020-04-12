@@ -1,3 +1,4 @@
+// https://www.urionlinejudge.com.br/judge/pt/problems/view/1188
 
 // Read an uppercase character that indicates an operation that will be performed in an array M[12][12]. Then, calculate and print the sum or average considering only that numbers that are included in the green area of this array, like shown in the following figure.
 
