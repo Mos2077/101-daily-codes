@@ -73,5 +73,6 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
 | 058 | Inseto!                     | https://www.urionlinejudge.com.br/judge/pt/problems/view/2862 | 5             |
 | 059 | Menor e Posição             | https://www.urionlinejudge.com.br/judge/pt/problems/view/1180 | 8             |
 | 060 | Desafio de Bino             | https://www.urionlinejudge.com.br/judge/pt/problems/view/2060 | 10            |
+| 061 | Área Inferior               | https://www.urionlinejudge.com.br/judge/pt/problems/view/1188 | 30            |
 
 
