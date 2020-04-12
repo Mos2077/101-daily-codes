@@ -17,9 +17,8 @@
 
 // EXERCÍCIO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
+// Valores para constar que é uma matriz 12 por 12
 const [x, y] = [12, 12];
-
-const values = [];
 
 let initOn = 5;
 let endOn = 6;
