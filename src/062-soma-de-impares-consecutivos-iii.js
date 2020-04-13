@@ -12,4 +12,5 @@
 // Saída
 // Imprima a soma dos consecutivos números ímpares a partir do valor X.
 
+
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
