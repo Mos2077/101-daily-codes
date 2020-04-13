@@ -41,3 +41,8 @@ for (let a = 0; a < sequence - 1; a++) {
 }
 
 console.log(ac);
+
+
+// Saída esperada para o número 75 
+// e o número 5 como quantidade de somas sequenciais:
+// '75'
