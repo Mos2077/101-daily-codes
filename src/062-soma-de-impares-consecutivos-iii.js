@@ -2,6 +2,10 @@
 
 // URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/1158
 
+// RESUMO: ler um número n e mostrar a soma da seguinte lógica:
+// N + N + 2 + N + 4 + N + 6 + ....
+// Onde o N lemos como primeiro número da entrada e a quantidade de vezes que deve ser repetida a soma como segundo número da entrada
+
 // Leia um valor inteiro N que é a quantidade de casos de teste que vem a seguir. Cada caso de teste consiste de dois inteiros X e Y. Você deve apresentar a soma de Y ímpares consecutivos a partir de X inclusive o próprio X se ele for ímpar. Por exemplo:
 // para a entrada 4 5, a saída deve ser 45, que é equivalente à: 5 + 7 + 9 + 11 + 13
 // para a entrada 7 4, a saída deve ser 40, que é equivalente à: 7 + 9 + 11 + 13
