@@ -5,6 +5,7 @@
 // RESUMO: ler um número n e mostrar a soma da seguinte lógica:
 // N + N + 2 + N + 4 + N + 6 + ....
 // Onde o N lemos como primeiro número da entrada e a quantidade de vezes que deve ser repetida a soma como segundo número da entrada
+// Obs: caso N seja par, adicione 1 para que fique ímpar
 
 // Leia um valor inteiro N que é a quantidade de casos de teste que vem a seguir. Cada caso de teste consiste de dois inteiros X e Y. 
 // Você deve apresentar a soma de Y ímpares consecutivos a partir de X inclusive o próprio X se ele for ímpar. Por exemplo:
