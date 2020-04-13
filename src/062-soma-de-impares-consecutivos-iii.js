@@ -22,24 +22,39 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
+// Número de entrada
 let n = 11;
+
+// Quantidade de somas sequenciais
 let sequence = 5;
 
+// Função que recebe um número e retorna true se esse número for par, se não, retorna falso
 const isEven = n => n % 2 === 0;
 
+// Caso o número de entrada for par, adicionamos um
 if (isEven(n)) n++;
 
+// Variável que vai ac umular a soma sequencial
 let ac = n;
 
+// Valor inicial do incremento:
+// N + 2 é a primeira soma, depois fica N + 4, N + 6... etc
 let increment = 2;
 
+// Damos a primeira parte da soma para a variável "ac" 
+// que é simplesmente o valor N multiplicado pela quantidade de somas sequenciais
 ac = n * sequence;
 
+// E criamos um laço que se repete X vezes
+// X é a quantidade de somas sequenciais
 for (let a = 0; a < sequence - 1; a++) {
+  // A cada repetição, incrementamos ao acumulador o valor do incremento atual
   ac += increment;
+  // E em seguida adicionamos 2 para que na próxima repetição, se houver, não seja mais N + 2, e sim N + 4 por exemplo
   increment += 2;
 }
 
+// Mostramos a soma sequencial de números ímpares no console
 console.log(ac);
 
 
