@@ -13,21 +13,37 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
+// String a ser encriptada
 const str = "LIPPSASVPH";
+
+// Chave da cifra
 const key = 4;
 
+// Variável que vai armazenar a string encriptada
 let newStr = "";
 
+// Vamos criar um for que percorre letra por letra da string
+// Onde i significa o index dessa letra, ou seja, quando i = 0, estamos na primeira letra da string original
 for (let i = 0; i < str.length; i++) {
+  
+  // Pegamos o código da letra (leia sobre charCodeAt e fromCharCode)
   const code = str.charCodeAt(i);
-
+  
+  // E a partir dessa letra, pegamos o novo código, que é o código da letra original menos a chave
+  // Pois: A = 65, B = 66
+  // Para a letra B com chave 1, precisamos substrair 1 para que ela fique com o mesmo código da letra A
   let newCode = code - key;
-
+  
+  // Porém, e se a chave for menor que A?
+  // Então o novo código receberá 90 menos (65 que é o mínimo menos o novo código (inválido))
   if (newCode < 65) newCode = 91 - (65 - newCode);
 
+  // E criaremos um char a partir desse novo código, que é o código criptografado
+  // Então a letra também vai sair criptografada
   newStr += String.fromCharCode(newCode);
 }
 
+// Mostramos a string criptografada no console
 console.log(newStr);
 
 
