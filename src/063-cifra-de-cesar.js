@@ -29,3 +29,7 @@ for (let i = 0; i < str.length; i++) {
 }
 
 console.log(newStr);
+
+
+// Saída esperada para a string "LIPPSASVPH" com chave igual a 4:
+// 'HELLOWORLD'
