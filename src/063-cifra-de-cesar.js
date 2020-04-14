@@ -8,7 +8,7 @@
 // Saída
 // Para cada caso de teste de entrada, imprima uma linha de saída com o texto decodificado (transformado novamente para o texto original) conforme as regras acima e o exemplo abaixo.
 
-
+// CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
 const input = require('fs').readFileSync('/dev/stdin', 'utf8');
 const lines = input.split('\n');
