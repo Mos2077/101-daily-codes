@@ -1,5 +1,7 @@
 // EXERCÍCIO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
+// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/1332
+
 // Seu irmão mais novo aprendeu a escrever apenas um, dois e três, em Inglês.
 // Ele escreveu muitas dessas palavras em um papel e a sua tarefa é reconhecê-las. 
 // Nota-se que o seu irmão mais novo é apenas uma criança, então ele pode fazer pequenos erros: 
