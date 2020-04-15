@@ -35,3 +35,5 @@ if (str.length > 3) {
   }
 }
 
+// Saída esperada para entrada igual a string "twn":
+// '2'
