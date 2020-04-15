@@ -35,5 +35,3 @@ if (str.length > 3) {
   }
 }
 
-
-
