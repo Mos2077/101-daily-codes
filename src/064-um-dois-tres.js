@@ -21,6 +21,7 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
+// Ponto de entrada, são as letras que a criança escreveu
 const str = "twn";
 
 if (str.length > 3) {
