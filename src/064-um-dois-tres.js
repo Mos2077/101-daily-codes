@@ -8,6 +8,7 @@
 // Saída
 // Para cada caso de teste, imprima o valor numérico da palavra.
 
+
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
 const input = require('fs').readFileSync('/dev/stdin', 'utf8');
