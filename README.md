@@ -75,6 +75,7 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
 | 060 | Desafio de Bino                  | https://www.urionlinejudge.com.br/judge/pt/problems/view/2060 | 10            |
 | 061 | Área Inferior                    | https://www.urionlinejudge.com.br/judge/pt/problems/view/1188 | 30            |
 | 062 | Soma de Ímpares Consecutivos III | https://www.urionlinejudge.com.br/judge/pt/problems/view/1158 | 10            |
+| 063 | Um-Dois-Três                     | https://www.urionlinejudge.com.br/judge/pt/problems/view/1332 | 10            |
 | 063 | Um-Dois-Três                     | https://www.urionlinejudge.com.br/judge/pt/problems/view/1332 | 60            |
 
 
