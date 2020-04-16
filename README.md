@@ -77,6 +77,7 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
 | 062 | Soma de Ímpares Consecutivos III | https://www.urionlinejudge.com.br/judge/pt/problems/view/1158 | 10            |
 | 063 | Cifra de César                   | https://www.urionlinejudge.com.br/judge/pt/problems/view/1253 | 10            |
 | 064 | Um-Dois-Três                     | https://www.urionlinejudge.com.br/judge/pt/problems/view/1332 | 60            |
+| 065 | Número Primo                     | https://www.urionlinejudge.com.br/judge/pt/problems/view/1165 | 2             |
 
 
 
