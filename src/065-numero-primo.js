@@ -1,5 +1,7 @@
 // EXERCÍCIO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
+// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/1165
+
 // Na matemática, um Número Primo é aquele que pode ser dividido somente por 1 (um) e por ele mesmo. Por exemplo, o número 7 é primo, pois pode ser dividido apenas pelo número 1 e pelo número 7.
 
 // Entrada
