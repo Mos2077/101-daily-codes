@@ -18,15 +18,16 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
-    const num = Number(lines.shift());
+const num = Number(lines.shift());
 
-    let divisors = 0;
+let divisors = 0;
 
-    for (let a = 1; a <= num; a++) {
-        if (num % a === 0) divisors++;
-        if (divisors > 2) break;
-    }
+for (let a = 1; a <= num; a++) {
+  if (num % a === 0) divisors++;
+  if (divisors > 2) break;
+}
 
-    const message = num + (divisors === 2 ? " eh primo" : " nao eh primo");
+const message = num + (divisors === 2 ? " eh primo" : " nao eh primo");
 
-    console.log(message);
+console.log(message);
+
