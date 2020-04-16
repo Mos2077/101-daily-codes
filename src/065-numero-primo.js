@@ -32,5 +32,6 @@ const message = num + (divisors === 2 ? " é primo" : " é eh primo");
 
 console.log(message);
 
+
 // Saída esperada para o número 7 como entrada:
 // '7 é primo'
