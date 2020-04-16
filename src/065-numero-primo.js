@@ -25,8 +25,12 @@ const num = 7;
 // Lembrando que primos tem apenas 2 divisores: ele mesmo e 1
 let divisors = 0;
 
+// Criamos um for que se repete desde o número 1 até o valor do número
 for (let a = 1; a <= num; a++) {
+  // Para cada valor,
+  // verificamos, se o número "num" for divisível pelo valor de "a", incrementamos 1 à variável "divisors"
   if (num % a === 0) divisors++;
+  
   if (divisors > 2) break;
 }
 
