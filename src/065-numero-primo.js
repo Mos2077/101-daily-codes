@@ -18,7 +18,8 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
-const num = Number(lines.shift());
+// Número a ser verificado se é primo ou não
+const num = 7;
 
 let divisors = 0;
 
