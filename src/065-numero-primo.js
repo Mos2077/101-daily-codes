@@ -35,8 +35,11 @@ for (let a = 1; a <= num; a++) {
   if (divisors > 2) break;
 }
 
+// Armazenamos na variável mensagem o valor de saída:
+// Se o número tiver exatamente 2 divisores, então ele é primo, se não, não é
 const message = num + (divisors === 2 ? " é primo" : " é eh primo");
 
+// Imprimimos a mensagem no console
 console.log(message);
 
 
