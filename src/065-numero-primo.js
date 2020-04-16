@@ -28,7 +28,7 @@ for (let a = 1; a <= num; a++) {
   if (divisors > 2) break;
 }
 
-const message = num + (divisors === 2 ? " eh primo" : " nao eh primo");
+const message = num + (divisors === 2 ? " é primo" : " é eh primo");
 
 console.log(message);
 
