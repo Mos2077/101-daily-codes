@@ -21,6 +21,8 @@
 // Número a ser verificado se é primo ou não
 const num = 7;
 
+// Variável que vai armazenar a quantidade de divisores que o número possui:
+// Lembrando que primos tem apenas 2 divisores: ele mesmo e 1
 let divisors = 0;
 
 for (let a = 1; a <= num; a++) {
