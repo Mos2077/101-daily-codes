@@ -31,6 +31,7 @@ for (let a = 1; a <= num; a++) {
   // verificamos, se o número "num" for divisível pelo valor de "a", incrementamos 1 à variável "divisors"
   if (num % a === 0) divisors++;
   
+  // Se o número de divisores for maior que 2, antes de acabar o laço, já destruímos ele
   if (divisors > 2) break;
 }
 
