@@ -25,8 +25,10 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
+// Número a ser substraído
 const a = 6;
 
+// Mostramos no console este número menos 1
 console.log(a - 1);
 
 // Saída esperada para o número 6 
