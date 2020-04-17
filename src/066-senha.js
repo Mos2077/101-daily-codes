@@ -2,6 +2,8 @@
 
 // URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2146
 
+// RESUMO: Leia um número e imprima a subtração dele menos 1
+
 // Sr. Amnésio tinha uma grande dificuldade em guardar senhas. 
 // Para lembrá-las, ele sempre usava números, e as escrevia em pedaços de papel, que também perdia com facilidade,
 // fazendo com que ele precisasse modificar a senha cada vez que isto acontecia. 
