@@ -78,6 +78,7 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
 | 063 | Cifra de César                   | https://www.urionlinejudge.com.br/judge/pt/problems/view/1253 | 10            |
 | 064 | Um-Dois-Três                     | https://www.urionlinejudge.com.br/judge/pt/problems/view/1332 | 60            |
 | 065 | Número Primo                     | https://www.urionlinejudge.com.br/judge/pt/problems/view/1165 | 2             |
+| 066 | Senha                            | https://www.urionlinejudge.com.br/judge/pt/problems/view/2146 | 2             |
 
 
 
