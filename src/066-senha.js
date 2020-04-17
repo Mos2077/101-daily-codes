@@ -12,6 +12,7 @@
 // Saída
 // Para cada caso de teste, imprima a senha correspondente. Em todos os casos, a fórmula será a mesma, igual aos exemplos abaixo.
 
+
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
 const input = require('fs').readFileSync('/dev/stdin', 'utf8');
