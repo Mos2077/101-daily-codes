@@ -29,3 +29,5 @@ const a = 6;
 
 console.log(a - 1);
 
+// Saída esperada para o número 6 
+// '5'
