@@ -15,10 +15,7 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
-const input = require('fs').readFileSync('/dev/stdin', 'utf8');
-const lines = input.split('\n');
-
-const credits = lines.shift();
+const credits = "31 110 79";
 
 const [a, b, c] = credits.split(" ").map(credit => Number(credit));
 
