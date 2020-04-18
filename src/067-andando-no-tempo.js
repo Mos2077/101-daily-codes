@@ -50,3 +50,8 @@ if (!isPossible) isPossible = a === b || b === c || c === a;
 // Se possível está com o valor true, então algum dos casos acima deu certo,
 // o que significa que podemos viajar no tempo e voltar para o presente. logo imprimimos a mensagem "S", se não, imprimimos "N"
 console.log(isPossible ? "S" : "N");
+
+
+// Saída esperada para os créditos "31 110 79":
+// 'S'
+
