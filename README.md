@@ -79,6 +79,7 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
 | 064 | Um-Dois-Três                     | https://www.urionlinejudge.com.br/judge/pt/problems/view/1332 | 60            |
 | 065 | Número Primo                     | https://www.urionlinejudge.com.br/judge/pt/problems/view/1165 | 2             |
 | 066 | Senha                            | https://www.urionlinejudge.com.br/judge/pt/problems/view/2146 | 2             |
+| 067 | Andando no Tempo                 | https://www.urionlinejudge.com.br/judge/pt/problems/view/2235 | 5             |
 
 
 
