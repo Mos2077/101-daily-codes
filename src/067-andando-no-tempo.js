@@ -1,6 +1,7 @@
 // EXERCÍCIO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
 // URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2235
+// RESUMO: Queria que tivesse, mas isso tem de ler mesmo pra entender essa mecânica que criaram com o tempo
 
 // Imagine que você tenha uma máquina do tempo que pode ser usada no máximo três vezes,
 // e a cada uso da máquina você pode escolher voltar para o passado ou ir para o futuro.
