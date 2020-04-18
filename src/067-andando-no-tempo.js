@@ -27,14 +27,26 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
+// Créditos da viagem armazenados em uma string divididos por um espaço
 const credits = "31 110 79";
 
+// Pegamos os 3 créditos e armazenamos nas variáveis a,b e c respecitivamente à ordem da string
 const [a, b, c] = credits.split(" ").map(credit => Number(credit));
 
+// Vamos verificar se a soma de X + Y === Z, isso para todos os créditos, por isso, tem 3 operadores "||"
+// Caso algum deles seja true, então é possível viajar no tempo
 let isPossible = a + b === c || a + c === b || b + c === a;
 
+// Agora, se a substração de X por Y for igual a Z, então também é possível viajar pelo tempo
+// Então fazemos essa verificação para cada crédito
 if (!isPossible) isPossible = a - b === c || a - c === b || b - c === a;
 
+// Caso os testes acima ainda derem falso,
+// ou seja, ainda não foi possível encontrar uma forma de viajar sem precisar ficar preso em outro tempo, vamos verificar:
+// Caso dois créditos tenham valores iguais, então é possível viajar pelo tempo e voltar para o presente
+// Pois não somos obrigados a usar os 3, apenas 1 no mínimo
 if (!isPossible) isPossible = a === b || b === c || c === a;
 
+// Se possível está com o valor true, então algum dos casos acima deu certo,
+// o que significa que podemos viajar no tempo e voltar para o presente. logo imprimimos a mensagem "S", se não, imprimimos "N"
 console.log(isPossible ? "S" : "N");
