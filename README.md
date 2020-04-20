@@ -498,5 +498,12 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
          <td>2</td>
          <td>1182</td>
       </tr>
+      <tr>
+         <td>069</td>
+         <td>Easy Fibonacci</td>
+         <td><a href="https://www.urionlinejudge.com.br/judge/pt/problems/view/1151">https://www.urionlinejudge.com.br/judge/pt/problems/view/1151</a></td>
+         <td>18</td>
+         <td>1151</td>
+      </tr>
    </tbody>
 </table>
