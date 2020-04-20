@@ -1,6 +1,6 @@
 // EXERCÍCIO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
-// https://www.urionlinejudge.com.br/judge/pt/problems/view/1182
+// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/1182
 
 // Neste problema você deve ler um número que indica uma coluna de uma matriz na qual uma operação deve ser realizada, 
 // um caractere maiúsculo, indicando a operação que será realizada, e todos os elementos de uma matriz M[12][12].
