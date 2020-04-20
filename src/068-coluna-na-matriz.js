@@ -54,3 +54,7 @@ for (let x = 0; x < 12; x++) {
 // Ou mostramos a média, que é a mesma soma, só que dividida por 2
 // .toFixed(1) para obrigar os números a terem uma casa decimal
 console.log((op === "S" ? sum : sum / 12).toFixed(1));
+
+
+// Saída esperada para "5", "S" e matriz de 12 por 12 com elementos igual a 5, como entrada:
+// '5.0'
