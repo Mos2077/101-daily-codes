@@ -17,9 +17,6 @@
 // Saída
 // Imprima o resultado solicitado (a soma ou média), com 1 casa após o ponto decimal.
 
-const input = require('fs').readFileSync('/dev/stdin', 'utf8');
-
-const lines = input.split('\n');
 
 const column = Number(lines.shift());
 
