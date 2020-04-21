@@ -1,4 +1,4 @@
-https://www.urionlinejudge.com.br/judge/pt/problems/view/2630
+// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2630
 
 
 Alguns algoritmos de processamento de imagem exigem um pré-processamento no qual é necessário transformar uma imagem colorida em uma imagem em tons de cinza. Esta conversão pode ser realizada de diversas maneiras, dependendo do resultado que se pretende obter.
