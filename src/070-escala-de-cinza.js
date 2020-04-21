@@ -41,9 +41,10 @@ const op = {
 
 const cases = Number(lines.shift());
 
-  const operation = lines.shift();
-  const color = lines.shift();
+const operation = lines.shift();
+const color = lines.shift();
 
-  const [r, g, b] = color.split(" ").map(cor => Number(cor));
+const [r, g, b] = color.split(" ").map(cor => Number(cor));
 
-  console.log("Caso #" + caseIndex + ": " + parseInt(op[operation](r, g, b)));
+console.log("Caso #" + caseIndex + ": " + parseInt(op[operation](r, g, b)));
+
