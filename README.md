@@ -505,5 +505,12 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
          <td>18</td>
          <td>1151</td>
       </tr>
+      <tr>
+         <td>070</td>
+         <td>Escala de Cinza</td>
+         <td><a href="https://www.urionlinejudge.com.br/judge/pt/problems/view/2630">https://www.urionlinejudge.com.br/judge/pt/problems/view/2630</a></td>
+         <td>5</td>
+         <td>2630</td>
+      </tr>
    </tbody>
 </table>
