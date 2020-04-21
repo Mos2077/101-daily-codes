@@ -23,6 +23,7 @@
 // https://www.w3resource.com/javascript-exercises/javascript-recursion-function-exercise-6.php
 // Custei entender esse fluxo de loop/recursivo na mesma função, então vou tentar explicar por aqui
 
+// A função recursiva vai receber um número, que representa o último index da sequência
 const fib = n => {
   if (n === 1) {
     return [0, 1];
