@@ -8,6 +8,7 @@
 // Saída
 // Os valores devem ser mostrados na mesma linha, separados por um espaço em branco. Não deve haver espaço após o último valor.
 
+
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
 // O código que criei utilizar a estrutura "for", apesar de estar funcionando, não senti que estava,
