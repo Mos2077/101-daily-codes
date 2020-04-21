@@ -25,11 +25,18 @@
 
 // A função recursiva vai receber um número, que representa o último index da sequência
 const fib = n => {
+  // Se esse número for 1, então apenas retorne [0, 1]
   if (n === 1) {
     return [0, 1];
   } else {
+    // Se não for, chame essa mesma função, com n - 1
     const s = fib(n - 1);
+    
+    // Ao retornar, s recebe seu valor atual + o valor que a função retornou:
+    // Nota: esse fluxo de chamar a função pode ocorrer dezenas de vezes (depende de n)
     s.push(s[s.length - 1] + s[s.length - 2]);
+    
+    // E então retornamos s
     return s;
   }
 };
