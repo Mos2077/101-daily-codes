@@ -41,8 +41,8 @@ const op = {
 
 const cases = Number(lines.shift());
 
-const operation = lines.shift();
-const color = lines.shift();
+const operation = "eye";
+const color = "23 78 197";
 
 const [r, g, b] = color.split(" ").map(cor => Number(cor));
 
