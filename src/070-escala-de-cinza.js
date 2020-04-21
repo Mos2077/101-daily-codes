@@ -32,6 +32,11 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
+// Criamos um objeto com as propriedades com o mesmo nome das operações que devemos fazer com a cor recebida:
+// "eye" pega o P, que é a porcentagem de cinza,
+// "mean" média entre o r, g, b
+// "max" o maior entre o r, g e b
+// "min" o menor entre o r, g e b
 const op = {
   eye: (r, g, b) => r * 0.3 + g * 0.59 + b * 0.11,
   mean: (r, g, b) => (r + g + b) / 3,
@@ -39,12 +44,18 @@ const op = {
   min: (...color) => Math.min(...color)
 };
 
-const cases = Number(lines.shift());
-
+// Aqui colocamos a operação que vamos realizar
 const operation = "eye";
+
+// Aqui colocamos as cores, r, g e b divididos por um espaço
 const color = "23 78 197";
 
+// Pegamos separadamente o r, g e b
 const [r, g, b] = color.split(" ").map(cor => Number(cor));
 
-console.log("Caso #" + caseIndex + ": " + parseInt(op[operation](r, g, b)));
+// E aqui fazemos o seguinte: chamamos o objeto "op", na propriedade que tem o nome da operação atual
+// E então chamamos como uma função passando o r, g e o b como parâmetro
+const result = op[operation](r, g, b
+                             
+console.log("Caso #" + caseIndex + ": " + parseInt(result)));
 
