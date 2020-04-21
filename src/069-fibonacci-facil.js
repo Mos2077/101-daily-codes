@@ -1,3 +1,6 @@
+const input = require('fs').readFileSync('/dev/stdin', 'utf8');
+const lines = input.split('\n');
+
 const fib = n => {
   if (n === 1) {
     return [0, 1];
@@ -8,7 +11,7 @@ const fib = n => {
   }
 };
 
-const index = Number(lines.shift());
+const index = Number(lines.shift()) - 1;
 
 const sequence = fib(index).join(" ");
 
