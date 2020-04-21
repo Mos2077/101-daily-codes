@@ -16,7 +16,7 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
-// O código que criei utilizar a estrutura "for", apesar de estar funcionando, não senti que estava,
+// O código que criei utilizava a estrutura "for", apesar de estar funcionando, não senti que estava,
 // estava um pouco "gambiarrento"
 // Vi que tinha outra alternativa, mas não sabia qual era, então fui pesquisar,
 // Então encontrei o código deste site:
