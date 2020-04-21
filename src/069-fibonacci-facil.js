@@ -21,7 +21,7 @@
 // Vi que tinha outra alternativa, mas não sabia qual era, então fui pesquisar,
 // Então encontrei o código deste site:
 // https://www.w3resource.com/javascript-exercises/javascript-recursion-function-exercise-6.php
-// Levou alguns minutos, mas consegui entender esse fluxo de loop na mesma função, então vou tentar explicar por aqui
+// Custei entender esse fluxo de loop/recursivo na mesma função, então vou tentar explicar por aqui
 
 const fib = n => {
   if (n === 1) {
