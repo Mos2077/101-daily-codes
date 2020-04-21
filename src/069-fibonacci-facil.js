@@ -23,9 +23,6 @@
 // https://www.w3resource.com/javascript-exercises/javascript-recursion-function-exercise-6.php
 // Levou alguns minutos, mas consegui entender esse fluxo de loop na mesma função, então vou tentar explicar por aqui
 
-const input = require('fs').readFileSync('/dev/stdin', 'utf8');
-const lines = input.split('\n');
-
 const fib = n => {
   if (n === 1) {
     return [0, 1];
@@ -36,8 +33,13 @@ const fib = n => {
   }
 };
 
-const index = Number(lines.shift()) - 1;
+// Aqui é o ponto de entrada: X - 1:
+// Onde X é até qual número da sequência queremos mostrar
+const index = 5 - 1;
 
+// Aqui simplesmente pegamos o array retornado pela função fib e transformamos em uma string,
+// string essa que separa cada termo por um espaço
 const sequence = fib(index).join(" ");
 
+// Por fim, mostramos a string
 console.log(sequence);
