@@ -56,6 +56,8 @@ const [r, g, b] = color.split(" ").map(cor => Number(cor));
 // E aqui fazemos o seguinte: chamamos o objeto "op", na propriedade que tem o nome da operação atual
 // E então chamamos como uma função passando o r, g e o b como parâmetro
 const result = op[operation](r, g, b);
-                             
-console.log("Caso #" + caseIndex + ": " + parseInt(result));
+                         
+// E aqui mostramos o resultado,
+// e usamos o parseInt para não mostrar nenhuma casa decimal
+console.log(parseInt(result));
 
