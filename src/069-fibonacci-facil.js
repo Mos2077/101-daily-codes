@@ -3,6 +3,12 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
+// O código que criei utilizar a estrutura "for", apesar de estar funcionando, não senti que estava,
+// estava um pouco "gambiarrento"
+// Vi que tinha outra alternativa, mas não sabia qual era, então fui pesquisar,
+// Encontrei o código deste site: https://www.w3resource.com/javascript-exercises/javascript-recursion-function-exercise-6.php
+
+
 const input = require('fs').readFileSync('/dev/stdin', 'utf8');
 const lines = input.split('\n');
 
