@@ -61,3 +61,5 @@ const result = op[operation](r, g, b);
 // e usamos o parseInt para não mostrar nenhuma casa decimal
 console.log(parseInt(result));
 
+// Saída esperada para a cor (23 78 197) e para a operação "eye":
+// '74'
