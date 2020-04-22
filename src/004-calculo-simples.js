@@ -1,4 +1,4 @@
-// EXERCÍCIO
+// EXERCÍCIO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 // URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/1010
 
 // Neste problema, deve-se ler o código de uma peça 1, o número de peças 1,
@@ -14,7 +14,7 @@
 // lembrando de deixar um espaço após os dois pontos e um espaço após o "R$". 
 // O valor deverá ser apresentado com 2 casas após o ponto.
 
-// CÓDIGO
+// CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
 // Aqui é a entrada de dados 1, onde o primeiro valor é o código do produto, o segundo valor é a quantidade de peças, e o terceiro valor é o valor unitário
 // Então transformamos essa string em um array de números, e desestruturamos esse array
