@@ -14,6 +14,7 @@
 // Para cada caso de teste, imprima uma linha contendo o número de dias que Blobs
 // irá demorar para comer todo seu suprimento de comida, seguido da palavra "dias".
 
+
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
 let kg = Number(lines.shift());
