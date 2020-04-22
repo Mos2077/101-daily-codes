@@ -26,6 +26,7 @@ for (; kg > 1; ) {
   kg /= 2;
 }
 
+// Então mostramos no console os dias
 console.log(days + " dias");
 
 // Saída esperada para 100gk:
