@@ -500,8 +500,8 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
       </tr>
       <tr>
          <td>069</td>
-         <td>Easy Fibonacci</td>
-         <td><a href="https://github.com/LaksCastro/101-daily-codes/blob/master/src/069-easy-fibonacci.js" target="_blank" rel="noopener noreferrer external">Disponível aqui</a></td>
+         <td>Fibonacci Fácil</td>
+         <td><a href="https://github.com/LaksCastro/101-daily-codes/blob/master/src/069-fibonacci-facil.js" target="_blank" rel="noopener noreferrer external">Disponível aqui</a></td>
          <td>18</td>
          <td>1151</td>
       </tr>
