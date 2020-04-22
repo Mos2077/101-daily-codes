@@ -28,3 +28,6 @@ for (; kg > 1; ) {
 
 console.log(days + " dias");
 
+// Saída esperada para 100gk:
+// '7 dias'
+
