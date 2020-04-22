@@ -9,7 +9,6 @@ A primeira linha de entrada contem um único inteiro N (1 ≤ N ≤ 1000), indic
 Saída
 Para cada caso de teste, imprima uma linha contendo o número de dias que Blobs irá demorar para comer todo seu suprimento de comida, seguido da palavra "dias".
 
-
 const input = require('fs').readFileSync('/dev/stdin', 'utf8');
 const lines = input.split('\n');
 
