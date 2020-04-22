@@ -17,12 +17,18 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
-let kg = Number(lines.shift());
+// Entrada para a quantidade de comida
+let kg = 100;
 
+// Variável que armazena por quantos dias Blobs terá comida
 let days = 0;
 
+// Vamos criar um for que repete enquanto a comida de Blobs não tiver menos que 1kg
 for (; kg > 1; ) {
+  // A cada repetição, os dias são contados, pois a comida ainda não chegou a menos de 1kg ou 1kg
   days++;
+  
+  // E a cada repetição, também dividimos a comida de blob à metade
   kg /= 2;
 }
 
