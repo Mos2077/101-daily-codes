@@ -10,14 +10,14 @@ https://www.urionlinejudge.com.br/judge/pt/problems/view/1170
 // Saída
 // Para cada caso de teste, imprima uma linha contendo o número de dias que Blobs irá demorar para comer todo seu suprimento de comida, seguido da palavra "dias".
 
+let kg = Number(lines.shift());
 
-  let kg = Number(lines.shift());
+let days = 0;
 
-  let days = 0;
+for (; kg > 1; ) {
+  days++;
+  kg /= 2;
+}
 
-  for (; kg > 1; ) {
-    days++;
-    kg /= 2;
-  }
+console.log(days + " dias");
 
-  console.log(days + " dias");
