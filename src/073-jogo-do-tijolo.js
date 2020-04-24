@@ -45,4 +45,5 @@ const cap = ages[Math.round(ages.length / 2)];
 
 console.log(cap);
 
-// Saída esperada para
+// Saída esperada para as idades [5 19 17 16 14 12]:
+// '16'
