@@ -19,7 +19,12 @@
 // As idades de todos os membros da equipe são fornecidas. Você tem que determinar a idade do capitão.
 
 // Entrada
-// A entrada começa com um número inteiro T (T ≤ 100), representando o número de casos de teste. Cada uma das próximas T linhas irá começar com um número inteiro N (1 < N < 11), número de membros da equipe, seguido por N inteiros separados por espaço representando as idades de todos os membros de uma equipe. Cada um destes N inteiros será entre 11 e 20(inclusive). Nota-se que, as idades serão dadas estritamente em ordem crescente ou estritamente em ordem decrescente. Nós não vamos mencionar qual está aumentando e qual está diminuindo, você tem que ser cuidadoso o suficiente para lidar com ambas as situações.
+// A entrada começa com um número inteiro T (T ≤ 100), representando o número de casos de teste.
+// Cada uma das próximas T linhas irá começar com um número inteiro N (1 < N < 11), número de membros da equipe,
+// seguido por N inteiros separados por espaço representando as idades de todos os membros de uma equipe.
+// Cada um destes N inteiros será entre 11 e 20(inclusive). 
+// Nota-se que, as idades serão dadas estritamente em ordem crescente ou estritamente em ordem decrescente.
+// Nós não vamos mencionar qual está aumentando e qual está diminuindo, você tem que ser cuidadoso o suficiente para lidar com ambas as situações.
 
 // Saída
 // Para cada caso de teste, imprima uma linha no formato “Case x: a”\(sem as aspas), onde x é o número do caso de teste e a é a idade do capitão.
