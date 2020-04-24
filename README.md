@@ -526,5 +526,12 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
          <td>10</td>
          <td>1257</td>
       </tr>
+      <tr>
+         <td>073</td>
+         <td>Jogo do Tijolo</td>
+         <td><a href="https://github.com/LaksCastro/101-daily-codes/blob/master/src/073-jogo-do-tijolo.js" target="_blank" rel="noopener noreferrer external">Disponível aqui</a></td>
+         <td>5</td>
+         <td>1436</td>
+      </tr>
    </tbody>
 </table>
