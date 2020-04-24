@@ -53,3 +53,6 @@ for (let cas = 0; cas < cases; cas++) {
 
   console.log(sum);
 }
+
+
+// Saída esperada para
