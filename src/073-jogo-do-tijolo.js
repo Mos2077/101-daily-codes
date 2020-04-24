@@ -2,7 +2,8 @@
 
 https://www.urionlinejudge.com.br/judge/pt/problems/view/1436
 
-// RESUMO: Ler uma sequência de números e imprimir o número do meio da sequência, em caso de sequências pares, dê preferência ao lado direito
+// RESUMO: Ler uma sequência de números e imprimir o número do meio da sequência, 
+// em caso de sequências pares, dê preferência ao lado direito
 
 // Há uma vila em Bangladesh, onde o jogo de tijolo é muito popular. 
 // Jogo de tijolo é um jogo de equipe. Cada equipe é constituída por um número ímpar de jogadores.
