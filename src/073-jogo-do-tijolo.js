@@ -9,3 +9,22 @@ A entrada começa com um número inteiro T (T ≤ 100), representando o número 
 
 Saída
 Para cada caso de teste, imprima uma linha no formato “Case x: a”\(sem as aspas), onde x é o número do caso de teste e a é a idade do capitão.
+
+
+const input = require('fs').readFileSync('/dev/stdin', 'utf8');
+const lines = input.split('\n');
+
+let cases = Number(lines.shift());
+
+for (let cas = 0; cas - cases; cas++) {
+  const str = lines.shift();
+
+  const ages = str
+    .split(" ")
+    .map(age => Number(age))
+    .sort((a, b) => a - b);
+
+  const cap = ages[Math.round(ages.length / 2)];
+
+  console.log("Case " + (cas + 1) + ": " + cap);
+}
