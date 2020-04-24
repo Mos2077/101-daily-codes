@@ -40,6 +40,8 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
+// Função que recebe um char, e devolve a posição dele referente ao alfabeto:
+// Exemplo, getIndex("A"); retorna 0 (Sempre baseando-se no 0)
 const getIndex = a => a.charCodeAt() - 65;
 
 const stringsQtd = 1;
