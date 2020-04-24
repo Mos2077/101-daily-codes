@@ -34,15 +34,26 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
+// Ponto de entrada, é a sequencia de todas os números (idades)
 const str = "5 19 17 16 14 12";
 
+// Para pegarmos cada idade individualmente,
+// Usamos:
 const ages = str
+  // split() pra criar um array com cada número
   .split(" ")
+  // Nesse array, transformamos todos os números em string como números do tipo Number
   .map(age => Number(age))
+  // E então usamos sort() para deixar na ordem crescente
   .sort((a, b) => a - b);
 
+// Aqui, pegamos o index das idades, cujo index deve ser a metade do tamanho total do array
+// Assim ficamos exatamente com o elemento que está no meio
+// Nota: usamos Math.round, por que caso dê um número decimal, arredonde pra cima, e então pra baixo
+// Pra cima, por que estamos dando preferencia para o número do lado esquerdo
 const cap = ages[Math.round(ages.length / 2)];
 
+// Em  seguida mostramos no console o número calculado acima
 console.log(cap);
 
 // Saída esperada para as idades [5 19 17 16 14 12]:
