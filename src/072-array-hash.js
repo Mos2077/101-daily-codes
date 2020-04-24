@@ -1,6 +1,7 @@
 // ATIVIDADE <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
 // URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/1257
+// RESUMO: Ler uma string abaixo da outra, e para cada string, pegar a vez dela, se é a primeira string, a vez vale 0, se é a segunda string, a vez vale 1, e somar com a posição da letra na string, sempre usando o 0 de base + a posição da letra no albabeto, e imprimir a soma de todas as letras de todas as strings de um caso de teste
 
 // Você terá como uma entrada várias linhas, cada uma com uma string. O valor de cada caracter é computado como segue:
 
