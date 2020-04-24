@@ -34,13 +34,13 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
-  const str = lines.shift();
+const str = lines.shift();
 
-  const ages = str
-    .split(" ")
-    .map(age => Number(age))
-    .sort((a, b) => a - b);
+const ages = str
+  .split(" ")
+  .map(age => Number(age))
+  .sort((a, b) => a - b);
 
-  const cap = ages[Math.round(ages.length / 2)];
+const cap = ages[Math.round(ages.length / 2)];
 
-  console.log("Case " + (cas + 1) + ": " + cap);
+console.log("Case " + (cas + 1) + ": " + cap);
