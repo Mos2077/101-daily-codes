@@ -27,7 +27,10 @@
 // O cálculo final de hash será 2+2+2+4+5+6 = 21.
 
 // Entrada
-// A entrada contém vários casos de teste. A primeira linha de entrada contém um inteiro N que indica a quantidade de casos de teste. Cada caso de teste inicia com um inteiro L (1 ≤ L ≤ 100) que indica a quantidade de linhas que vem a seguir. Cada uma destas L linhas contém uma string com até 50 letras maiúsculas ('A' - 'Z').
+// A entrada contém vários casos de teste. 
+// A primeira linha de entrada contém um inteiro N que indica a quantidade de casos de teste. 
+// Cada caso de teste inicia com um inteiro L (1 ≤ L ≤ 100) que indica a quantidade de linhas que vem a seguir. 
+// Cada uma destas L linhas contém uma string com até 50 letras maiúsculas ('A' - 'Z').
 
 // Saída
 // Para cada caso de teste imprima o valor de hash que é calculado conforme o exemplo apresentado acima.
