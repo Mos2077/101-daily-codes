@@ -34,12 +34,6 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
-const input = require('fs').readFileSync('/dev/stdin', 'utf8');
-const lines = input.split('\n');
-
-let cases = Number(lines.shift());
-
-for (let cas = 0; cas - cases; cas++) {
   const str = lines.shift();
 
   const ages = str
@@ -50,4 +44,3 @@ for (let cas = 0; cas - cases; cas++) {
   const cap = ages[Math.round(ages.length / 2)];
 
   console.log("Case " + (cas + 1) + ": " + cap);
-}
