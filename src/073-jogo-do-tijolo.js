@@ -1,6 +1,6 @@
 // ATIVIDADE <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
-https://www.urionlinejudge.com.br/judge/pt/problems/view/1436
+// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/1436
 
 // RESUMO: Ler uma sequência de números e imprimir o número do meio da sequência, 
 // em caso de sequências pares, dê preferência ao lado direito
