@@ -58,6 +58,5 @@ for (let stringIndex = 0; stringIndex < stringsQtd; stringIndex++) {
 
 console.log(sum);
 
-
-
-// Saída esperada para
+// Saída esperada para a quantidade de strings 1 e a string "ZZZZZZZZZZ":
+// '295'
