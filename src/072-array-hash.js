@@ -1,5 +1,7 @@
 ATIVIDADE
 
+https://www.urionlinejudge.com.br/judge/pt/problems/view/1257
+
 Você terá como uma entrada várias linhas, cada uma com uma string. O valor de cada caracter é computado como segue:
 
 Valor = (Posição no alfabeto) + (Elemento de entrada) + (Posição do elemento)
