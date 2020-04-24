@@ -40,9 +40,6 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
-const input = require('fs').readFileSync('/dev/stdin', 'utf8');
-const lines = input.split('\n');
-
 const getIndex = a => a.charCodeAt() - 65;
 
 const cases = Number(lines.shift());
