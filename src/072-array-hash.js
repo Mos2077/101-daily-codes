@@ -47,6 +47,7 @@ const getIndex = a => a.charCodeAt() - 65;
 // Variável de entrada que recebe a quantidade de strings que vamos analisar
 const stringsQtd = 1;
 
+// A some é o hash que vamos gerar a partir de cada caracter das strings
 let sum = 0;
 
 for (let stringIndex = 0; stringIndex < stringsQtd; stringIndex++) {
