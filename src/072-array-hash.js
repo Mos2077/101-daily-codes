@@ -44,6 +44,7 @@
 // Exemplo, getIndex("A"); retorna 0 (Sempre baseando-se no 0)
 const getIndex = a => a.charCodeAt() - 65;
 
+// Variável de entrada que recebe a quantidade de strings que vamos analisar
 const stringsQtd = 1;
 
 let sum = 0;
