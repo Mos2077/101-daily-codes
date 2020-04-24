@@ -43,4 +43,4 @@ const ages = str
 
 const cap = ages[Math.round(ages.length / 2)];
 
-console.log("Case " + (cas + 1) + ": " + cap);
+console.log(cap);
