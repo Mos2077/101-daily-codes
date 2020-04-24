@@ -11,7 +11,10 @@
 // A idade de cada jogador deve estar entre 11(inclusive) e 20(inclusive).
 // Não há dois jogadores com a mesma idade. Há um capitão para cada equipe.
 
-// A falta de comunicação entre dois jogadores depende da sua diferença de idade, ou seja, é maior se a diferença de idade for maior. Assim, eles selecionam o capitão de uma equipe de maneira que a quantidade de jogadores desta equipe que são mais jovens e mais velhos do que ele é igual.
+// A falta de comunicação entre dois jogadores depende da sua diferença de idade,
+// ou seja, é maior se a diferença de idade for maior. 
+// Assim, eles selecionam o capitão de uma equipe de maneira que
+// a quantidade de jogadores desta equipe que são mais jovens e mais velhos do que ele é igual.
 
 // As idades de todos os membros da equipe são fornecidas. Você tem que determinar a idade do capitão.
 
