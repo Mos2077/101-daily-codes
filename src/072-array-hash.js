@@ -27,6 +27,7 @@
 // Saída
 // Para cada caso de teste imprima o valor de hash que é calculado conforme o exemplo apresentado acima.
 
+
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 const input = require('fs').readFileSync('/dev/stdin', 'utf8');
 const lines = input.split('\n');
