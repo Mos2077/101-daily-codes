@@ -40,26 +40,20 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
-const getIndex = a => a.charCodeAt() - 65;
+const l = Number(lines.shift());
+let sum = 0;
 
-const cases = Number(lines.shift());
+for (let k = 0; k < l; k++) {
+  const str = lines.shift();
 
-for (let cas = 0; cas < cases; cas++) {
-  const l = Number(lines.shift());
-  let sum = 0;
+  str.split("").forEach((item, i) => {
+    const value = getIndex(item) + i + k;
 
-  for (let k = 0; k < l; k++) {
-    const str = lines.shift();
-
-    str.split("").forEach((item, i) => {
-      const value = getIndex(item) + i + k;
-
-      sum += value;
-    });
-  }
-
-  console.log(sum);
+    sum += value;
+  });
 }
+
+console.log(sum);
 
 
 // Saída esperada para
