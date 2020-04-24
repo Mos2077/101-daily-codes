@@ -50,16 +50,28 @@ const stringsQtd = 1;
 // A some é o hash que vamos gerar a partir de cada caracter das strings
 let sum = 0;
 
+// Aqui criamos um for para percorrer cada string
 for (let stringIndex = 0; stringIndex < stringsQtd; stringIndex++) {
+  // Aqui lemos a string, no caso, esse for vai executar apenas 1 vez
   const str = "ZZZZZZZZZZ";
-
+  
+  // Pegamos a string e criamos um array com cada elemento da string (usando split("")):
+  // "ZZZZZZZZZZ" vai resultar em ["Z", "Z", "Z", "Z", "Z", "Z", "Z", "Z", "Z", "Z"]
+  // E em seguidas percorremos cada letra (usando forEach())
   str.split("").forEach((item, letterIndex) => {
+    // E então, pegamos o valor da:
+    // index dessa letra no alfabeto com o getIndex
+    // index da letra na string
+    // index da string na fila de strings, como nesse caso tem apenas uma string, então o valor é 0
+    // Mas se tivesse mais de 1 string, é necessário
     const value = getIndex(item) + letterIndex + stringIndex;
-
+  
+    // Adicionamos esse valor à variável sum
     sum += value;
   });
 }
 
+// Mostramos o hash gerado no console
 console.log(sum);
 
 // Saída esperada para a quantidade de strings 1 e a string "ZZZZZZZZZZ":
