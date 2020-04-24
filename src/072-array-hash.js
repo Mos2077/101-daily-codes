@@ -46,17 +46,18 @@ const stringsQtd = 1;
 
 let sum = 0;
 
-for (let k = 0; k < l; k++) {
+for (let stringIndex = 0; stringIndex < stringsQtd; stringIndex++) {
   const str = "ZZZZZZZZZZ";
 
-  str.split("").forEach((item, i) => {
-    const value = getIndex(item) + i + k;
+  str.split("").forEach((item, letterIndex) => {
+    const value = getIndex(item) + letterIndex + stringIndex;
 
     sum += value;
   });
 }
 
 console.log(sum);
+
 
 
 // Saída esperada para
