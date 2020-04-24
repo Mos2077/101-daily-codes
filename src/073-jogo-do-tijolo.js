@@ -24,10 +24,12 @@
 // seguido por N inteiros separados por espaço representando as idades de todos os membros de uma equipe.
 // Cada um destes N inteiros será entre 11 e 20(inclusive). 
 // Nota-se que, as idades serão dadas estritamente em ordem crescente ou estritamente em ordem decrescente.
-// Nós não vamos mencionar qual está aumentando e qual está diminuindo, você tem que ser cuidadoso o suficiente para lidar com ambas as situações.
+// Nós não vamos mencionar qual está aumentando e qual está diminuindo,
+// você tem que ser cuidadoso o suficiente para lidar com ambas as situações.
 
 // Saída
-// Para cada caso de teste, imprima uma linha no formato “Case x: a”\(sem as aspas), onde x é o número do caso de teste e a é a idade do capitão.
+// Para cada caso de teste, imprima uma linha no formato “Case x: a”\(sem as aspas),
+// onde x é o número do caso de teste e a é a idade do capitão.
 
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
