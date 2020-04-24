@@ -11,7 +11,9 @@
 
 // Valor = (Posição no alfabeto) + (Elemento de entrada) + (Posição do elemento)
 
-// Todas posições são baseadas em zero. 'A' tem posição 0 no alfabeto, 'B' tem posição 1 no alfabeto, ... O cálculo de hash retornado é a soma de todos os caracteres da entrada. Por exemplo, se a entrada for:
+// Todas posições são baseadas em zero. 'A' tem posição 0 no alfabeto, 'B' 
+// tem posição 1 no alfabeto, ... O cálculo de hash retornado é a soma de todos os caracteres da entrada. 
+// Por exemplo, se a entrada for:
 // CBA
 // DDD
 
