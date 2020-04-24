@@ -519,5 +519,12 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
          <td>5</td>
          <td>1170</td>
       </tr>
+      <tr>
+         <td>072</td>
+         <td>Array Hash</td>
+         <td><a href="https://github.com/LaksCastro/101-daily-codes/blob/master/src/072-array-hash.js" target="_blank" rel="noopener noreferrer external">Disponível aqui</a></td>
+         <td>10</td>
+         <td>1257</td>
+      </tr>
    </tbody>
 </table>
