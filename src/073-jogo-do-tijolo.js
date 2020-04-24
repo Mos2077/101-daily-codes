@@ -7,7 +7,9 @@
 
 // Há uma vila em Bangladesh, onde o jogo de tijolo é muito popular. 
 // Jogo de tijolo é um jogo de equipe. Cada equipe é constituída por um número ímpar de jogadores.
-// O número de jogadores deve ser maior do que 1, mas não pode ser superior a 10. A idade de cada jogador deve estar entre 11(inclusive) e 20(inclusive). Não há dois jogadores com a mesma idade. Há um capitão para cada equipe.
+// O número de jogadores deve ser maior do que 1, mas não pode ser superior a 10.
+// A idade de cada jogador deve estar entre 11(inclusive) e 20(inclusive).
+// Não há dois jogadores com a mesma idade. Há um capitão para cada equipe.
 
 // A falta de comunicação entre dois jogadores depende da sua diferença de idade, ou seja, é maior se a diferença de idade for maior. Assim, eles selecionam o capitão de uma equipe de maneira que a quantidade de jogadores desta equipe que são mais jovens e mais velhos do que ele é igual.
 
