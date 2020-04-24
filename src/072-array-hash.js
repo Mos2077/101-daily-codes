@@ -40,11 +40,14 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
-const l = Number(lines.shift());
+const getIndex = a => a.charCodeAt() - 65;
+
+const stringsQtd = 1;
+
 let sum = 0;
 
 for (let k = 0; k < l; k++) {
-  const str = lines.shift();
+  const str = "ZZZZZZZZZZ";
 
   str.split("").forEach((item, i) => {
     const value = getIndex(item) + i + k;
