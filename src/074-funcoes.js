@@ -47,4 +47,5 @@ const [winner] = [r(...args), b(...args), c(...args)].sort(
 
 console.log(winner.message);
 
-// Saída esperada 
+// Saída esperada para X = 5 e Y = 3
+// 'Beto ganhou'
