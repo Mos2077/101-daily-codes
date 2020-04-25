@@ -52,11 +52,15 @@ const c = (x, y) => ({
 // argumentos que serão passados para as funções acima, que representa um array no formato: [x, y]
 const args = [5, 3];
 
+// Nesta etapa fazemos o seguinte:
+// Criamos um array com os valores retornados das funções de Rafael, Beto e Carlos
+// E então usamos a função sort() para colocar os valores em ordem decrescente
+// E então desestruturamos o primeiro elemento, pois se ele é o primeiro elemento, quer dizer que é o maior
 const [winner] = [r(...args), b(...args), c(...args)].sort(
   (a, b) => b.result - a.result
 );
 
-// E então mostramos a mensagem do vencedor
+// E então mostramos a mensagem do vencedor, do maior elemento
 console.log(winner.message);
 
 // Saída esperada para X = 5 e Y = 3
