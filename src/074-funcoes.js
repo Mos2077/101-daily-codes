@@ -20,6 +20,8 @@
 // Para cada caso de teste imprima uma linha, contendo uma frase, indicando quem ganhou a competição. Por exemplo, se Rafael ganhar a competição, imprima “Rafael ganhou”. Assuma que nunca haverá empates.
 
 
+// CÓDIGO
+
 const r = (x, y) => ({
   result: (3 * x) ** 2 + y ** 2,
   message: "Rafael ganhou"
