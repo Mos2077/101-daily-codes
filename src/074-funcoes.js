@@ -14,7 +14,8 @@
 // Dados os valores x e y, diga quem escolheu a função com o maior resultado.
 
 // Entrada
-// A primeira linha de entrada contém um inteiro N que determina a quantidade de casos de teste. Cada caso de teste consiste em dois inteiros x e y (1 ≤ x, y ≤ 100), indicando as variáveis a serem inseridas na função.
+// A primeira linha de entrada contém um inteiro N que determina a quantidade de casos de teste. 
+// Cada caso de teste consiste em dois inteiros x e y (1 ≤ x, y ≤ 100), indicando as variáveis a serem inseridas na função.
 
 // Saída
 // Para cada caso de teste imprima uma linha, contendo uma frase, indicando quem ganhou a competição. Por exemplo, se Rafael ganhar a competição, imprima “Rafael ganhou”. Assuma que nunca haverá empates.
