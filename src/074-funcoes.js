@@ -36,9 +36,6 @@ const c = (x, y) => ({
   message: "Carlos ganhou"
 });
 
-const cases = Number(lines.shift());
-
-for (let cas = 0; cas < cases; cas++) {
   const args = lines
     .shift()
     .split(" ")
@@ -49,4 +46,3 @@ for (let cas = 0; cas < cases; cas++) {
   );
 
   console.log(winner.message);
-}
