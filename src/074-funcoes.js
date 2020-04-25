@@ -36,13 +36,10 @@ const c = (x, y) => ({
   message: "Carlos ganhou"
 });
 
-  const args = lines
-    .shift()
-    .split(" ")
-    .map(item => Number(item));
+const args = [5, 3];
 
-  const [winner] = [r(...args), b(...args), c(...args)].sort(
-    (a, b) => b.result - a.result
-  );
+const [winner] = [r(...args), b(...args), c(...args)].sort(
+  (a, b) => b.result - a.result
+);
 
-  console.log(winner.message);
+console.log(winner.message);
