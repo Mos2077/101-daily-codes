@@ -24,6 +24,16 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
+// Para cada variável como função de cada amigo, fazemos o seguinte:
+
+// r = Rafael; b = Beto; c = Carlos
+// Para cada um deles, criamos uma função que recebe 2 parâmetros: x e y
+// E então, retornamos um objeto neste formato:
+// {
+//   "result": INSIRA_A_FORMULA_AQUI,
+//   "message": "NOME_AQUI ganhou"
+// }
+
 const r = (x, y) => ({
   result: (3 * x) ** 2 + y ** 2,
   message: "Rafael ganhou"
@@ -39,6 +49,7 @@ const c = (x, y) => ({
   message: "Carlos ganhou"
 });
 
+// argumentos que serão passados para as funções acima, que representa um array no formato: [x, y]
 const args = [5, 3];
 
 const [winner] = [r(...args), b(...args), c(...args)].sort(
