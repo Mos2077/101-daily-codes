@@ -2,7 +2,8 @@
 
 // URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/1555
 
-// Na última aula de matemática, Rafael, Beto e Carlos aprenderam algumas novas funções matemáticas. Cada um deles se identificou com uma função em especial, e resolveram competir para ver quem tinha a função de maior resultado.
+// Na última aula de matemática, Rafael, Beto e Carlos aprenderam algumas novas funções matemáticas.
+// Cada um deles se identificou com uma função em especial, e resolveram competir para ver quem tinha a função de maior resultado.
 
 // A função que Rafael escolheu é r(x, y) = (3x)² + y².
 
