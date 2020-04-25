@@ -533,5 +533,12 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
          <td>5</td>
          <td>1436</td>
       </tr>
+      <tr>
+         <td>074</td>
+         <td>Funções</td>
+         <td><a href="https://github.com/LaksCastro/101-daily-codes/blob/master/src/074-funcoes.js" target="_blank" rel="noopener noreferrer external">Disponível aqui</a></td>
+         <td>19</td>
+         <td>1555</td>
+      </tr>
    </tbody>
 </table>
