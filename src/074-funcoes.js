@@ -45,6 +45,7 @@ const [winner] = [r(...args), b(...args), c(...args)].sort(
   (a, b) => b.result - a.result
 );
 
+// E então mostramos a mensagem do vencedor
 console.log(winner.message);
 
 // Saída esperada para X = 5 e Y = 3
