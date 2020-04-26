@@ -36,5 +36,6 @@ const area = (d1 * d2) / 2;
 // E então mostramos a parte inteira da área
 console.log(parseInt(area) + " cm2");
 
+
 // Saída esperada para os diâmetros 10 e 20
 // '100 cm2'
