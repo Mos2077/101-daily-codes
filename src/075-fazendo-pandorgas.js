@@ -24,11 +24,16 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
+// Cada variável armazena um dos diâmetros do bambu
 const d1 = 10;
 const d2 = 20;
 
+// Calculamos a área usando a fórmula simplificada para calcular a área de um losango:
+// A = D * d / 2
+// A = Área; D = Diâmetro maior; d = Diâmetro menor;
 const area = (d1 * d2) / 2;
 
+// E então mostramos a parte inteira da área
 console.log(parseInt(area) + " cm2");
 
 
