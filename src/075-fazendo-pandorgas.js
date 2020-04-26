@@ -17,6 +17,7 @@
 // Saída
 // Para cada caso de teste de entrada, imprima um valor inteiro (desconsiderando a parte decimal) correspondente a àrea da pipa criada, em cm2, seguido de um espaço e do texto "cm2", sem as aspas.
 
+
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
 
