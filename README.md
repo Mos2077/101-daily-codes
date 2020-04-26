@@ -540,5 +540,12 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
          <td>19</td>
          <td>1555</td>
       </tr>
+      <tr>
+         <td>075</td>
+         <td>Fazendo Pandorgas</td>
+         <td><a href="https://github.com/LaksCastro/101-daily-codes/blob/master/src/075-fazendo-pandorgas.js" target="_blank" rel="noopener noreferrer external">Disponível aqui</a></td>
+         <td>5</td>
+         <td>1585</td>
+      </tr>
    </tbody>
 </table>
