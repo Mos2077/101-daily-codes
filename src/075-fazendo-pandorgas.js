@@ -10,3 +10,20 @@ A entrada contém vários casos de teste. A primeira linha de entrada contém um
 
 Saída
 Para cada caso de teste de entrada, imprima um valor inteiro (desconsiderando a parte decimal) correspondente a àrea da pipa criada, em cm2, seguido de um espaço e do texto "cm2", sem as aspas.
+
+const input = require('fs').readFileSync('/dev/stdin', 'utf8');
+const lines = input.split('\n');
+
+const cases = Number(lines.shift());
+
+for (let cas = 0; cas < cases; cas++) {
+  const str = lines.shift();
+
+  const diam = str.split(" ").map(item => Number(item));
+
+  const [d1, d2] = diam;
+
+  const area = (d1 * d2) / 2;
+
+  console.log(parseInt(area) + " cm2");
+}
