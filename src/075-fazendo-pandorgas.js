@@ -15,8 +15,6 @@ https://www.urionlinejudge.com.br/judge/pt/problems/view/1585
 
 CÓDIGO
 
-const input = require('fs').readFileSync('/dev/stdin', 'utf8');
-const lines = input.split('\n');
 
 const cases = Number(lines.shift());
 
