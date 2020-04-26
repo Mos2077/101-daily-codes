@@ -24,13 +24,13 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
-  const str = lines.shift();
+const str = lines.shift();
 
-  const diam = str.split(" ").map(item => Number(item));
+const diam = str.split(" ").map(item => Number(item));
 
-  const [d1, d2] = diam;
+const [d1, d2] = diam;
 
-  const area = (d1 * d2) / 2;
+const area = (d1 * d2) / 2;
 
-  console.log(parseInt(area) + " cm2");
+console.log(parseInt(area) + " cm2");
 
