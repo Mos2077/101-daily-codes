@@ -2,7 +2,6 @@
 
 // URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/1585
 
-
 // Anastácia adora construir pipas (ou pandorgas) para seus amigos.
 // Pedro, que sabe disso, separou vários retalhos de bambus da fábrica de móveis de seu tio 
 // que seriam descartados para dar a Anastácia. 
