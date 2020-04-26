@@ -6,7 +6,9 @@
 // Anastácia adora construir pipas (ou pandorgas) para seus amigos.
 // Pedro, que sabe disso, separou vários retalhos de bambus da fábrica de móveis de seu tio 
 // que seriam descartados para dar a Anastácia. 
-// Ao entregar os bambus à Anastácia, Pedro perguntou a ela qual era a maior pipa que poderia ser construída com aqueles retalhos de bambus. Anastácia, então, que não é muito boa em calcular, quer que você a ajude nesta tarefa.
+// Ao entregar os bambus à Anastácia, Pedro perguntou
+// a ela qual era a maior pipa que poderia ser construída com aqueles retalhos de bambus. 
+// Anastácia, então, que não é muito boa em calcular, quer que você a ajude nesta tarefa.
 
 // Obs.: Cada pipa é construída com dois pedaços de bambus amarrados em forma de cruz, formando um losango.
 
