@@ -24,7 +24,6 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
-for (let cas = 0; cas < cases; cas++) {
   const str = lines.shift();
 
   const diam = str.split(" ").map(item => Number(item));
@@ -34,4 +33,4 @@ for (let cas = 0; cas < cases; cas++) {
   const area = (d1 * d2) / 2;
 
   console.log(parseInt(area) + " cm2");
-}
+
