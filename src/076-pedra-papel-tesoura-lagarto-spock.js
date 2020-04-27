@@ -22,10 +22,11 @@ Haverá diversos casos de teste. O primeiro número a ser lido será um inteiro 
 Saída
 Para cada caso de teste, imprima quem venceu, ou se houve empate.
 
+
 const input = require('fs').readFileSync('/dev/stdin', 'utf8');
 const lines = input.split('\n');
 
-EXERCÍCIO
+CÓDIGO
 
 const enumGame = [
   ["tesoura", "papel"],
