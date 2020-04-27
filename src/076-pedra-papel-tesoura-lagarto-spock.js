@@ -1,6 +1,6 @@
 // EXERCÍCIO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
-// https://www.urionlinejudge.com.br/judge/pt/problems/view/1873
+// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/1873
 
 // Pedra-papel-tesoura-lagarto-Spock é uma expansão do clássico método de seleção em jogo de pedra-papel-tesoura.
 // Atua sob o mesmo princípio básico, mas inclui outras duas armas adicionais:
@@ -27,6 +27,7 @@
 
 // Saída
 // Para cada caso de teste, imprima quem venceu, ou se houve empate.
+
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
