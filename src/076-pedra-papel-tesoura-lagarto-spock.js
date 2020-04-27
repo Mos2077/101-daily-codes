@@ -67,3 +67,6 @@ if (p1 === p2) {
   }
 }
 
+// Saída esperada
+// 'sheldon'
+
