@@ -10,11 +10,11 @@
 // Lagarto adormece Spock
 // Spock derrete tesoura
 // Tesoura prende lagarto
-Lagarto come papel
-Papel refuta Spock
-Spock vaporiza pedra
-Pedra quebra tesoura
-Um dia, dois amigos, Rajesh e Sheldon, decidiram apostar quem pagaria um almoço para o outro, com esta brincadeira. Sua missão será fazer um algoritmo que, baseado no que eles escolherem, informe quem irá ganhar ou se dará empate.
+// Lagarto come papel
+// Papel refuta Spock
+// ck vaporiza pedra
+// Pedra quebra tesoura
+// Um dia, dois amigos, Rajesh e Sheldon, decidiram apostar quem pagaria um almoço para o outro, com esta brincadeira. Sua missão será fazer um algoritmo que, baseado no que eles escolherem, informe quem irá ganhar ou se dará empate.
 
 Entrada
 Haverá diversos casos de teste. O primeiro número a ser lido será um inteiro C, representando a quantidade de casos de teste. Cada caso de teste tem duas palavras, representando a escolha de Rajesh e de Sheldon, respectivamente.
