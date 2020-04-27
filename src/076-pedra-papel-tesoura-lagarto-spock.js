@@ -83,5 +83,5 @@ else {
   }
 }
 
-// Saída esperada
+// Saída esperada para a jogada "tesoura" para o primeiro jogador (rajesh) e "spock" como a do segundo jogador (sheldon)
 // 'sheldon'
