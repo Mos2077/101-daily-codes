@@ -19,8 +19,8 @@
 // Entrada
 // Haverá diversos casos de teste. O primeiro número a ser lido será um inteiro C, representando a quantidade de casos de teste. Cada caso de teste tem duas palavras, representando a escolha de Rajesh e de Sheldon, respectivamente.
 
-Saída
-Para cada caso de teste, imprima quem venceu, ou se houve empate.
+// Saída
+// Para cada caso de teste, imprima quem venceu, ou se houve empate.
 
 
 const input = require('fs').readFileSync('/dev/stdin', 'utf8');
