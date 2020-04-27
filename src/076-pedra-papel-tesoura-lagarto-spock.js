@@ -31,6 +31,11 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
+// Array no formato:
+// [
+//   ["NOME_DO_QUE_VENCE", "NOME_DO_QUE_PERDE"],
+//   ...
+// ]
 const enumGame = [
   ["tesoura", "papel"],
   ["papel", "pedra"],
@@ -43,8 +48,6 @@ const enumGame = [
   ["spock", "pedra"],
   ["pedra", "tesoura"]
 ];
-
-const cases = Number(lines.shift());
 
   const str = lines.shift();
 
