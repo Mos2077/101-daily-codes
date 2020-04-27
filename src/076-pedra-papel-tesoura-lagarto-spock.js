@@ -60,13 +60,24 @@ if (p1 === p2) {
 else {
   // Criamos um for que percorre todas as jogadas possíveis, que são os arrays dentro do array enumGame
   for (const en of enumGame) {
+    // Pegamos qual jogada vence e qual jogada perde, dentro do array atual
+    // Obs: o array atual que é uma combinação possível dentro do jogo
     const [winner, loser] = en;
-
+    
+    // Se a jogada vencedora for a do player 1 e a jogada perdedora for do player 2, então:
     if (winner === p1 && loser === p2) {
+      // O player 1 venceu, logo mostramos o nome dele no console
       console.log("rajesh");
+      // E em seguida paramos o laço de repetição
       break;
-    } else if (winner === p2 && loser === p1) {
+    } 
+    // Mas se não, verificamos:
+    // Se a jogada vencedora for do player 2 e a perdedora for do player 1, então:
+    else if (winner === p2 && loser === p1) {
+      // Mostramos o nome do jogador 2 no console
       console.log("sheldon");
+      
+      // E paramos o laço
       break;
     }
   }
