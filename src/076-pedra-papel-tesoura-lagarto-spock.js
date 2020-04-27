@@ -49,25 +49,21 @@ const enumGame = [
   ["pedra", "tesoura"]
 ];
 
-  const str = lines.shift();
+const [p1, p2] = ["tesoura", "spock"];
 
-  if (!str) break;
+if (p1 === p2) {
+  console.log("empate");
+} else {
+  for (const en of enumGame) {
+    const [winner, loser] = en;
 
-  const [p1, p2] = str.split(" ");
-
-  if (p1 === p2) {
-    console.log("empate");
-  } else {
-    for (const en of enumGame) {
-      const [winner, loser] = en;
-
-      if (winner === p1 && loser === p2) {
-        console.log("rajesh");
-        break;
-      } else if (winner === p2 && loser === p1) {
-        console.log("sheldon");
-        break;
-      }
+    if (winner === p1 && loser === p2) {
+      console.log("rajesh");
+      break;
+    } else if (winner === p2 && loser === p1) {
+      console.log("sheldon");
+      break;
     }
   }
+}
 
