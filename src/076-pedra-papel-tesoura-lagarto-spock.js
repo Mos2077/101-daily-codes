@@ -49,11 +49,16 @@ const enumGame = [
   ["pedra", "tesoura"]
 ];
 
+// Pegamos a jogada do player 1 (rajesh) e a jogada do player 2 (sheldon)
 const [p1, p2] = ["tesoura", "spock"];
 
+// Caso as jogadas forem iguais, então deu empate
 if (p1 === p2) {
   console.log("empate");
-} else {
+} 
+// Se não...
+else {
+  // Criamos um for que percorre todas as jogadas possíveis, que são os arrays dentro do array enumGame
   for (const en of enumGame) {
     const [winner, loser] = en;
 
