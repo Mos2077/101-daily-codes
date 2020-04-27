@@ -45,7 +45,6 @@ const enumGame = [
 
 const cases = Number(lines.shift());
 
-for (let cas = 0; cas < cases; cas++) {
   const str = lines.shift();
 
   if (!str) break;
@@ -67,4 +66,4 @@ for (let cas = 0; cas < cases; cas++) {
       }
     }
   }
-}
+
