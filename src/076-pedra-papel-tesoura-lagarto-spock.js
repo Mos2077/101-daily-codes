@@ -7,9 +7,9 @@
 // Tesoura corta papel
 // Papel cobre pedra
 // Pedra derruba lagarto
-Lagarto adormece Spock
-Spock derrete tesoura
-Tesoura prende lagarto
+// Lagarto adormece Spock
+// Spock derrete tesoura
+// Tesoura prende lagarto
 Lagarto come papel
 Papel refuta Spock
 Spock vaporiza pedra
