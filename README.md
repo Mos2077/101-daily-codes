@@ -550,9 +550,9 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
       <tr>
          <td>076</td>
          <td>Pedra-papel-tesoura-lagarto-Spock</td>
-         <td><a href="https://github.com/LaksCastro/101-daily-codes/blob/master/src/075-fazendo-pandorgas.js" target="_blank" rel="noopener noreferrer external">Disponível aqui</a></td>
-         <td>5</td>
-         <td>1585</td>
+         <td><a href="https://github.com/LaksCastro/101-daily-codes/blob/master/src/076-pedra-papel-tesoura-lagarto-spock.js" target="_blank" rel="noopener noreferrer external">Disponível aqui</a></td>
+         <td>10</td>
+         <td>1873</td>
       </tr>
    </tbody>
 </table>
