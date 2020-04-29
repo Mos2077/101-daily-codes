@@ -554,5 +554,12 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
          <td>10</td>
          <td>1873</td>
       </tr>
+      <tr>
+         <td>077</td>
+         <td>Bob Conduite</td>
+         <td><a href="https://github.com/LaksCastro/101-daily-codes/blob/master/src/077-bob-conduit.js" target="_blank" rel="noopener noreferrer external">Disponível aqui</a></td>
+         <td>3</td>
+         <td>1589</td>
+      </tr>
    </tbody>
 </table>
