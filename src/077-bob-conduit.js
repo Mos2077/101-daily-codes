@@ -16,6 +16,8 @@ Saída
 Em cada caso, imprima o menor raio possível em uma única linha
 
 
+CÓDIGO
+
 const input = require('fs').readFileSync('/dev/stdin', 'utf8');
 const lines = input.split('\n');
 
