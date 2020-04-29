@@ -23,7 +23,7 @@
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
 // Valor do raio do círculo 1 (r1) e valor do raio do círculo 2  (r2)
-const [r1, r2] = [2, 10];
+const [r1, r2] = [2, 8];
 
 // Aqui calculamos o diâmetro total do círculo maior:
 // o raio do círculo 1 * 2 que dá o diâmetro somado pelo mesmo do círculo 2
@@ -35,3 +35,7 @@ const r = d / 2;
 
 // E então mostramos no console
 console.log(r);
+
+
+// Saída esperada para r1 = 2 e r2 = 8:
+// '10'
