@@ -23,7 +23,6 @@
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
 
-for (let cas = 0; cas < cases; cas++) {
   const str = lines.shift();
 
   const [r1, r2] = str.split(" ").map(r => Number(r));
@@ -32,4 +31,3 @@ for (let cas = 0; cas < cases; cas++) {
   const r = d / 2;
 
   console.log(r);
-}
