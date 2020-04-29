@@ -1,4 +1,4 @@
-https://www.urionlinejudge.com.br/judge/pt/problems/view/1589
+// https://www.urionlinejudge.com.br/judge/pt/problems/view/1589
 
 const input = require('fs').readFileSync('/dev/stdin', 'utf8');
 const lines = input.split('\n');
