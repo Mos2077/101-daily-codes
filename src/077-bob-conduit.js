@@ -21,13 +21,11 @@
 
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+const str = lines.shift();
 
+const [r1, r2] = str.split(" ").map(r => Number(r));
 
-  const str = lines.shift();
+const d = r1 * 2 + r2 * 2;
+const r = d / 2;
 
-  const [r1, r2] = str.split(" ").map(r => Number(r));
-
-  const d = r1 * 2 + r2 * 2;
-  const r = d / 2;
-
-  console.log(r);
+console.log(r);
