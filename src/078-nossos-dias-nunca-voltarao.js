@@ -14,6 +14,7 @@ CÓDIGO DO CONSOLE
 
 Array.from(document.querySelectorAll(".description u")).map(el => el.textContent).join("").toUpperCase();
 
+CÓDIGO
 
 const input = require('fs').readFileSync('/dev/stdin', 'utf8');
 const lines = input.split('\n');
