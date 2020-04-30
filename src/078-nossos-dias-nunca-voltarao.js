@@ -73,6 +73,9 @@ Array.from(document.querySelectorAll(".description u")).map(el => el.textContent
 // Aqui, pegamos a entrada que representa em qual caracter devemos cortar a String que achamos pelo passo anterior
 const n = 7;
 
+// Aqui é a frase que encontramos pelo console
 const phrase = "LIFE IS NOT A PROBLEM TO BE SOLVED";
 
+// E então mostramos a substring: 
+// str.substring(INDEX_DO_COMEÇO_DA_STRING, INDEX_DO_FINAL_DA_STRING);
 console.log(phrase.substring(0, n));
