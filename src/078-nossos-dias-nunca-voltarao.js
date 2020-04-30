@@ -41,8 +41,10 @@
 // Ou seja, já estava no primeiro passo: já estava com todas as tags que estão com as letras
 
 // Beleza, mas o objetivo é pegar todas as letras, ou seja, uma string
-// Mas como a NodeList NÃO é um Array, como explica aqui no site da MDN https://developer.mozilla.org/en-US/docs/Web/API/NodeList
-// Então não é possível utilizar NodeList.forEach, nem NodeList.map, etc, nenhum dos métodos de array que conhecemos
+// Mas como a NodeList NÃO é um Array, como ela não é uma instância de Array ela não foi construída usando a Prototype do Array, 
+// Prototype essa que contém todas as funções que conhecemos: forEach, map, filter, etc,
+// como explica bem melhor aqui no site da MDN https://developer.mozilla.org/en-US/docs/Web/API/NodeList
+// Então não é possível utilizar NodeList.forEach, nem NodeList.map, etc
 
 // Portanto, preciso transformar essa NodeList em um Array, o que dá pra ser feito com:
 // Array.from(document.querySelectorAll(".description u"));
@@ -68,6 +70,7 @@ Array.from(document.querySelectorAll(".description u")).map(el => el.textContent
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
+// Aqui, pegamos a entrada que representa em qual caracter devemos cortar a String que achamos pelo passo anterior
 const n = 7;
 
 const phrase = "LIFE IS NOT A PROBLEM TO BE SOLVED";
