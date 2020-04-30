@@ -79,3 +79,7 @@ const phrase = "LIFE IS NOT A PROBLEM TO BE SOLVED";
 // E então mostramos a substring: 
 // str.substring(INDEX_DO_COMEÇO_DA_STRING, INDEX_DO_FINAL_DA_STRING);
 console.log(phrase.substring(0, n));
+
+
+// Saída esperada para a entrada = 7:
+// 'LIFE IS'
