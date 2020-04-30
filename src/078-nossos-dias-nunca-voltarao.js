@@ -29,6 +29,10 @@
 // Esse exercício tem este tópico a mais, 
 // que é excessão deste exercício, na verdade, nem faz parte do exercício, mas achei interessante colocar, 
 // já que mostra uma manipulação no DOM bem bacana e cita coisas como Prototypes e Instanceof de um valor
+
+// Bom, como o exercício diz, precisamos sair catando letras sublinhadas pelo enunciado
+// Tentei por 5s mas sempre me perdia, então pensei
+// Vou pegar as tags <u> do DOM e juntar as letras ao invés de ficar tentando juntá-las no olho nu akeoakeoek
 Array.from(document.querySelectorAll(".description u")).map(el => el.textContent).join("").toUpperCase();
 
 
