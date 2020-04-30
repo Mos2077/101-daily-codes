@@ -22,9 +22,11 @@
 // pois nenhum espaço foi sublinhado — você é que deve adivinhar o número e a localização dos espaços na frase. 
 // A única linha da saída deve consistir apenas de letras maiúsculas e espaços e ser finalizada por fim de linha.
 
+
 // CÓDIGO DO CONSOLE <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
 Array.from(document.querySelectorAll(".description u")).map(el => el.textContent).join("").toUpperCase();
+
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
