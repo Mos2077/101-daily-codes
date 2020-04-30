@@ -11,3 +11,13 @@ Imprima os N primeiros caracteres da citação de Søren Kierkegaard definida pe
 CÓDIGO DO CONSOLE
 
 Array.from(document.querySelectorAll(".description u")).map(el => el.textContent).join("").toUpperCase();
+
+
+const input = require('fs').readFileSync('/dev/stdin', 'utf8');
+const lines = input.split('\n');
+
+const n = Number(lines.shift());
+
+const phrase = "LIFE IS NOT A PROBLEM TO BE SOLVED";
+
+console.log(phrase.substring(0, n));
