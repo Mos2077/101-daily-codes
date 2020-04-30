@@ -561,5 +561,12 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
          <td>3</td>
          <td>1589</td>
       </tr>
+      <tr>
+         <td>078</td>
+         <td>Nossos Dias Nunca Voltarão</td>
+         <td><a href="https://github.com/LaksCastro/101-daily-codes/blob/master/src/078-nossos-dias-nunca-voltarao.js" target="_blank" rel="noopener noreferrer external">Disponível aqui</a></td>
+         <td>1</td>
+         <td>1864</td>
+      </tr>
    </tbody>
 </table>
