@@ -63,6 +63,8 @@ Array.from(document.querySelectorAll(".description u")).map(el => el.textContent
 // Pra testar, é só abrir o DevTools (CTRL + SHIFT + I, no Window + Chrome) e colocar o código acima e executar
 // O código vai pegar todas os elementos <u> que são elementos sublinhados, pegar o textContent e transformar em uma string
 // E essa String, usamos no exercício de verdade, como podemos ver mais em baixo
+// Nota: só falta separar as palavras da String por espaços, tentei encontrar um método, mas não achei, 
+// tente encontrar você mesmo xD
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
