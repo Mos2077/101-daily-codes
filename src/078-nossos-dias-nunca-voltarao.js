@@ -30,18 +30,43 @@
 // que é excessão deste exercício, na verdade, nem faz parte do exercício, mas achei interessante colocar, 
 // já que mostra uma manipulação no DOM bem bacana e cita coisas como Prototypes e Instanceof de um valor
 
-// Bom, como o exercício diz, precisamos sair catando letras sublinhadas pelo enunciado
+// Bom, como o exercício diz, precisamos sair catando letras sublinhadas pelo enunciado do exercício
 // Tentei por 5s mas sempre me perdia, então pensei
-// Vou pegar as tags <u> do DOM e juntar as letras ao invés de ficar tentando juntá-las no olho nu akeoakeoek
+// Vou pegar as tags <u> do DOM e juntar as letras ao invés de ficar tentando juntá-las ao olho nu akeoakeoek
+
+// Então o que fiz foi:
+// Abri o DevTools na página do exercício, e coloquei o seguinte comando:
+// document.querySelectorAll(".description u
+// Esse comando, que nada mais é que Javascript, retornava uma NodeList com todas as tags <u> do enunciado do exercício
+// Ou seja, já estava no primeiro passo: já estava com todas as tags que estão com as letras
+
+// Beleza, mas o objetivo é pegar todas as letras, ou seja, uma string
+// Mas como a NodeList NÃO é um Array, como explica aqui no site da MDN https://developer.mozilla.org/en-US/docs/Web/API/NodeList
+// Então não é possível utilizar NodeList.forEach, nem NodeList.map, etc, nenhum dos métodos de array que conhecemos
+
+// Portanto, preciso transformar essa NodeList em um Array, o que dá pra ser feito com:
+// Array.from(document.querySelectorAll(".description u"));
+// Então o a NodeList das tags <u> é transformada em um Array mesmo
+
+// Agora o que falta é simplesmente percorrer cada tag e pegar o textContent
+// e criar um novo array com cada letra da frase escondida no enredo
+// Então pego o Array retornado pelo Array.from(NodeList Aqui);
+// E complemento: Array.from(document.querySelectorAll(".description u")).map(el => el.textContent)
+
+// Pronto, já há um Array com cada letra da frase, agora só transformar em String:
+// Logo, complemento com a função join("") que junta todos os elementos em uma string
+// Array.from(document.querySelectorAll(".description u")).map(el => el.textContent).join("");
+
+// Agora só falta deixar tudo maiúsculo, então usamos o .toUpperCase():
 Array.from(document.querySelectorAll(".description u")).map(el => el.textContent).join("").toUpperCase();
 
+// Pra testar, é só abrir o DevTools (CTRL + SHIFT + I, no Window + Chrome) e colocar o código acima e executar
+// O código vai pegar todas os elementos <u> que são elementos sublinhados, pegar o textContent e transformar em uma string
+// E essa String, usamos no exercício de verdade, como podemos ver mais em baixo
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
-const input = require('fs').readFileSync('/dev/stdin', 'utf8');
-const lines = input.split('\n');
-
-const n = Number(lines.shift());
+const n = 7;
 
 const phrase = "LIFE IS NOT A PROBLEM TO BE SOLVED";
 
