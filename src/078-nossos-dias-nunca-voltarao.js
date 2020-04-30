@@ -28,7 +28,7 @@
 
 // Esse exercício tem este tópico a mais, 
 // que é excessão deste exercício, na verdade, nem faz parte do exercício, mas achei interessante colocar, 
-// já que mostra uma manipulação no DOM bem legal e dita coisas como Prototypes e Instanceof de um valor
+// já que mostra uma manipulação no DOM bem bacana e cita coisas como Prototypes e Instanceof de um valor
 Array.from(document.querySelectorAll(".description u")).map(el => el.textContent).join("").toUpperCase();
 
 
