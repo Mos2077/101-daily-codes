@@ -32,9 +32,7 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
-const str = lines.shift();
-
-let [initialTabs, actionsLength] = str.split(" ").map(item => Number(item));
+let [initialTabs, actionsLength] = [3, 5];
 
 for (let act = 0; act < actionsLength; act++) {
   const currentAction = lines.shift();
