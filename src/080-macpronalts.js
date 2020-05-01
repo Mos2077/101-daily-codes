@@ -18,11 +18,11 @@
 
 // Obs.: não poderão ser informados números de produtos repetidos.
 
-Saída
-Você deve imprimir o valor da compra com duas casas decimais.
+// Saída
+// Você deve imprimir o valor da compra com duas casas decimais.
 
-const input = require('fs').readFileSync('/dev/stdin', 'utf8');
-const lines = input.split("\n");
+// const input = require('fs').readFileSync('/dev/stdin', 'utf8');
+// const lines = input.split("\n");
 
 const qtd = Number(lines.shift());
 
