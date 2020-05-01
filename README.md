@@ -568,5 +568,12 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
          <td>1</td>
          <td>1864</td>
       </tr>
+      <tr>
+         <td>079</td>
+         <td>As Abas de Péricles</td>
+         <td><a href="https://github.com/LaksCastro/101-daily-codes/blob/master/src/079-as-abas-de-pericles.js" target="_blank" rel="noopener noreferrer external">Disponível aqui</a></td>
+         <td>3</td>
+         <td>2061</td>
+      </tr>
    </tbody>
 </table>
