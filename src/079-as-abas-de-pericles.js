@@ -1,4 +1,4 @@
-EXERCÍCIO
+// EXERCÍCIO
 
 // URL: http://urionlinejudge.com.br/judge/pt/problems/view/2061
 
