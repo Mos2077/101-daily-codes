@@ -32,10 +32,16 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
+// Variáveis de entradas: [Variável que armazena a quantidade de abas iniciais, Variável que armazena a quantidade de ações]
+
+const actions = ["fechou", "fechou", "clicou", "clicou", "clicou"];
+
 let [initialTabs, actionsLength] = [3, 5];
 
+// Fazemos um for para percorrer cada ação
 for (let act = 0; act < actionsLength; act++) {
-  const currentAction = lines.shift();
+  // Pegamos a ação atual do Array de ações
+  const currentAction = actions[i];
 
   if (currentAction === "fechou") initialTabs++;
   else initialTabs--;
