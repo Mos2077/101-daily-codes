@@ -32,6 +32,7 @@ const lines = ["2", "1001 2", "1005 3"];
 // O shift() retorna o valor 2 e deixa o array lines com o valor ["1001 2", "1005 3"]
 const qtd = Number(lines.shift());
 
+// Armazena o total da conta do cliente
 let total = 0;
 
 const menu = {
