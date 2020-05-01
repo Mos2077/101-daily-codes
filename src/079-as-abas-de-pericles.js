@@ -32,9 +32,6 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
-const input = require('fs').readFileSync('/dev/stdin', 'utf8');
-const lines = input.split('\n');
-
 const str = lines.shift();
 
 let [initialTabs, actionsLength] = str.split(" ").map(item => Number(item));
