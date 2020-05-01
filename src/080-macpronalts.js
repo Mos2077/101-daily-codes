@@ -12,10 +12,11 @@
 // 1004 | R$ 4.50
 // 1005 | R$ 5.50
 
-Entrada
-A primeira entrada informada é a quantidade de produtos comprados (1 <= p <= 5). Para cada produto segue a quantidade (1 <= q <= 500) que o consumidor comprou.
+// Entrada
+// A primeira entrada informada é a quantidade de produtos comprados (1 <= p <= 5). 
+// Para cada produto segue a quantidade (1 <= q <= 500) que o consumidor comprou.
 
-Obs.: não poderão ser informados números de produtos repetidos.
+// Obs.: não poderão ser informados números de produtos repetidos.
 
 Saída
 Você deve imprimir o valor da compra com duas casas decimais.
