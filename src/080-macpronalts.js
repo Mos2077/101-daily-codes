@@ -1,3 +1,5 @@
+// EXERCÍCIO
+
 // https://www.urionlinejudge.com.br/judge/pt/problems/view/1985
 
 // O MacPRONALTS está com uma super promoção, exclusivo para os competidores da primeira Seletiva do MaratonaTEC.
