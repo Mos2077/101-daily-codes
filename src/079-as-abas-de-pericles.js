@@ -14,6 +14,8 @@ A entrada é iniciada por uma linha contendo dois números inteiros positivos, N
 Saída
 A saída deve ser uma linha contendo o número final de abas.
 
+CÓDIGO
+
 const input = require('fs').readFileSync('/dev/stdin', 'utf8');
 const lines = input.split('\n');
 
