@@ -35,6 +35,7 @@ const qtd = Number(lines.shift());
 // Armazena o total da conta do cliente
 let total = 0;
 
+// O cardápio, onde a chave do objeto é um código, e seu valor é o preço
 const menu = {
   "1001": 1.5,
   "1002": 2.5,
