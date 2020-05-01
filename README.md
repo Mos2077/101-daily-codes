@@ -575,5 +575,12 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
          <td>3</td>
          <td>2061</td>
       </tr>
+      <tr>
+         <td>080</td>
+         <td>MacPRONALTS</td>
+         <td><a href="https://github.com/LaksCastro/101-daily-codes/blob/master/src/080-macpronalts.js" target="_blank" rel="noopener noreferrer external">Disponível aqui</a></td>
+         <td>10</td>
+         <td>1985</td>
+      </tr>
    </tbody>
 </table>
