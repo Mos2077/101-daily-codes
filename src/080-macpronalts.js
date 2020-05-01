@@ -21,8 +21,7 @@
 // Saída
 // Você deve imprimir o valor da compra com duas casas decimais.
 
-// const input = require('fs').readFileSync('/dev/stdin', 'utf8');
-// const lines = input.split("\n");
+// CÓDIGO
 
 const qtd = Number(lines.shift());
 
