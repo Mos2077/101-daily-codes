@@ -1,6 +1,11 @@
 // EXERCÍCIO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
 // URL: http://urionlinejudge.com.br/judge/pt/problems/view/2061
+// RESUMO: Ler dois números X e Y, depois ler um Array[Y] (de tamanho Y), e percorrer cada elemento do Array e fazer o seguinte:
+// Armazenar a quantidade de vezes que a palavra "clicou" aparece no Array - (Variável A)
+// Armazenar a quantidade de vezes que a palavra "fechou" aparece no Array - (Variável B)
+//
+
 
 // Péricles é um rapaz que tem um interesse único por história.
 // Utilizando seu atualizadíssimo navegador de internet rapoza cromada, 
