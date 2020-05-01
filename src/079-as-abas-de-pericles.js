@@ -1,3 +1,5 @@
+EXERCÍCIO
+
 // URL: http://urionlinejudge.com.br/judge/pt/problems/view/2061
 
 Péricles é um rapaz que tem um interesse único por história. Utilizando seu atualizadíssimo navegador de internet rapoza cromada, conheceu até os sitios mais remotos e obscuros atrás de informações sobre a mitologia grega.
