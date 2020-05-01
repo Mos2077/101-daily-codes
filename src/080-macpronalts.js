@@ -48,7 +48,11 @@ const menu = {
 for (let i = 0; i < qtd; i++) {
   // Pegamos outro valor do array
   const item = lines.shift();
+  
+  // Extraímos o dessa entrada, o código do produto e a quantidade
   const [cod, itemQtd] = item.split(" ").map(a => Number(a));
+  
+  // E então, adicionamos ao total o preço do produto com aquele código (menu[codigo]) vezes a quantidade (itemQtd)
   total += menu[cod] * itemQtd;
 }
 
