@@ -9,10 +9,8 @@
 // 1001 | R$ 1.50
 // 1002 | R$ 2.50
 // 1003 | R$ 3.50
-
-1004 | R$ 4.50
-
-1005 | R$ 5.50
+// 1004 | R$ 4.50
+// 1005 | R$ 5.50
 
 Entrada
 A primeira entrada informada é a quantidade de produtos comprados (1 <= p <= 5). Para cada produto segue a quantidade (1 <= q <= 500) que o consumidor comprou.
