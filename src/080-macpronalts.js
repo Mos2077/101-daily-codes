@@ -44,6 +44,7 @@ const menu = {
   "1005": 5.5
 };
 
+// Criamos um for para percorrer cada item do array de entradas
 for (let i = 0; i < qtd; i++) {
   const item = lines.shift();
   const [cod, itemQtd] = item.split(" ").map(a => Number(a));
