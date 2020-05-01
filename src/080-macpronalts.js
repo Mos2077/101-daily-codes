@@ -24,6 +24,9 @@
 
 // CÓDIGO
 
+// Todas as entradas do usuário:
+const lines = ["2", "1001 2", "1005 3"];
+
 const qtd = Number(lines.shift());
 
 let total = 0;
