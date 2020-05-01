@@ -56,4 +56,5 @@ for (let i = 0; i < qtd; i++) {
   total += menu[cod] * itemQtd;
 }
 
+// E então mostramos no console o valor total da compra
 console.log(total.toFixed(2));
