@@ -46,6 +46,7 @@ const menu = {
 
 // Criamos um for para percorrer cada item do array de entradas
 for (let i = 0; i < qtd; i++) {
+  // Pegamos outro valor do array
   const item = lines.shift();
   const [cod, itemQtd] = item.split(" ").map(a => Number(a));
   total += menu[cod] * itemQtd;
