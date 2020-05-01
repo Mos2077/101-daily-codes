@@ -41,15 +41,15 @@ let [initialTabs, actionsLength] = [3, 5];
 // Fazemos um for para percorrer cada ação
 for (let act = 0; act < actionsLength; act++) {
   // Pegamos a ação atual do Array de ações
-  const currentAction = actions[i];
-  
+  const currentAction = actions[act];
+
   // Verificamos, se for igual a "fechou", aumentamos em 1 as abas:
-  // Por que quando ele tenta fechar 1 aba, o navegador abre +2
+  // Por que quando ele tenta fechar 1 aba, o navegador abre 2
   if (currentAction === "fechou") initialTabs++;
-  
   // Agora se ele clicou no anúncio, diminuimos uma aba
   else initialTabs--;
 }
 
 // No final, imprimimos as abas restantes
 console.log(initialTabs);
+
