@@ -53,3 +53,7 @@ for (let act = 0; act < actionsLength; act++) {
 // No final, imprimimos as abas restantes
 console.log(initialTabs);
 
+
+// Saída esperada para [3, 5] como entrada e ["fechou", "fechou", "clicou", "clicou", "clicou"] como ações de Péricles:
+// '2'
+
