@@ -58,3 +58,7 @@ for (let i = 0; i < qtd; i++) {
 
 // E então mostramos no console o valor total da compra
 console.log(total.toFixed(2));
+
+
+// Saída esperada para o Array de entradas ["2", "1001 2", "1005 3"]: 
+// '19.50'
