@@ -14,13 +14,23 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
-const input = require('fs').readFileSync('/dev/stdin', 'utf8');
-const lines = input.split('\n');
+// Gera um número aleatório entre MAX e MIN
+const random = (min, max) => Math.floor(Math.random() * (max - min + 1));
 
+// Cria um Array de tamanho 100 (Array.from({ length: 100 }))
+// E então preenche esse Array com 100 número aleatórios entre 0 e 100 (map(() => random(0, 100))
+const lines = Array.from({ length: 100 }).map(() => random(0, 100));
+
+// E então percorremos cada posição desse Array de 100 posições (tamanho 100)
 for (let i = 0; i < 100; i++) {
+  // E pegamos o atual
   const current = Number(lines[i]);
-
+  
+  // Caso esse número for maior que 10, então não devemos mostrar ele em tela
+  // Portanto, encerramos esse laço aqui e mandamos continuar a repetição sem executar o código abaixo daqui
   if (current > 10) continue;
 
+  // Se chegou aqui, então o número é menor ou igual a 10,
+  // Logo, mostramos ele no console + seu index e com uma casa decimal
   console.log(`A[${i}] = ${current.toFixed(1)}`);
 }
