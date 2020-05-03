@@ -582,5 +582,12 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
          <td>10</td>
          <td>1985</td>
       </tr>
+      <tr>
+         <td>081</td>
+         <td>Seleçao em Vetor I</td>
+         <td><a href="https://github.com/LaksCastro/101-daily-codes/blob/master/src/081-selecao-em-vetor-i.js" target="_blank" rel="noopener noreferrer external">Disponível aqui</a></td>
+         <td>5</td>
+         <td>1174</td>
+      </tr>
    </tbody>
 </table>
