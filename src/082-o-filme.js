@@ -69,5 +69,6 @@ const dif = percentage - 100;
 // E então mostramos no console essa diferença com 2 casas decimais
 console.log(`${dif.toFixed(2)}%`);
 
+
 // Saída esperada para o valor R$20,00 como antigo valor e o valor R$30,00 como novovalor
 // '50.00%'
