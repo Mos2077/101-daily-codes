@@ -589,5 +589,12 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
          <td>5</td>
          <td>1174</td>
       </tr>
+      <tr>
+         <td>082</td>
+         <td>O Filme</td>
+         <td><a href="https://github.com/LaksCastro/101-daily-codes/blob/master/src/082-o-filme.js" target="_blank" rel="noopener noreferrer external">Disponível aqui</a></td>
+         <td>2</td>
+         <td>1963</td>
+      </tr>
    </tbody>
 </table>
