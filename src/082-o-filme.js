@@ -14,7 +14,11 @@
 // Ela está fascinada com tudo o que diz respeito à Universidade: com as aulas, com a biblioteca,
 // com os projetos de pesquisa e extensão, com o restaurante universitário,
 // mas especialmente com a carteirinha de estudante que ela pode utilizar para pagar meia entrada no cinema. 
-// Semana passada, Vovó Zazá e seus colegas de turma foram ao cinema assistir a um filme, mas ficaram estarrecidos com o aumento do preço do ingresso. Revoltados, eles decidiram fazer uma manifestação contra o sistema capitalista opressor, agendada para amanhã na Praça General Bertaso. Vovó Zazá quer colaborar com o movimento fazendo um cartaz com a seguinte palavra de ordem:
+// Semana passada, Vovó Zazá e seus colegas de turma foram ao cinema assistir a um filme, 
+// mas ficaram estarrecidos com o aumento do preço do ingresso.
+// Revoltados, eles decidiram fazer uma manifestação contra o sistema capitalista opressor, 
+// agendada para amanhã na Praça General Bertaso. Vovó Zazá quer colaborar com o movimento fazendo um cartaz
+// com a seguinte palavra de ordem:
 
 // QUE ABSURDO! O PREÇO DO CINEMA SUBIU … % !!
 
