@@ -1,3 +1,5 @@
+// EXERCÍCIO
+
 // URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/1120
 
 Durante anos, todos os contratos da Associação de Contratos da Modernolândia (ACM) foram datilografados em uma velha máquina de datilografia.
