@@ -9,10 +9,10 @@ Recentemente Sr. Miranda, um dos contadores da ACM, percebeu que a máquina apre
 Entrada
 A entrada consiste de diversos casos de teste, cada um em uma linha. Cada linha contém dois inteiros D e N (1 ≤ D ≤ 9, 1 ≤ N < 10100 ), representando, respectivamente, o dígito que está apresentando problema na máquina e o número que foi negociado originalmente no contrato (que podem ser grande, pois Modernolândia tem sido acometida por hiperinflação nas últimas décadas).
 
-O ultimo caso de teste é seguido por uma linha que contém apenas dois zeros separados por espaços em branco.
+// O ultimo caso de teste é seguido por uma linha que contém apenas dois zeros separados por espaços em branco.
 
-Saída
-Para cada caso de teste da entrada o seu programa deve imprimir uma linha contendo um único inteiro V, o valor numérico representado de fato no contrato.
+// Saída
+// Para cada caso de teste da entrada o seu programa deve imprimir uma linha contendo um único inteiro V, o valor numérico representado de fato no contrato.
 
 // Ponto de entrada, o primeiro elemento representa a tecla falha, ou seja,
 // a tecla que não estava funcionando na hora de digitar o valor do contrato
