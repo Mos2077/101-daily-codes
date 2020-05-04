@@ -596,5 +596,12 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
          <td>2</td>
          <td>1963</td>
       </tr>
+      <tr>
+         <td>083</td>
+         <td>Revisão de Contrato</td>
+         <td><a href="https://github.com/LaksCastro/101-daily-codes/blob/master/src/083-revisao-de-contrato.js" target="_blank" rel="noopener noreferrer external">Disponível aqui</a></td>
+         <td>40</td>
+         <td>1120</td>
+      </tr>
    </tbody>
 </table>
