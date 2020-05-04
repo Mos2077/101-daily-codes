@@ -33,3 +33,5 @@ let realValue = originalValue.replace(regex, "").replace(/^0*/g, "") || "0";
 // E em seguida imprimimos no console o valor real que foi impresso na folha do contrato
 console.log(realValue);
 
+// Saída esperada para '2' como tecla falha e '200000000' como o valor esperado
+// '0'
