@@ -31,7 +31,9 @@
 // representam respectivamente o valor antigo e o valor novo do ingresso do cinema.
 
 // Saída
-// A única linha da saída deve consistir unicamente de um valor, que represente como uma porcentagem o aumento do valor do ingresso. O valor deve ser acompanhado do símbolo % e conter exatos dois dígitos após o ponto separador decimal.
+// A única linha da saída deve consistir unicamente de um valor, 
+// que represente como uma porcentagem o aumento do valor do ingresso. 
+// O valor deve ser acompanhado do símbolo % e conter exatos dois dígitos após o ponto separador decimal.
 
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
