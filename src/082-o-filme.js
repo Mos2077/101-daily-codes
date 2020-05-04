@@ -1,4 +1,4 @@
-https://www.urionlinejudge.com.br/judge/pt/problems/view/1963
+// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/1963
 
 // Bem-vindo à 3° Maratona de Programação Júnior da UFFS. 
 // Esperamos sinceramente que as próximas horas sejam muito produtivas para você, que você faça muitos balões e que, acima de tudo,
