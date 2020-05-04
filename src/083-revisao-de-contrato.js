@@ -14,6 +14,8 @@ A entrada consiste de diversos casos de teste, cada um em uma linha. Cada linha 
 // Saída
 // Para cada caso de teste da entrada o seu programa deve imprimir uma linha contendo um único inteiro V, o valor numérico representado de fato no contrato.
 
+// CÓDIGO
+
 // Ponto de entrada, o primeiro elemento representa a tecla falha, ou seja,
 // a tecla que não estava funcionando na hora de digitar o valor do contrato
 // O segundo elemento é o valor que era pra ser digitado
