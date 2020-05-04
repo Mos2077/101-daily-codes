@@ -29,6 +29,7 @@
 // Para cada caso de teste da entrada o seu programa deve imprimir uma linha contendo um único inteiro V, 
 // o valor numérico representado de fato no contrato.
 
+
 // CÓDIGO
 
 // Ponto de entrada, o primeiro elemento representa a tecla falha, ou seja,
