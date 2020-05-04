@@ -12,10 +12,13 @@ https://www.urionlinejudge.com.br/judge/pt/problems/view/1963
 
 // QUE ABSURDO! O PREÇO DO CINEMA SUBIU … % !!
 
-// Mas ela não é muito boa em Matemática, e está solicitando sua ajuda para calcular a porcentagem de que precisa para completar o cartaz.
+// Mas ela não é muito boa em Matemática, 
+// e está solicitando sua ajuda para calcular a porcentagem de que precisa para completar o cartaz.
 
 // Entrada
-// A única linha da entrada consiste de dois valores A e B (0.00 < A ≤ B ≤ 1000.00), os quais, fornecidos com exatos dois dígitos após o ponto separador decimal, representam respectivamente o valor antigo e o valor novo do ingresso do cinema.
+// A única linha da entrada consiste de dois valores A e B (0.00 < A ≤ B ≤ 1000.00),
+// os quais, fornecidos com exatos dois dígitos após o ponto separador decimal, 
+// representam respectivamente o valor antigo e o valor novo do ingresso do cinema.
 
 // Saída
 // A única linha da saída deve consistir unicamente de um valor, que represente como uma porcentagem o aumento do valor do ingresso. O valor deve ser acompanhado do símbolo % e conter exatos dois dígitos após o ponto separador decimal.
