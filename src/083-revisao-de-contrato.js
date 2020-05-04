@@ -17,7 +17,6 @@ Para cada caso de teste da entrada o seu programa deve imprimir uma linha conten
 
 let getout = false;
 
-while (!getout) {
   const str = lines.shift();
 
   const [failKey, originalValue] = str.split(" ");
@@ -35,4 +34,3 @@ while (!getout) {
       .replace(/^0*/g, "") || "0";
 
   console.log(realValue);
-}
