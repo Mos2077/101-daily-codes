@@ -13,3 +13,16 @@ A única linha da entrada consiste de dois valores A e B (0.00 < A ≤ B ≤ 100
 
 Saída
 A única linha da saída deve consistir unicamente de um valor, que represente como uma porcentagem o aumento do valor do ingresso. O valor deve ser acompanhado do símbolo % e conter exatos dois dígitos após o ponto separador decimal.
+
+const input = require('fs').readFileSync('/dev/stdin', 'utf8');
+const lines = input.split('\n');
+
+const str = lines.shift();
+
+const [oldValue, newValue] = str.split(" ").map(value => Number(value));
+
+const percentage = (newValue * 100) / oldValue;
+
+const dif = percentage - 100;
+
+console.log(`${dif.toFixed(2)}%`);
