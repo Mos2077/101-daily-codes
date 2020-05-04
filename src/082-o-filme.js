@@ -43,14 +43,28 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
+// Variável com todas as entradas do usuário
 const lines = ["20.00 30.00"];
 
+// Pegamos o primeiro valor, e único, das entradas do usuário
 const str = lines.shift();
 
+// Dividimos essa string em 2 valores, o antigo valor (o primeiro, oldValue)
+// E em novo valor (o segundo, newValue)
+// O split() separa a string em um array com cada valor
+// O map converte cada um desses valores em números para um Integer, Inteiro, Número
 const [oldValue, newValue] = str.split(" ").map(value => Number(value));
 
+// Pra achar essa porcentagem, é só usar a regra de três proporcional que vimos séculos no passado na escola
+// Se antigo valor é igual a 100%, então o novo valor é igual a X%, que vai dar:
+// oldValue ====> 100%
+// newValue ====> X%
+// oldValue * X = newValue * 100
+// X = (newValue * 100) / oldValue -> Isso é o que está escrito abaixo em forma de código
 const percentage = (newValue * 100) / oldValue;
 
+// Calculamos a diferença, que é a nova porcentagem - 100 (que é a antiga)
 const dif = percentage - 100;
 
+// E então mostramos no console essa diferença com 2 casas decimais
 console.log(`${dif.toFixed(2)}%`);
