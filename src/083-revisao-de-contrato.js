@@ -1,4 +1,4 @@
-// EXERCÍCIO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+// EXERCÍCIO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
 // URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/1120
 
@@ -30,7 +30,7 @@
 // o valor numérico representado de fato no contrato.
 
 
-// CÓDIGO
+// CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
 // Ponto de entrada, o primeiro elemento representa a tecla falha, ou seja,
 // a tecla que não estava funcionando na hora de digitar o valor do contrato
