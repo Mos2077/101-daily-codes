@@ -14,8 +14,6 @@ O ultimo caso de teste é seguido por uma linha que contém apenas dois zeros se
 Saída
 Para cada caso de teste da entrada o seu programa deve imprimir uma linha contendo um único inteiro V, o valor numérico representado de fato no contrato.
 
-const input = require('fs').readFileSync('/dev/stdin', 'utf8');
-const lines = input.split('\n');
 
 let getout = false;
 
