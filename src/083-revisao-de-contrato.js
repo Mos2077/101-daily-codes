@@ -14,23 +14,22 @@ O ultimo caso de teste é seguido por uma linha que contém apenas dois zeros se
 Saída
 Para cada caso de teste da entrada o seu programa deve imprimir uma linha contendo um único inteiro V, o valor numérico representado de fato no contrato.
 
+// Ponto de entrada, o primeiro elemento representa a tecla falha, ou seja,
+// a tecla que não estava funcionando na hora de digitar o valor do contrato
+// O segundo elemento é o valor que era pra ser digitado
+const [failKey, originalValue] = ["2", "200000000"];
 
-let getout = false;
+// Vamos criar uma regex para encontrar todas as ocorrencias dessa tecla em uma string
+const regex = new RegExp(failKey, "g");
 
-  const str = lines.shift();
+// Usamos essa regex para substituir os caracteres do valor esperado por ''
+// Ou seja, se o valor esperado fosse '3900' e a tecla falha fosse '3', então, ficaríamos com a string '900'
+// E logo depois, com outro replace, para remover vários '0' seguidos no início do valor real,
+// Por exemplo: a string fosse '4000' e a tecla falha fosse '4', então sobraria '000' do primeiro replace
+// Por isso fazemos esse segundo replace: pra remover todos esses '0', então ficaria ''
+// E como '' tem valor de false, usamos o operador || para pegar a string '0' com um zero dentro
+let realValue = originalValue.replace(regex, "").replace(/^0*/g, "") || "0";
 
-  const [failKey, originalValue] = str.split(" ");
+// E em seguida imprimimos no console o valor real que foi impresso na folha do contrato
+console.log(realValue);
 
-  if (failKey === "0" && originalValue === "0") {
-    getout = true;
-    continue;
-  }
-
-  const regex = new RegExp(failKey, "g");
-
-  let realValue =
-    originalValue
-      .replace(regex, "")
-      .replace(/^0*/g, "") || "0";
-
-  console.log(realValue);
