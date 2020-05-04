@@ -70,5 +70,5 @@ const dif = percentage - 100;
 console.log(`${dif.toFixed(2)}%`);
 
 
-// Saída esperada para o valor R$20,00 como antigo valor e o valor R$30,00 como novovalor
+// Saída esperada para o valor R$20,00 como antigo valor e o valor R$30,00 como novo valor
 // '50.00%'
