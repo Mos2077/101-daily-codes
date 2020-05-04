@@ -10,3 +10,27 @@ O ultimo caso de teste é seguido por uma linha que contém apenas dois zeros se
 Saída
 Para cada caso de teste da entrada o seu programa deve imprimir uma linha contendo um único inteiro V, o valor numérico representado de fato no contrato.
 
+const input = require('fs').readFileSync('/dev/stdin', 'utf8');
+const lines = input.split('\n');
+
+let getout = false;
+
+while (!getout) {
+  const str = lines.shift();
+
+  const [failKey, originalValue] = str.split(" ");
+
+  if (failKey === "0" && originalValue === "0") {
+    getout = true;
+    continue;
+  }
+
+  const regex = new RegExp(failKey, "g");
+
+  let realValue =
+    originalValue
+      .replace(regex, "")
+      .replace(/^0*/g, "") || "0";
+
+  console.log(realValue);
+}
