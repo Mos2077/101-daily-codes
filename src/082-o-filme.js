@@ -1,6 +1,7 @@
 // EXERCÍCIO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
 // URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/1963
+
 // RESUMO: Receber 2 valores e calcular o quanto aumentou entre entre o valor 1 e 2 em porcentagem
 // Por exemplo: Valor 1: 100, valor 2: 200, portanto, 
 // aumentou 100%, já que o valor 1 corresponde à 100% e o valor 2, que é 200 corresponde a 200%, 
