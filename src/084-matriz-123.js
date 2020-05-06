@@ -1,3 +1,5 @@
+https://www.urionlinejudge.com.br/judge/pt/problems/view/1534
+
 Leia um valor inteiro N que é o tamanho da matriz que deve ser impressa conforme o modelo fornecido.
 
 Entrada
