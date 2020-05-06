@@ -6,7 +6,7 @@ https://www.urionlinejudge.com.br/judge/pt/problems/view/1534
 // A entrada contém vários casos de teste e termina com EOF. Cada caso de teste é composto por um único inteiro N (3 ≤ N < 70), que determina o tamanho (linhas e colunas) de uma matriz que deve ser impressa.
 
 // Saída
-Para cada N lido, apresente a saída conforme o exemplo fornecido.
+// Para cada N lido, apresente a saída conforme o exemplo fornecido.
 
 
 const input = require('fs').readFileSync('/dev/stdin', 'utf8');
