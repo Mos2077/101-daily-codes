@@ -603,5 +603,12 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
          <td>40</td>
          <td>1120</td>
       </tr>
+      <tr>
+         <td>084</td>
+         <td>Matriz 123</td>
+         <td><a href="https://github.com/LaksCastro/101-daily-codes/blob/master/src/084-matriz-123.js" target="_blank" rel="noopener noreferrer external">Disponível aqui</a></td>
+         <td>2</td>
+         <td>1534</td>
+      </tr>
    </tbody>
 </table>
