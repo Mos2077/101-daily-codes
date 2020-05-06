@@ -1,3 +1,5 @@
+// ATIVIDADE <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
 // URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/1534
 
 // Leia um valor inteiro N que é o tamanho da matriz que deve ser impressa conforme o modelo fornecido.
@@ -9,7 +11,7 @@
 // Para cada N lido, apresente a saída conforme o exemplo fornecido.
 
 
-// CÓDIGO
+// CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
 const input = require('fs').readFileSync('/dev/stdin', 'utf8');
 const lines = input.split('\n');
