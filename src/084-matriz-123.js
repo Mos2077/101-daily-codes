@@ -9,6 +9,8 @@
 // Para cada N lido, apresente a saída conforme o exemplo fornecido.
 
 
+// CÓDIGO
+
 const input = require('fs').readFileSync('/dev/stdin', 'utf8');
 const lines = input.split('\n');
 
