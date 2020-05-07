@@ -17,3 +17,7 @@ const decimal = Number(lines.shift());
 const hex = decimal.toString(16);
 
 console.log(hex.toUpperCase());
+
+
+// Saída esperada para a conversão do número 10 em decimal para hexadecimal:
+// 'A'
