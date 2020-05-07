@@ -21,6 +21,7 @@
 // É o ponto de entrada do usuário
 const lines = ["10"];
 
+// Convertemos a entrada para um número, e esse número está em decimal
 const decimal = Number(lines.shift());
 
 const hex = decimal.toString(16);
