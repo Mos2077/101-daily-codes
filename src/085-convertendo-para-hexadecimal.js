@@ -7,3 +7,12 @@ A entrada é um número inteiro positivo V na base 10 (1 ≤ V ≤ 2 x 109).
 
 Saída
 A saída é o mesmo número V na base 16 em uma única linha (não esqueça do caractere de fim-de-linha). Use letras maiúsculas, conforme os exemplos.
+
+const input = require('fs').readFileSync('/dev/stdin', 'utf8');
+const lines = input.split('\n');
+
+const decimal = Number(lines.shift());
+
+const hex = decimal.toString(16);
+
+console.log(hex.toUpperCase());
