@@ -8,10 +8,6 @@
 // Saída
 // Para cada caso de teste da entrada, imprima a mensagem "Fib(N) = X", onde X é o N-ésimo termo da série de Fibonacci.
 
-const input = require('fs').readFileSync('/dev/stdin', 'utf8');
-const lines = input.split('\n');
-
-const cases = Number(lines.shift());
 
 const fib = n => {
   if (n === 0) return [0];
@@ -23,7 +19,8 @@ const fib = n => {
   return s;
 };
 
-for (let cas = 0; cas < cases; cas++) {
+const n = 4;
+
   const n = Number(lines[cas]);
 
   const sequence = fib(n);
@@ -31,4 +28,3 @@ for (let cas = 0; cas < cases; cas++) {
   const lastValue = sequence[sequence.length - 1];
 
   console.log(`Fib(${n}) = ${lastValue}`);
-}
