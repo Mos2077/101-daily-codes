@@ -1,3 +1,5 @@
+// EXERCÍCIO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
 // URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/1957
 
 // Os dados armazenados no computador estão em binário. 
@@ -12,6 +14,9 @@
 // Saída
 // A saída é o mesmo número V na base 16 em uma única linha (não esqueça do caractere de fim-de-linha).
 // Use letras maiúsculas, conforme os exemplos.
+
+
+// CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
 const lines = ["10"];
 
