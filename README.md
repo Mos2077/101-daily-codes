@@ -617,5 +617,12 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
          <td>1</td>
          <td>1957</td>
       </tr>
+      <tr>
+         <td>086</td>
+         <td>Fibonacci em Vetor</td>
+         <td><a href="https://github.com/LaksCastro/101-daily-codes/blob/master/src/086-fibonacci-em-vetor.js" target="_blank" rel="noopener noreferrer external">Disponível aqui</a></td>
+         <td>30</td>
+         <td>1176</td>
+      </tr>
    </tbody>
 </table>
