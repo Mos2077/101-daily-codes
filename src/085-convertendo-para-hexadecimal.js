@@ -24,6 +24,7 @@ const lines = ["10"];
 // Convertemos a entrada para um número, e esse número está em decimal
 const decimal = Number(lines.shift());
 
+// Convertemos para hexadecimal usando .toString(16)
 const hex = decimal.toString(16);
 
 console.log(hex.toUpperCase());
