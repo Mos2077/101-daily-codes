@@ -10,8 +10,7 @@
 // Saída
 // A saída é o mesmo número V na base 16 em uma única linha (não esqueça do caractere de fim-de-linha). Use letras maiúsculas, conforme os exemplos.
 
-const input = require('fs').readFileSync('/dev/stdin', 'utf8');
-const lines = input.split('\n');
+const lines = ["10"];
 
 const decimal = Number(lines.shift());
 
