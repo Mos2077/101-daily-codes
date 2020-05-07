@@ -610,5 +610,12 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
          <td>2</td>
          <td>1534</td>
       </tr>
+      <tr>
+         <td>085</td>
+         <td>Converter para Hexadecimal</td>
+         <td><a href="https://github.com/LaksCastro/101-daily-codes/blob/master/src/085-converter-para-hexadecimal.js" target="_blank" rel="noopener noreferrer external">Disponível aqui</a></td>
+         <td>1</td>
+         <td>1957</td>
+      </tr>
    </tbody>
 </table>
