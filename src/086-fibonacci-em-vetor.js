@@ -27,7 +27,7 @@ const fib = n => {
   // Agora se não for nem 0 nem 1, chame essa mesma função, passando N - 1
   const s = fib(n - 1);
   
-  // E então adicione mais um termo que é a soma 2 últimos termos a
+  // E então adicione mais um termo que é a soma 2 últimos termos
   s.push(s[s.length - 1] + s[s.length - 2]);
   
   // E retorna essa subsequência
