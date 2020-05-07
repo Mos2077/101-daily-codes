@@ -27,6 +27,7 @@ const decimal = Number(lines.shift());
 // Convertemos para hexadecimal usando .toString(16)
 const hex = decimal.toString(16);
 
+// Mostramos no console o número hexadecimal em letras maiúsculas
 console.log(hex.toUpperCase());
 
 
