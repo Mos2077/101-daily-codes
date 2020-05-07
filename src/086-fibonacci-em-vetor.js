@@ -49,3 +49,6 @@ const lastValue = sequence[sequence.length - 1];
 // E mostramos no console "Fib(N) = X"
 console.log(`Fib(${n}) = ${lastValue}`);
 
+
+// Saída esperada para o index 4 da sequência de Fibonacci
+// 'Fib(4) = 3'
