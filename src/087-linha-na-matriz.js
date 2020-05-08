@@ -31,8 +31,10 @@ const arr = Array.from({ length: 144 }).map((_, i) => i + 1);
 // Primeiro ponto de entrada: linha a ser considerada da matriz
 const line = 3;
 
+// Segundo ponto de entrada: é a operação que vamos realizar com a soma dos termos da linha selecionada
 const op = "S";
 
+// Variável que vai armazenar a soma
 let sum = 0;
 
 // Criamos um for para percorrer cada item da matriz,
