@@ -1,3 +1,5 @@
+// EXERCÍCIO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
 // Entradas do usuário: [Linha a ser considerada, e operação a ser feita]
 const lines = ["3", "S"];
 
