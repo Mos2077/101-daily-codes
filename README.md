@@ -624,5 +624,12 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
          <td>30</td>
          <td>1176</td>
       </tr>
+      <tr>
+         <td>087</td>
+         <td>Linha na Matriz</td>
+         <td><a href="https://github.com/LaksCastro/101-daily-codes/blob/master/src/087-linha-na-matriz.js" target="_blank" rel="noopener noreferrer external">Disponível aqui</a></td>
+         <td>5</td>
+         <td>1181</td>
+      </tr>
    </tbody>
 </table>
