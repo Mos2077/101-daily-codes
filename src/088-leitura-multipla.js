@@ -4,8 +4,8 @@
 
 // RESUMO: Some a quantidade de vezes que a letra W aparece em uma string 
 // + a quantidade de vezes que a letra R aparece em uma string,
-// mas leve em conta que a letra R pode ser um grupo de letras R que contam apenas como uma,
-// Onde esse número é uma das entradas do programa
+// mas leve em conta que uma letra R pode ser considerada um grupo de letras R que contam apenas como uma,
+// onde o número da quantidade esse número é uma das entradas do programa
 
 // Em diversos sistemas de computação, vários processos podem ler de um mesmo recurso durante o mesmo ciclo de máquina, 
 // mas somente um processo pode escrever no recurso durante o ciclo de máquina. Leituras e gravações não podem se mistura0r
