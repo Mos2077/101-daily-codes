@@ -29,10 +29,7 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
-const input = require('fs').readFileSync('/dev/stdin', 'utf8');
-const lines = input.split('\n');
 
-while (true) {
   const str = lines.shift();
 
   if (!str) break;
@@ -48,4 +45,3 @@ while (true) {
   const w = writeMatches ? writeMatches.length : 0;
 
   console.log(r + w);
-}
