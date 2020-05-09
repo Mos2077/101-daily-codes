@@ -1,4 +1,11 @@
+// EXERCÍCIO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
 // URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/1262
+
+// RESUMO: Some a quantidade de vezes que a letra W aparece em uma string 
+// + a quantidade de vezes que a letra R aparece em uma string,
+// mas leve em conta que a letra R pode ser um grupo de letras R que contam apenas como uma,
+// Onde esse número é uma das entradas do programa
 
 // Em diversos sistemas de computação, vários processos podem ler de um mesmo recurso durante o mesmo ciclo de máquina, 
 // mas somente um processo pode escrever no recurso durante o ciclo de máquina. Leituras e gravações não podem se mistura0r
@@ -20,7 +27,7 @@
 // Para cada caso de teste determine e imprima o número mínimo de ciclos de máquina necessários para se processar o rastro informado. 
 // Vide exemplos abaixo.
 
-
+// CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 const input = require('fs').readFileSync('/dev/stdin', 'utf8');
 const lines = input.split('\n');
 
