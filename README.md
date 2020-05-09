@@ -631,5 +631,12 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
          <td>5</td>
          <td>1181</td>
       </tr>
+      <tr>
+         <td>088</td>
+         <td>Leitura Múltipla</td>
+         <td><a href="https://github.com/LaksCastro/101-daily-codes/blob/master/src/088-leitura-multipla.js" target="_blank" rel="noopener noreferrer external">Disponível aqui</a></td>
+         <td>20</td>
+         <td>1262</td>
+      </tr>
    </tbody>
 </table>
