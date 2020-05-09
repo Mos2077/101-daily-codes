@@ -1,3 +1,5 @@
+// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/1262
+
 // Em diversos sistemas de computação, vários processos podem ler de um mesmo recurso durante o mesmo ciclo de máquina, 
 // mas somente um processo pode escrever no recurso durante o ciclo de máquina. Leituras e gravações não podem se mistura0r
 // em um mesmo ciclo de máquina. Dado um histórico de leituras e gravações que ocorreram durante a execução de um determinado
