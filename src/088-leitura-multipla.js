@@ -27,21 +27,42 @@
 // Para cada caso de teste determine e imprima o número mínimo de ciclos de máquina necessários para se processar o rastro informado. 
 // Vide exemplos abaixo.
 
+
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
+// Nota: TUDO sobre Regex que eu fiz aqui eu não sei de cabeça, o que fiz foi ir até a documentação da MDN sobre Regex e pesquisar;
+// Você também pode: pesquise Expressões Regulares MDN no Google, ou vá em:
+// https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Regular_Expressions
 
-  const str = lines.shift();
+// String a ser analizada
+const str = "RWWRRR";
 
-  if (!str) break;
+// Melhor definição que consegui encontrar para essa variável é:
+// Um grupo de [process] letras R seguidas conta como uma
+const process = 3;
 
-  const process = lines.shift();
+// Criamos uma regex que pega um grupo de letras R
+// Definimos um valor mínimo do grupo, que é pelo menos uma
+// E o máximo desse grupo é o valor da variável process
+// Ou seja, essa regex vai pegar a letra "R" em "WWWR" e contar como uma
+// Mas também vai pegar "RRR" em "WWWRRR" e contar como apenas uma também
+const readRegex = new RegExp(`R{1,${process}}`, "g");
 
-  const readRegex = new RegExp(`R{1,${process}}`, "g");
+// O método match retorna um array com todas as substrings que foram pegas na string de entrada,
+// mas se não pegar nenhuma string, essa função retorna null
+const readMatches = str.match(readRegex);
 
-  const readMatches = str.match(readRegex);
-  const writeMatches = str.match(/W/g);
+// Essa também é outra forma de declarar uma regex: /REGEX_AQUI/g ao invés de usar o operador new na classe RegExp
+// E nessa regex fazemos algo simples: pegamos todas as letras W da string, se não houver, também vai retornar null
+const writeMatches = str.match(/W/g);
 
-  const r = readMatches ? readMatches.length : 0;
-  const w = writeMatches ? writeMatches.length : 0;
+// A quantidade de letras "r" é definida pela propriedade length do array retornado pelo método match, 
+// mas se esse array não existir, quer dizer que a quantidade é 0,fazemos a mesma coisa para o "w"
+const r = readMatches ? readMatches.length : 0;
+const w = writeMatches ? writeMatches.length : 0;
 
-  console.log(r + w);
+// E por fim mostramos a quantidade de mínima de ciclos somando r + w
+console.log(r + w);
+
+// Saída esperada para a string "RWWRRR" e para a quantidade de leituras simultâneas "4"
+// 4
