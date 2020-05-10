@@ -638,5 +638,12 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
          <td>20</td>
          <td>1262</td>
       </tr>
+      <tr>
+         <td>089</td>
+         <td>De Dentro para Fora</td>
+         <td><a href="https://github.com/LaksCastro/101-daily-codes/blob/master/src/089-de-dentro-pra-fora.js" target="_blank" rel="noopener noreferrer external">Disponível aqui</a></td>
+         <td>10</td>
+         <td>1235</td>
+      </tr>
    </tbody>
 </table>
