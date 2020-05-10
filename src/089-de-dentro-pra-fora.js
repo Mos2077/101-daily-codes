@@ -1,6 +1,9 @@
+// EXERCÍCIO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/1235
+
 // A sua impressora foi infectada por um vírus e está imprimindo de forma incorreta. 
 // Depois de olhar para várias páginas impressas por um tempo,
-// EXERCÍCIO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
 // você percebe que ele está imprimindo cada linha de dentro para fora.
 // Em outras palavras, a metade esquerda de cada linha está sendo impressa a partir do meio da página até a margem esquerda. 
