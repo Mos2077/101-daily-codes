@@ -34,11 +34,12 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
-  const a = lines.shift().split("");
+const a = "I ENIL SIHTHSIREBBIG S".split("");
 
-  const firstPart = a.length;
+const firstPart = a.length;
 
-  const b = a.filter((_, i) => i <= firstPart / 2 - 1);
-  const c = a.filter((_, i) => i > firstPart / 2 - 1);
+const b = a.filter((_, i) => i <= firstPart / 2 - 1);
+const c = a.filter((_, i) => i > firstPart / 2 - 1);
 
-  console.log(b.reverse().join("") + c.reverse().join(""));
+console.log(b.reverse().join("") + c.reverse().join(""));
+
