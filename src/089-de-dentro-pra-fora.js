@@ -34,12 +34,24 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
+// Ponto de entrada, é a string que a impressora imprimiu
+// Usamos .split("") para transformar a strnig em um array de caracteres
 const a = "I ENIL SIHTHSIREBBIG S".split("");
 
-const firstPart = a.length;
+// Esse é o index em que acaba a primeira substring
+const firstPart = a.length / 2 - 1;
 
-const b = a.filter((_, i) => i <= firstPart / 2 - 1);
-const c = a.filter((_, i) => i > firstPart / 2 - 1);
+// Criamos um array com todos os caracteres da primeira substring
+const b = a.filter((_, i) => i <= firstPart);
 
+// E então criamos outro array para armazenar a segunda parte da string
+const c = a.filter((_, i) => i > firstPart);
+
+// E em seguida mostramos no console as duas substrings juntas, porém cada uma invertida
+// O que faz com que a string volte ao normal
 console.log(b.reverse().join("") + c.reverse().join(""));
+
+
+// Saída esperada para a string "I ENIL SIHTHSIREBBIG S" como entrada:
+// 'THIS LINE IS GIBBERISH'
 
