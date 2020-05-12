@@ -1,3 +1,5 @@
+// EXERCÍCIO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
 // Frequentemente é necessário escrever valores monetários em um formato padrão. 
 // Decidimos a formatação de quantidades na seguinte forma:
 //    1. O montante deve começar com '$';
@@ -13,6 +15,9 @@
 
 // Saída
 // Para cada caso de teste imprima a string formatada de acordo com os regras de formatação.
+
+
+// CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
 const input = require('fs').readFileSync('/dev/stdin', 'utf8');
 const lines = input.split('\n');
