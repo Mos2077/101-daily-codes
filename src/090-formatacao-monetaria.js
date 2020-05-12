@@ -19,35 +19,39 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
-const input = require('fs').readFileSync('/dev/stdin', 'utf8');
-const lines = input.split('\n');
+// Valor de entrada, é esse número que vamos formatar
+let value = "123456".split("");
 
-while (true) {
-  let value = lines.shift();
+// Valor de entrada, é esse o valor e centavos que vamos usar
+const prefix = "0";
 
-  if (!value) break;
+// Revertemos a nossa string do valor em dinheiro
+// Pra poder começar a adicionar as vírgulas a partir do final, não do início
+const reversed = value.reverse();
 
-  value = value.split("");
+// Array que vai guardar o valor da string formatada
+const newValue = [];
 
-  const prefix = lines.shift();
+// For para percorrer cada char do valor que vamos formatar
+for (let i = 0; i < reversed.length; i++) {
+  // Pegamos o char em questão
+  const char = reversed[i];
 
-  const reversed = value.reverse();
-
-  const newValue = [];
-
-  for (let i = 0; i < reversed.length; i++) {
-    const char = reversed[i];
-
-    if (i && i % 3 === 0) {
-      newValue.push(",");
-    }
-    newValue.push(char);
+  // Caso esse char seja multiplo de três, quer dizer que devemos colocar uma vírgula na frente dele
+  if (i && i % 3 === 0) {
+    newValue.push(",");
   }
-
-  console.log(
-    "$" +
-      newValue.reverse().join("") +
-      "." +
-      (Number(prefix) <= 9 ? `0${prefix}` : prefix)
-  );
+  // E de qualquer forma vamos adicionar ele também ao novo valor
+  newValue.push(char);
 }
+
+// Aqui somente concatenamos a string "$[VALOR_REVERSO_DA_STRING_REVERSA].[VALOR_EM_CENTAVOS]"
+console.log(
+  "$" +
+    newValue.reverse().join("") +
+    "." +
+    (Number(prefix) <= 9 ? `0${prefix}` : prefix)
+);
+
+// Saída esperada para a entrada "123456" como valor da string e em centavos "0":
+// '$123,456.00'
