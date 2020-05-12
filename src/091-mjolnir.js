@@ -1,3 +1,5 @@
+// EXERCÍCIO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
 // URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/1865
 
 // Odin criou para Thor a mais fiel e poderosa arma possível, o martelo Mjölnir. 
@@ -19,6 +21,8 @@
 // Para cada caso de teste imprima um caractere ‘Y’, caso a pessoa tenha conseguido levantar , 
 // ou ‘N’, caso não tenha conseguido.
 
+
+// CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
 const input = require('fs').readFileSync('/dev/stdin', 'utf8');
 const lines = input.split('\n');
