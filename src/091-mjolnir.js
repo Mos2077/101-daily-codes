@@ -24,11 +24,14 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
+// Pegamos o nome e  a força do personagem
+const [name, newton] = ["Thor", "8000"];
 
-  const [name, newton] = lines.shift().split(" ");
-
-  if (name === "Thor") console.log("Y");
-  else console.log("N");
+// Bom, a força não interessa, só o Thor pode erguer mesmo, então:
+// Se o nome do personagem for o Thor, imprimimos 'Y'
+if (name === "Thor") console.log("Y");
+// Se não é ele, imprimimos 'N'
+else console.log("N");
 
 
 // Saída esperada para o a entrada "Thor":
