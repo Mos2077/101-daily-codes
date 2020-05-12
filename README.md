@@ -652,5 +652,12 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
          <td>5</td>
          <td>1309</td>
       </tr>
+      <tr>
+         <td>091</td>
+         <td>Mjölnir</td>
+         <td><a href="https://github.com/LaksCastro/101-daily-codes/blob/master/src/091-mjolnir.js" target="_blank" rel="noopener noreferrer external">Disponível aqui</a></td>
+         <td>1</td>
+         <td>1865</td>
+      </tr>
    </tbody>
 </table>
