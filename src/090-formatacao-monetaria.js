@@ -1,5 +1,7 @@
 // EXERCÍCIO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
+// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/1309
+
 // Frequentemente é necessário escrever valores monetários em um formato padrão. 
 // Decidimos a formatação de quantidades na seguinte forma:
 //    1. O montante deve começar com '$';
