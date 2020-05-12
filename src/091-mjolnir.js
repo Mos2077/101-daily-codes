@@ -1,16 +1,23 @@
 // URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/1865
 
-// Odin created to Thor the most faithful and powerful possible weapon, Mjolnir hammer. Made of a special mystical ore called Uru and forged in the heart of a star by blacksmiths Gods of Asgard , Brokk and Eitri , blacksmiths legendary.
+// Odin criou para Thor a mais fiel e poderosa arma possível, o martelo Mjölnir. 
+// Feito de um minério místico especial chamado Uru e
+// forjado no coração de uma estrela pelos Deuses ferreiros de Asgard, Brokk e Eitri, os lendários ferreiros.
 
-// One day , Thor challenged his friends to see who could raise the Mjölnir .
+// Um dia, Thor desafiou seus amigos para ver quem conseguia levantar o Mjölnir.
 
-// Write a program that , given a name , and the force in Newtons applied to try to lift the Thunder Hammer , inform the person succeeded in lifting it .
+// Escreva um programa que, dado um nome, e a força, em Newtons, aplicado ao tentar levantar o Mjölnir,
+// informar se a pessoa conseguiu ou não levantá-lo.
 
-// Input
-// An integer C shall be informed , which is the amount of test cases. Each test case begins with one word , which is the first name of who is trying to raise Mjölnir , and an integer N ( 1 ≤ N ≤ 25000 ), indicating the force applied upward in Newtons to pull the hammer of so try to lift it.
+// Entrada
+// Um número inteiro C será informado, que será a quantidade de casos de teste.
+// Cada caso de teste inicia com uma palavra, que é o primeiro nome de quem está tentando levantar o Mjölnir,
+// e um inteiro N (1 ≤ N ≤ 25000), indicando a força aplicada para cima,
+// em Newtons, ao puxar o martelo, de modo a tentar levantá-lo.
 
-// Output
-// For each test case print a 'Y' character , if the person has managed to raise or 'N' if you have not achieved .
+// Saída
+// Para cada caso de teste imprima um caractere ‘Y’, caso a pessoa tenha conseguido levantar , 
+// ou ‘N’, caso não tenha conseguido.
 
 
 const input = require('fs').readFileSync('/dev/stdin', 'utf8');
