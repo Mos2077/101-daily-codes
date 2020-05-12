@@ -645,5 +645,12 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
          <td>10</td>
          <td>1235</td>
       </tr>
+      <tr>
+         <td>090</td>
+         <td>Formatação Monetária</td>
+         <td><a href="https://github.com/LaksCastro/101-daily-codes/blob/master/src/090-formatacao-monetaria.js" target="_blank" rel="noopener noreferrer external">Disponível aqui</a></td>
+         <td>5</td>
+         <td>1309</td>
+      </tr>
    </tbody>
 </table>
