@@ -14,8 +14,8 @@
 // mamao	                        | 85 mg
 // goiaba vermelha	                | 70 mg
 // manga	                        | 56 mg
-// laranja	                      | 50 mg
-// brocolis	                      | 34 mg
+// laranja	                        | 50 mg
+// brocolis	                        | 34 mg
 
 // Considere que o consumo diário recomendado de vitamina C está entre 110 mg e 130 mg, inclusive.
 
