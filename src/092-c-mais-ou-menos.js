@@ -1,3 +1,5 @@
+EXERCÍCIO
+
 // URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2486
 
 // Ultimamente, diversas pessoas estão indo à Dra. Cláudia Café com Leite para saber 
@@ -26,6 +28,8 @@
 
 // Saída
 // Para cada caso de teste (T), se o consumo ultrapassou o limite recomendado, imprima "Menos X mg", em que X representa a quantidade a menos a ser consumida para atingir o limite recomendado; se o consumo não atingiu o recomendado, imprima "Mais X mg", em que X representa a quantidade a mais para atingir o recomendado; se o consumo está dentro do intervalo recomendado, imprima "X mg", em que X representa a quantidade consumida diariamente pela pessoa.
+
+// CÓDIGO
 
 const input = require('fs').readFileSync('/dev/stdin', 'utf8');
 const lines = input.split('\n');
