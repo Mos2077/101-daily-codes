@@ -9,10 +9,10 @@
 // Para tal, você poderá utilizar a tabela a seguir:
 
 // Alimentos ricos em Vitamina C	| Quantidade de Vitamina C
-// suco de laranja	              | 120 mg
+// suco de laranja	                | 120 mg
 // morango fresco	                | 85 mg
 // mamao	                        | 85 mg
-// goiaba vermelha	              | 70 mg
+// goiaba vermelha	                | 70 mg
 // manga	                        | 56 mg
 // laranja	                      | 50 mg
 // brocolis	                      | 34 mg
