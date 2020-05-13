@@ -37,6 +37,10 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
+// Todas as comidas que estão na tabela, no formato:
+// {
+//    "nome da comida": valor em miligramas
+// }
 const foods = {
   "suco de laranja": 120,
   "morango fresco": 85,
