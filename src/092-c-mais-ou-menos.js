@@ -49,3 +49,7 @@ while (true) {
   else if (total > 130) console.log("Menos " + (total - 130) + " mg");
   else console.log(total + " mg");
 }
+
+
+// Saída esperada para 2 tipos de comida: 2 sucos de laranja e 2 mamões
+// '120 mg'
