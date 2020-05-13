@@ -51,21 +51,38 @@ const foods = {
   brocolis: 34,
 };
 
+// Ponto de entrada, é um array com todas as comidas que o paciente ingeriu, no formato:
+// Cada elemento do array no formato de string: "Quantidade Nome da comida"
 const eatedFoods = ["2 suco de laranja", "3 mamao"];
 
+// Essa é a quantidade de comidas diferentes que o paciente ingeriu
 const foodLength = 2;
 
+// Aqui armazenamos a o total em miligramas da vitamina C, C++, C# (Por favor, me perdoe)
 let total = 0;
 
+// Criamos um for que vai contabilizar cada tipo de comida que o cliente ingeriu
 for (let i = 0; i < foodLength; i++) {
+  // Pegamos a quantidade e o nome da comida através da desestruturação de Array
   let [qtd, ...name] = eatedFoods[i].split(" ");
+  // Como separamos por um espaço vazio: " ", as palavras do nome que são compostas também viraram array,
+  // Para consertar isso, juntamos ela de novo com uma string, usando .join()
   name = name.join(" ");
-
+  
+  // Adicionamos ao total, o valor da comida * a quantidade ingerida na variável total
   total += foods[name] * qtd;
 }
 
+// Caso o total seja menor que 110, que é a quantidade mínima
+// Imprimimos: Mais [Quantidade que falta para chegar à 110 miligramas] mg
 if (total < 110) console.log("Mais " + (110 - total) + " mg");
+
+// Caso o total seja maior que 130, que é a quantidade máxima,
+// Imprimimos: Menos [Quantidade que está em excesso comparado à quantidade máximaem miligramas] mg
 else if (total > 130) console.log("Menos " + (total - 130) + " mg");
+
+// Caso o total seja esteja entre a quantidade recomendada,
+// Imprimimos: [Quantidade que o paciente ingeriu em miligramas] mg
 else console.log(total + " mg");
 
 
