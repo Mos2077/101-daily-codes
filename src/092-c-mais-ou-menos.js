@@ -37,20 +37,7 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
-const input = require('fs').readFileSync('/dev/stdin', 'utf8');
-const lines = input.split('\n');
 
-const foods = {
-  "suco de laranja": 120,
-  "morango fresco": 85,
-  mamao: 85,
-  "goiaba vermelha": 70,
-  manga: 56,
-  laranja: 50,
-  brocolis: 34,
-};
-
-while (true) {
   const t = Number(lines.shift());
 
   if (!t) break;
@@ -67,7 +54,6 @@ while (true) {
   if (total < 110) console.log("Mais " + (110 - total) + " mg");
   else if (total > 130) console.log("Menos " + (total - 130) + " mg");
   else console.log(total + " mg");
-}
 
 
 // Saída esperada para 2 tipos de comida: 2 sucos de laranja e 2 mamões
