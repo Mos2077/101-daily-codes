@@ -65,5 +65,5 @@ const eatedFoods = ["2 sucos de laranja", "2 mamao"];
   else console.log(total + " mg");
 
 
-// Saída esperada para 2 tipos de comida: 2 sucos de laranja e 2 mamões
-// '120 mg'
+// Saída esperada para 2 tipos de comida: 2 sucos de laranja e 3 mamões
+// 'Menos 365 mg'
