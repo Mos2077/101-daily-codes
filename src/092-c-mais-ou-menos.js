@@ -36,7 +36,6 @@
 
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
-
 const foods = {
   "suco de laranja": 120,
   "morango fresco": 85,
@@ -47,22 +46,22 @@ const foods = {
   brocolis: 34,
 };
 
-const eatedFoods = ["2 sucos de laranja", "2 mamao"];
+const eatedFoods = ["2 suco de laranja", "3 mamao"];
 
-  const foodLength = 2;
+const foodLength = 2;
 
-  let total = 0;
+let total = 0;
 
-  for (let i = 0; i < foodLength; i++) {
-    let [qtd, ...name] = lines.shift().split(" ");
-    name = name.join(" ");
+for (let i = 0; i < foodLength; i++) {
+  let [qtd, ...name] = eatedFoods[i].split(" ");
+  name = name.join(" ");
 
-    total += foods[name] * qtd;
-  }
+  total += foods[name] * qtd;
+}
 
-  if (total < 110) console.log("Mais " + (110 - total) + " mg");
-  else if (total > 130) console.log("Menos " + (total - 130) + " mg");
-  else console.log(total + " mg");
+if (total < 110) console.log("Mais " + (110 - total) + " mg");
+else if (total > 130) console.log("Menos " + (total - 130) + " mg");
+else console.log(total + " mg");
 
 
 // Saída esperada para 2 tipos de comida: 2 sucos de laranja e 3 mamões
