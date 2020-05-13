@@ -37,14 +37,23 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
+const foods = {
+  "suco de laranja": 120,
+  "morango fresco": 85,
+  mamao: 85,
+  "goiaba vermelha": 70,
+  manga: 56,
+  laranja: 50,
+  brocolis: 34,
+};
 
-  const t = Number(lines.shift());
+const eatedFoods = ["2 sucos de laranja", "2 mamao"];
 
-  if (!t) break;
+  const foodLength = 2;
 
   let total = 0;
 
-  for (let i = 0; i < t; i++) {
+  for (let i = 0; i < foodLength; i++) {
     let [qtd, ...name] = lines.shift().split(" ");
     name = name.join(" ");
 
