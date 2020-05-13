@@ -1,3 +1,5 @@
+// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2486
+
 // Ultimamente, diversas pessoas estão indo à Dra. Cláudia Café com Leite para saber se estão consumindo a quantidade recomendada diária de vitamina C. Isso tem a deixado exausta, e por isso ela lhe pediu para escrever um programa que, dado o consumo diário de alimentos ricos em vitamina C por uma pessoa, indique o quanto essa pessoa deve consumir a mais ou a menos para atingir o recomendado.
 
 // Para tal, você poderá utilizar a tabela a seguir:
