@@ -40,3 +40,7 @@ const card3 = Math.max(card1, card2);
 
 // E então mostramos a maior carta, que vai aumentar as chances de vitória
 console.log(card3);
+
+
+// Saída para a entrada 10 como a primeira carta e também 10 como segunda carta:
+// 10
