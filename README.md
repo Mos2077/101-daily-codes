@@ -666,5 +666,12 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
          <td>5</td>
          <td>2486</td>
       </tr>
+      <tr>
+         <td>093</td>
+         <td>Pneu</td>
+         <td><a href="https://github.com/LaksCastro/101-daily-codes/blob/master/src/093-pneu.js" target="_blank" rel="noopener noreferrer external">Disponível aqui</a></td>
+         <td>2</td>
+         <td>2374</td>
+      </tr>
    </tbody>
 </table>
