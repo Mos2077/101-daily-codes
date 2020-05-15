@@ -18,6 +18,7 @@ https://www.urionlinejudge.com.br/judge/pt/problems/view/2374
 // Saída
 // Seu programa deve imprimir uma única linha, contendo a diferença entre a pressão desejada e a pressão lida.
 
+// CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
 const input = require('fs').readFileSync('/dev/stdin', 'utf8');
 const lines = input.split('\n').map(input => Number(input));
