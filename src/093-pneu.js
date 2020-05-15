@@ -31,3 +31,7 @@ const currrentPressure = 20;
 
 // Para obter a diferença, basta substraí-los:
 console.log(targetPressure - currrentPressure);
+
+
+// Saída esperada para 30 como a pressão almejada e 20 como a pressão atual do pneu:
+// 10
