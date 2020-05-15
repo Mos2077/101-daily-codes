@@ -1,4 +1,6 @@
-Tri-du é um jogo de cartas derivado do popular jogo de Truco. O jogo utiliza um baralho normal de 52 cartas, com treze cartas de cada naipe, mas os naipes são ignorados. Apenas o valor das cartas,considerados como inteiros de 1 a 13, são utilizados.
+// Tri-du é um jogo de cartas derivado do popular jogo de Truco. 
+// O jogo utiliza um baralho normal de 52 cartas, com treze cartas de cada naipe, mas os naipes são ignorados.
+// Apenas o valor das cartas,considerados como inteiros de 1 a 13, são utilizados.
 
 No jogo, cada jogador recebe três cartas. As regras são simples:
 
