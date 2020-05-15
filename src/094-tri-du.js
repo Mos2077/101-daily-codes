@@ -23,7 +23,7 @@
 // a probabilidade de o jogador ganhar a partida.
 
 
-// CÓDIGO <><><><>
+// CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 const input = require('fs').readFileSync('/dev/stdin', 'utf8');
 const lines = input.split('\n');
 
