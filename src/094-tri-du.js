@@ -27,9 +27,16 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
+// Ponto de entrada, é a primeira carta do jogador
 const card1 = 10;
+
+// Segundo ponto de entrada, é a segunda carta do jogador
 const card2 = 10;
 
+// Para maximizar as chances de ganhar, 
+// seria necessário que a terceira carta fosse igual à maior carta das 2 anteriores
+// Logo, essa carta nada mais é que a maior carta entre as duas
 const card3 = Math.max(card1, card2);
 
+// E então mostramos a maior carta, que vai aumentar as chances de vitória
 console.log(card3);
