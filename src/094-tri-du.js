@@ -27,7 +27,9 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
-const input = require('fs').readFileSync('/dev/stdin', 'utf8');
-const lines = input.split('\n');
+const card1 = 10;
+const card2 = 10;
 
-console.log(Math.max(...lines.shift().split(" ")));
+const card3 = Math.max(card1, card2);
+
+console.log(card3);
