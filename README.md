@@ -466,7 +466,7 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
       <tr>
          <td>064</td>
          <td>Um-Dois-Três</td>
-         <td><a href="https://github.com/LaksCastro/101-daily-codes/blob/master/src/064-umdoistres.js" target="_blank" rel="noopener noreferrer external">Disponível aqui</a></td>
+         <td><a href="https://github.com/LaksCastro/101-daily-codes/blob/master/src/064-um-dois-tres.js" target="_blank" rel="noopener noreferrer external">Disponível aqui</a></td>
          <td>60</td>
          <td>1332</td>
       </tr>
