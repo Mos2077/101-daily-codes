@@ -15,6 +15,8 @@ A entrada consiste de uma ´unica linha que contém dois inteiros, A (1 ≤ A �
 Saída
 Seu programa deve produzir uma única linha com um inteiro representando o valor da carta que maximiza a probabilidade de o jogador ganhar a partida.
 
+
+// CÓDIGO <><><><>
 const input = require('fs').readFileSync('/dev/stdin', 'utf8');
 const lines = input.split('\n');
 
