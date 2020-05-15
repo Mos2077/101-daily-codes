@@ -12,10 +12,11 @@ https://www.urionlinejudge.com.br/judge/pt/problems/view/2374
 // indica a diferença entre a pressão desejada e a pressão lida.
 
 // Entrada
-// A primeira linha da entrada contém um inteiro N que indica a pressão desejada pelo motorista (1 ≤ N ≤ 40). A segunda linha contém um inteiro M que indica a pressão lida pela bomba (1 ≤ M ≤ 40).
+// A primeira linha da entrada contém um inteiro N que indica a pressão desejada pelo motorista (1 ≤ N ≤ 40). 
+// A segunda linha contém um inteiro M que indica a pressão lida pela bomba (1 ≤ M ≤ 40).
 
-Saída
-Seu programa deve imprimir uma única linha, contendo a diferença entre a pressão desejada e a pressão lida.
+// Saída
+// Seu programa deve imprimir uma única linha, contendo a diferença entre a pressão desejada e a pressão lida.
 
 
 const input = require('fs').readFileSync('/dev/stdin', 'utf8');
