@@ -23,7 +23,11 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
+// Pressão que o caminhoneiro deseja obter
 const targetPressure = 30;
+
+// Pressão que o pneu atualmente está
 const currrentPressure = 20;
 
+// Para obter a diferença, basta substraí-los:
 console.log(targetPressure - currrentPressure);
