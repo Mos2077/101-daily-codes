@@ -8,10 +8,11 @@ https://www.urionlinejudge.com.br/judge/pt/problems/view/2374
 
 // Sua ajuda foi requisitada para desenvolver o programa da próxima bomba da SBC - Sistemas de Bombas Computadorizadas.
 
-Escreva um programa que, dada a pressão desejada digitada pelo motorista e a pressão do pneu lida pela bomba, indica a diferença entre a pressão desejada e a pressão lida.
+// Escreva um programa que, dada a pressão desejada digitada pelo motorista e a pressão do pneu lida pela bomba,
+// indica a diferença entre a pressão desejada e a pressão lida.
 
-Entrada
-A primeira linha da entrada contém um inteiro N que indica a pressão desejada pelo motorista (1 ≤ N ≤ 40). A segunda linha contém um inteiro M que indica a pressão lida pela bomba (1 ≤ M ≤ 40).
+// Entrada
+// A primeira linha da entrada contém um inteiro N que indica a pressão desejada pelo motorista (1 ≤ N ≤ 40). A segunda linha contém um inteiro M que indica a pressão lida pela bomba (1 ≤ M ≤ 40).
 
 Saída
 Seu programa deve imprimir uma única linha, contendo a diferença entre a pressão desejada e a pressão lida.
