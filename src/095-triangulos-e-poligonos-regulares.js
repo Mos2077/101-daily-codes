@@ -1,4 +1,4 @@
-// EXERCÍCIO
+// EXERCÍCIO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
 // URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2058
 
@@ -22,7 +22,7 @@
 // A saída é o número mínimo de triângulos necessários para compor um polígono regular de N lados.
 
 
-// CÓDIGO
+// CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
 const qtd = 5;
 
