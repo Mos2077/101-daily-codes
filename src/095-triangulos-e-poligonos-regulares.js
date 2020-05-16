@@ -17,10 +17,8 @@
 // Saída
 // A saída é o número mínimo de triângulos necessários para compor um polígono regular de N lados.
 
+const qtd = 5;
 
-const input = require('fs').readFileSync('/dev/stdin', 'utf8');
-const lines = input.split('\n');
-
-const l = lines[0] - 2;
+const l = qtd - 2;
 
 console.log(l);
