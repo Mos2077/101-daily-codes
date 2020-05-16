@@ -9,8 +9,8 @@
 // Entrada
 // A entrada é composta por um número N (3 ≤ N ≤ 109), que indica o número de lados de um polígono regular.
 
-Saída
-A saída é o número mínimo de triângulos necessários para compor um polígono regular de N lados.
+// Saída
+// A saída é o número mínimo de triângulos necessários para compor um polígono regular de N lados.
 
 
 const input = require('fs').readFileSync('/dev/stdin', 'utf8');
