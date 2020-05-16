@@ -1,3 +1,5 @@
+https://www.urionlinejudge.com.br/judge/pt/problems/view/2058
+
 // O professor Rafael adora computação gráfica. Ele gosta muito de renderizar objetos, especialmente bonecas.
 // Mas ele não gosta de desenhar polígonos regulares usando triângulos. 
 // Fazer isso consiste em compor um polígono regular usando apenas triângulos, de forma que os triângulos 
