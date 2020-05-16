@@ -680,5 +680,12 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
          <td>1</td>
          <td>1933</td>
       </tr>
+      <tr>
+         <td>095</td>
+         <td>Triângulos e Polígonos Regulares</td>
+         <td><a href="https://github.com/LaksCastro/101-daily-codes/blob/master/src/095-triangulos-e-polígonos-regulares.js" target="_blank" rel="noopener noreferrer external">Disponível aqui</a></td>
+         <td>1</td>
+         <td>2058</td>
+      </tr>
    </tbody>
 </table>
