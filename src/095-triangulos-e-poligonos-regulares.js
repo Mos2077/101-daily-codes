@@ -1,3 +1,5 @@
+// EXERCÍCIO
+
 // URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2058
 
 // O professor Rafael adora computação gráfica. Ele gosta muito de renderizar objetos, especialmente bonecas.
@@ -18,6 +20,9 @@
 
 // Saída
 // A saída é o número mínimo de triângulos necessários para compor um polígono regular de N lados.
+
+
+// CÓDIGO
 
 const qtd = 5;
 
