@@ -24,8 +24,15 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
+// Quantidade de lados
 const qtd = 5;
 
+// Quantidade de triângulos possíveis, que é somente a quantidade de lados menos 2
 const l = qtd - 2;
 
+// Mostramos no console o resultado
 console.log(l);
+
+
+// Saída esperada para a quantidade de lados = 5:
+// 3
