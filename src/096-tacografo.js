@@ -9,3 +9,18 @@ A primeira linha da entrada contém um inteiro N (1 ≤ N ≤ 1000) representand
 
 Saída
 Seu programa deve imprimir uma única linha, contendo um único número inteiro representando a distância total percorrida, em quilômetros.
+
+
+const input = require('fs').readFileSync('/dev/stdin', 'utf8');
+const lines = input.split('\n');
+
+const cases = Number(lines.shift());
+
+let total = 0;
+
+for (let cas = 0; cas < cases; cas++) {
+  const [t, v] = lines.shift().split(" ");
+  total += t * v;
+}
+
+console.log(total);
