@@ -1,3 +1,5 @@
+// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2388
+
 // Tacógrafos são dispositivos instalados em determinados tipos de veículos, que registram a velocidade, 
 // tempo e distância percorrida por tal veículo. É utilizada principalmente em veículos de transporte
 // coletivo e de transporte de cargas, assim ajudando a evitar abusos de velocidade por parte dos motoristas.
