@@ -20,17 +20,25 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
+// Todos os pontos de entrada do programa
 const lines = ["3", "10 0", "55 12", "75 120"];
 
+// Pegamos o valor da quantidade de entradas seguintes
 const cases = Number(lines.shift());
 
+// Aqui armazenaremos o total de km percorridos
 let total = 0;
 
+// Criamos um for para percorrer cada ponto de entrada seguinte
 for (let cas = 0; cas < cases; cas++) {
+  // Pegamos o tempo percorrido, e a velocidade média que o veículo estava durante esse tempo
   const [t, v] = lines.shift().split(" ");
+  
+  // Adicionamos ao total, a multiplicação entre o tempo e a velocidade
   total += t * v;
 }
 
+// Por fim, mostramos o total de km percorridos
 console.log(total);
 
 // Saída esperada para a entrada igual ao array ["3", "10 0", "55 12", "75 120"]:
