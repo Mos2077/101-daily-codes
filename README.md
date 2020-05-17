@@ -675,7 +675,7 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
       </tr>
       <tr>
          <td>094</td>
-         <td>Pneu</td>
+         <td>Tri-du</td>
          <td><a href="https://github.com/LaksCastro/101-daily-codes/blob/master/src/094-tri-du.js" target="_blank" rel="noopener noreferrer external">Disponível aqui</a></td>
          <td>1</td>
          <td>1933</td>
