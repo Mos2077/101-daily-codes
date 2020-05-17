@@ -687,5 +687,12 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
          <td>1</td>
          <td>2058</td>
       </tr>
+      <tr>
+         <td>096</td>
+         <td>Tacógrafo</td>
+         <td><a href="https://github.com/LaksCastro/101-daily-codes/blob/master/src/096-tacografo.js" target="_blank" rel="noopener noreferrer external">Disponível aqui</a></td>
+         <td>3</td>
+         <td>2388</td>
+      </tr>
    </tbody>
 </table>
