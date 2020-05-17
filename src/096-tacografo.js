@@ -22,3 +22,6 @@ for (let cas = 0; cas < cases; cas++) {
 }
 
 console.log(total);
+
+// Saída esperada para a entrada igual ao array ["3", "10 0", "55 12", "75 120"]:
+// 9660
