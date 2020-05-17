@@ -17,6 +17,9 @@
 // Saída
 // Seu programa deve imprimir uma única linha, contendo um único número inteiro representando a distância total percorrida, em quilômetros.
 
+
+// CÓDIGO <><><>
+
 const lines = ["3", "10 0", "55 12", "75 120"];
 
 const cases = Number(lines.shift());
