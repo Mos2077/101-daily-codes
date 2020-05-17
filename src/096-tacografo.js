@@ -1,4 +1,4 @@
-// EXERCÍCIO <><><>
+// EXERCÍCIO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
 // URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2388
 
@@ -18,7 +18,7 @@
 // Seu programa deve imprimir uma única linha, contendo um único número inteiro representando a distância total percorrida, em quilômetros.
 
 
-// CÓDIGO <><><>
+// CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
 const lines = ["3", "10 0", "55 12", "75 120"];
 
