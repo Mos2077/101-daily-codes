@@ -26,11 +26,10 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
-const input = require('fs').readFileSync('/dev/stdin', 'utf8');
-const lines = input.split('\n');
+const lines = "6 6 6 6";
 
 const result =
-  lines[0].split(" ").reduce((ac, item) => Number(ac) + Number(item)) - 3;
+  lines.split(" ").reduce((ac, item) => Number(ac) + Number(item)) - 3;
 
 console.log(result);
 
