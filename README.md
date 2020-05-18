@@ -694,5 +694,12 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
          <td>3</td>
          <td>2388</td>
       </tr>
+      <tr>
+         <td>097</td>
+         <td>Tomadas</td>
+         <td><a href="https://github.com/LaksCastro/101-daily-codes/blob/master/src/097-tomadas.js" target="_blank" rel="noopener noreferrer external">Disponível aqui</a></td>
+         <td>1</td>
+         <td>1930</td>
+      </tr>
    </tbody>
 </table>
