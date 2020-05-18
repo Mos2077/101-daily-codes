@@ -1,3 +1,5 @@
+// EXERCÍCIO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
 // Finalmente, o time da Universidade conseguiu a classificação para a Final Nacional da Maratona de Programação da SBC. 
 // Os três membros do time e o técnico estão ansiosos para bem representar a Universidade, e além de treinar muito, preparam 
 // com todos os detalhes a sua viagem a São Paulo, onde será realizada a Final Nacional.
@@ -20,6 +22,9 @@
 // Saída
 // Seu programa deve produzir uma única linha contendo um único número inteiro, indicando o número máximo de 
 // aparelhos que podem ser conectados à energia num mesmo instante.
+
+
+// CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
 const input = require('fs').readFileSync('/dev/stdin', 'utf8');
 const lines = input.split('\n');
