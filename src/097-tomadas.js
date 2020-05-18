@@ -26,10 +26,14 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
+// Todas as tomadas, cada uma ocupa 1 espaço da tomada anterior
 const lines = "6 6 6 6";
 
+// Portanto, o resultado será somente a soma de todas as tomadas menos 3, 
+// que é quantidade de tomadas anteriores que existem
 const result =
   lines.split(" ").reduce((ac, item) => Number(ac) + Number(item)) - 3;
 
+// Então mostramos o resultado no console
 console.log(result);
 
