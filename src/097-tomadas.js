@@ -18,7 +18,8 @@
 // cada uma das quatro réguas (2 ≤ Ti ≤ 6).
 
 // Saída
-// Seu programa deve produzir uma única linha contendo um único número inteiro, indicando o número máximo de aparelhos que podem ser conectados à energia num mesmo instante.
+// Seu programa deve produzir uma única linha contendo um único número inteiro, indicando o número máximo de 
+// aparelhos que podem ser conectados à energia num mesmo instante.
 
 const input = require('fs').readFileSync('/dev/stdin', 'utf8');
 const lines = input.split('\n');
