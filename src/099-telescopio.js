@@ -51,6 +51,10 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
+// Todos os pontos de entradas:
+// lines[0] = entrada A
+// lines[1] = entrada N
+// lines[2, ..., N] = quantidade de emissão de fótons de uma estrela
 const lines = [
   "2967",
   "9",
@@ -65,18 +69,30 @@ const lines = [
   "10533",
 ];
 
+// Pegamos a potência do telescópio
 const telescope = parseInt(lines.shift());
 
+// Pegamos a quantidade de estrelas que vamos testar
 const cases = parseInt(lines.shift());
 
+// Variável que armazena quantas estrelas são possíveis ver com o telescópio, começa com 0
 let total = 0;
 
+// Para cada estrela...
 for (let cas = 0; cas < cases; cas++) {
+  // Pegamos a potência de uma estrela
   const photons = lines[cas];
-
+  
+  // Pegamos o resultado que é a quantidade de emissão de fótons de uma estrela
+  // multiplicado pela potência do telescópio 
+  // (estou usando o termo potência, mas acho que não é este, de qualquer forma, este termo acredito que deixa mais fácil de entender)
   const result = photons * telescope;
 
+  // Caso esse resultado seja maior ou igual a 40.000.000
+  // Então é possível ver a estrela, logo adicionamos 1 à variável total
   if (result >= 40000000) total++;
 }
 
+// Por fim, mostramos a quantidade de estrelas que 
+// são possíveis ver com o telescópio das que foram entregues nos casos de teste
 console.log(total);
