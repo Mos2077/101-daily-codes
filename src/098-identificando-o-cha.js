@@ -24,10 +24,20 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
+// Pontos de entrada, o primeiro número é o chá correto
+// E os seguintes números são as respostas que os participantes deram
 const lines = ["1", "1 2 3 2 1"];
 
+// Pegamos a resposta correta, que é o elemento 0 do array de entrada, e deixamos somente as respostas no array
 const correct = lines.shift();
 
+// Em seguida, mostramos a quantidade de elementos do array que são iguais à resposta correta
+// lines[0] pega a sequência de caracteres "1 2 3 2 1"
+// split(" ") cria um array com cada elemento sendo cada resposta: ["1", "2", "3", "2", "1"]
+// filter() recebe uma função que será executada para cada elemento do array, 
+// e retorna um novo array com todos os itens que retornaram o valor true na função
+// (item) => item === correct : pega o item atual e retorna se o item atual é igual ao valor correto
+// .length pega a quantidade de elementos do array retornado pelo filter, ou seja, a quantidade de respostas corretas
 console.log(lines[0].split(" ").filter((item) => item === correct).length);
 
 
