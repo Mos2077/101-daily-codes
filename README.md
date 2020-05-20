@@ -701,5 +701,12 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
          <td>1</td>
          <td>1930</td>
       </tr>
+      <tr>
+         <td>098</td>
+         <td>Identificando o Chá</td>
+         <td><a href="https://github.com/LaksCastro/101-daily-codes/blob/master/src/098-identificando-o-cha.js" target="_blank" rel="noopener noreferrer external">Disponível aqui</a></td>
+         <td>1</td>
+         <td>2006</td>
+      </tr>
    </tbody>
 </table>
