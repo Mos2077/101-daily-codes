@@ -708,5 +708,12 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
          <td>1</td>
          <td>2006</td>
       </tr>
+      <tr>
+         <td>099</td>
+         <td>Telescópio</td>
+         <td><a href="https://github.com/LaksCastro/101-daily-codes/blob/master/src/099-telescopio.js" target="_blank" rel="noopener noreferrer external">Disponível aqui</a></td>
+         <td>8</td>
+         <td>2386</td>
+      </tr>
    </tbody>
 </table>
