@@ -2,6 +2,14 @@
 
 // URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2386
 
+// RESUMO: Basicamente o exercício fala: pra poder ver uma estrela no céu, 
+// a potência do telescópio multiplicado pela quantidade de emissão de fótons 
+// de uma estrela deve ser maior ou igual a 40.000.000 milhões 
+// (isso, usando a medida fótons/segundo, mas isso não importa no exercício)
+// Nosso trabalho é ler uma entrada A que representa a potência do telescópio
+// Ler outra entrada N que representa a quantidade de estrelas que vamos testar
+// Testar: ver se é possível ver essa estrela com o telescópio atual
+
 // Telescópios são instrumentos que auxiliam a observação do céu, melhorando e aumentando o aspecto das estrelas, 
 // planetas e outros objetos brilhantes. Existem diversos tipos de telescópios, sendo os 
 // tipos mais comuns os de lentes objetivas (refratores) e os de espelhos (refletores).
@@ -43,8 +51,19 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
-const input = require('fs').readFileSync('/dev/stdin', 'utf8');
-const lines = input.split('\n');
+const lines = [
+  "2967",
+  "9",
+  "18650",
+  "18338",
+  "2400",
+  "17702",
+  "14619",
+  "13934",
+  "7979",
+  "16316",
+  "10533",
+];
 
 const telescope = parseInt(lines.shift());
 
