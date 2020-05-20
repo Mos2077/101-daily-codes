@@ -8,7 +8,7 @@
 // (isso, usando a medida fótons/segundo, mas isso não importa no exercício)
 // Nosso trabalho é ler uma entrada A que representa a potência do telescópio
 // Ler outra entrada N que representa a quantidade de estrelas que vamos testar
-// Testar: ver se é possível ver essa estrela com o telescópio atual
+// Testar para cada estrela: ver se é possível ver essa estrela com o telescópio atual
 
 // Telescópios são instrumentos que auxiliam a observação do céu, melhorando e aumentando o aspecto das estrelas, 
 // planetas e outros objetos brilhantes. Existem diversos tipos de telescópios, sendo os 
