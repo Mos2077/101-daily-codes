@@ -96,3 +96,16 @@ for (let cas = 0; cas < cases; cas++) {
 // Por fim, mostramos a quantidade de estrelas que 
 // são possíveis ver com o telescópio das que foram entregues nos casos de teste
 console.log(total);
+
+
+// Saída esperada para o array de entradas 
+// [
+//  '2967',  '9',
+//  '18650', '18338',
+//  '2400',  '17702',
+//  '14619', '13934',
+//  '7979',  '16316',
+//  '10533'
+// ]:
+// 6
+
