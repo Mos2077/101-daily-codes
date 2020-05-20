@@ -1,5 +1,7 @@
 // EXERCÍCIO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
+// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2006
+
 // Degustação de chá às escuras é a habilidade de identificar um chá usando apenas seus sentidos do olfato e paladar.
 
 // Isto faz parte da Competição Ideal de Consumidores de Chá Puro (da sigla em inglês ICPC), 
