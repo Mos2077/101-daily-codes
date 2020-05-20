@@ -29,3 +29,6 @@ const correct = lines.shift();
 
 console.log(lines[0].split(" ").filter((item) => item === correct).length);
 
+
+// Saída esperada para o chá correto "1" e as respostas "1 2 3 2 1":
+// 2
