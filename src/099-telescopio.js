@@ -13,7 +13,11 @@
 // para identificar os objetos) e diminuindo quando o ambiente está claro. Num ambiente muito escuro,
 // a pupila pode atingir um diâmetro de 8 mm.
 
-// Cada objeto celeste (estrela, planeta, nebulosa, etc) emite uma quantidade de luz (fótons) que é homogeneamente distribuída quando chega na Terra. Por exemplo, a estrela A emite luz que pode ser captada a um fluxo de 40.000 fótons por segundo por milímetro quadrado. Isso é, a cada segundo, é possível captar 40.000 fótons provenientes da estrela A numa área de 1 mm 2. Ou seja, uma pupila de 10 mm 2 de área captaria 400.000 fótons provenientes da estrela A por segundo.
+// Cada objeto celeste (estrela, planeta, nebulosa, etc) emite uma quantidade de luz (fótons)
+// que é homogeneamente distribuída quando chega na Terra. Por exemplo, a estrela A emite luz 
+// que pode ser captada a um fluxo de 40.000 fótons por segundo por milímetro quadrado.
+// Isso é, a cada segundo, é possível captar 40.000 fótons provenientes da estrela A numa área de 1 mm 2. 
+// Ou seja, uma pupila de 10 mm 2 de área captaria 400.000 fótons provenientes da estrela A por segundo.
 
 // Para que nosso cérebro consiga interpretar que existe um objeto ali, porém, ele precisa receber 40.000.000 fótons por segundo. Assim, podemos utilizar um telescópio com lente (ou espelho) de 100 mm 2 de área, que vai captar a quantidade necessária de fótons provenientes da estrela A e encaminhá-los até nossa pupila, fazendo assim com que nosso cérebro perceba a presença da estrela ali.
 
