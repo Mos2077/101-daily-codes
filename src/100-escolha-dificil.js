@@ -61,3 +61,7 @@ for (let i = 0; i < 3; i++) {
 
 // E então mostramos no console o valor absoluto da variável total
 console.log(Math.abs(total));
+
+
+// Saída esperada para o array ["80 20 40", "45 23 48"] como ponto de entrada:
+// 11
