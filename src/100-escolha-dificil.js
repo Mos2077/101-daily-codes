@@ -25,21 +25,39 @@
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
+// Pontos de entrada, um array com 2 strings,
+// Cada string no formato ["QTD_FRANGO QTD_BIFE QTD_MASSA"];
+// A primeira string esta neste formato representando a quantidade disponível
+// A segunda string está neste formato representando a quantidade exigida pelos passageiros
 const lines = ["80 20 40", "45 23 48"];
 
+// Criamos um array com a quantidade de cada comida disponível
+// Portanto, neste caso, vai ficar: ["80", "20", "40"];
 const available = lines[0].split(" ");
 
+// Criamos outro array com a quantidade de cada comida solicitada pelos passageiros
+// Portanto, neste caso, vai ficar: ["45", "23", "48"];
 const requested = lines[1].split(" ");
 
+// Variável que armazena a quantidade de pessoas 
+// que não puderam ter seu pedido atendido
 let total = 0;
 
+// Criamos um for que vai percorrer cada elemento de cada array
 for (let i = 0; i < 3; i++) {
+  // x é a quantidade disponível de X comida
   const x = available[i];
+  
+  // y é a quantidade solicitada pelos passageiros de X comida
   const y = requested[i];
 
+  // Calculamos a diferença da quantidade de comida preparada pela quantidade de comida solicitada
   const sub = x - y;
 
+  // Caso essa diferença seja negativa, então temos alguns passageiros que não puderam ser atendidos
+  // Logo, adicionamos essa quantidade à variável total
   if (sub < 0) total += sub;
 }
 
+// E então mostramos no console o valor absoluto da variável total
 console.log(Math.abs(total));
