@@ -1,3 +1,5 @@
+// EXERCÍCIO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
 // URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2702
 
 // Em um longo voo, companhias aéreas oferecem uma refeição aos seus passageiros.
@@ -20,7 +22,8 @@
 // pedidas para cada escolha, você poderia por favor ajudar a aeromoça a determinar quantos 
 // passageiros seguramente não poderão ser atendidos?
   
-  
+
+// CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
 const input = require('fs').readFileSync('/dev/stdin', 'utf8');
 const lines = input.split('\n');
