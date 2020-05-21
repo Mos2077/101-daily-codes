@@ -1,3 +1,5 @@
+// URL: https://www.urionlinejudge.com.br/judge/pt/problems/view/2702
+
 // Em um longo voo, companhias aéreas oferecem uma refeição aos seus passageiros.
 // Geralmente as aeromoças conduzem carrinhos contendo as refeições pelos corredores do avião. 
 // Quando o carrinho chega em sua fileira, você é questionado imediatamente: “Frango, bife, ou massa?”.
