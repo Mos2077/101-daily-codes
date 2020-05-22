@@ -722,5 +722,12 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
          <td>10</td>
          <td>2702</td>
       </tr>
+      <tr>
+         <td>101</td>
+         <td>Aviões de Papel</td>
+         <td><a href="https://github.com/LaksCastro/101-daily-codes/blob/master/src/101-avioes-de-papel.js" target="_blank" rel="noopener noreferrer external">Disponível aqui</a></td>
+         <td>2</td>
+         <td>2339</td>
+      </tr>
    </tbody>
 </table>
