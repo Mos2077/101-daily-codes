@@ -1,27 +1,46 @@
 // EXERCÍCIO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
-// Para descontrair os alunos após as provas da OBI, a Diretora da escola organizou um campeonato de aviões de papel. Cada aluno participante receberá uma certa quantidade de folhas de um papel especial para fazer os seus modelos de aviões. A quantidade de folhas que cada aluno deverá receber ainda não foi determinada: ela será decidida pelos juízes do campeonato.
+// Para descontrair os alunos após as provas da OBI, a Diretora da escola organizou um campeonato de aviões de papel.
+// Cada aluno participante receberá uma certa quantidade de folhas de um papel especial para fazer os seus modelos de aviões.
+// A quantidade de folhas que cada aluno deverá receber ainda não foi determinada: ela será decidida pelos juízes do campeonato.
 
-// A diretora convidou, para atuarem como juízes, engenheiros da Embraer, uma das mais bem sucedidas empresas brasileiras, que vende aviões com tecnologia brasileira no mundo todo. O campeonato está programado para começar logo após a prova da OBI, mas os juízes ainda não chegaram à escola. A diretora está aflita, pois comprou uma boa quantidade de folhas de papel especial, mas não sabe se a quantidade comprada vai ser suficiente.
+// A diretora convidou, para atuarem como juízes, engenheiros da Embraer, uma das mais bem sucedidas empresas brasileiras, 
+// que vende aviões com tecnologia brasileira no mundo todo. O campeonato está programado para começar logo após a prova da OBI,
+// mas os juízes ainda não chegaram à escola. A diretora está aflita, pois comprou uma boa quantidade de folhas de papel especial, 
+// mas não sabe se a quantidade comprada vai ser suficiente.
 
-// Considere, por exemplo, que a Diretora comprou 100 folhas de papel especial, e que há 33 competidores. Se os juízes decidirem que cada competidor tem direito a três folhas de papel, a quantidade comprada pela diretora é suficiente. Mas se os juízes decidirem que cada competidor tem direito a quatro folhas, a quantidade comprada pela diretora não seria suficiente.
+// Considere, por exemplo, que a Diretora comprou 100 folhas de papel especial, e que há 33 competidores. Se os juízes decidirem 
+// que cada competidor tem direito a três folhas de papel, a quantidade comprada pela diretora é suficiente. Mas se os juízes 
+// decidirem que cada competidor tem direito a quatro folhas, a quantidade comprada pela diretora não seria suficiente.
 
-// Você deve escrever um programa que, dados o número de competidores, o número de folhas de papel especial compradas pela Diretora e o número de folhas que cada competidor deve receber, determine se o número de folhas comprado pela Diretora é suficiente.
+// Você deve escrever um programa que, dados o número de competidores, o número de folhas de papel especial compradas pela
+// Diretora e o número de folhas que cada competidor deve receber, determine se o número de folhas comprado pela Diretora é 
+// suficiente.
 
 // Entrada
-// A entrada contém um único conjunto de testes, que deve ser lido do dispositivo de entrada padrão (normalmente o teclado). O arquivo de entrada contém três números inteiros C (1 ≤ C ≤ 1000), P (1 ≤ P ≤ 1000) e F (1 ≤ F ≤ 1000) representando respectivamente o número de competidores, a quantidade de folhas de papel especial compradas pela Diretora e a quantidade de folhas de papel especial que cada competidor deve receber.
+// A entrada contém um único conjunto de testes, que deve ser lido do dispositivo de entrada padrão (normalmente o teclado). 
+// O arquivo de entrada contém três números inteiros C (1 ≤ C ≤ 1000), P (1 ≤ P ≤ 1000) e F (1 ≤ F ≤ 1000) representando 
+// respectivamente o número de competidores, a quantidade de folhas de papel especial compradas pela Diretora e a quantidade de folhas de papel especial que cada competidor deve receber.
 
 // Saída
-// Seu programa deve imprimir, na saída padrão, o caractere ‘S’ se a quantidade de folhas compradas pela Diretora é suficiente, ou o caractere ‘N’ caso contrário. Note que os caracteres devem ser letras maiúsculas.
+// Seu programa deve imprimir, na saída padrão, o caractere ‘S’ se a quantidade de folhas compradas pela Diretora é suficiente, 
+// ou o caractere ‘N’ caso contrário. Note que os caracteres devem ser letras maiúsculas.
 
 
 // CÓDIGO <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
-const input = require('fs').readFileSync('/dev/stdin', 'utf8');
-const lines = input.split('\n');
+// Ponto de entrada
+const lines = ["10 100 10"];
 
+// Pegamos do ponto de entrada os respectivos valores:
+// A quantidade de pessoas que estão no campeonato
+// A quantidade de papel disponível
+// A quantidade de papel que cada pessoa vai receber
 const [peopleQtd, paperQtd, paperForEachPeople] = lines[0].split(" ");
 
+// Caso a quantidade de papel por pessoa vezes a quantidade de pessoas
+// seja maior que a quantidade de papel disponível, imprimimos 'N' que significa que não há papel para todo mundo
+// Caso contrário, imprimimos 'S', indicando que a quantidade de papel será suficiente para todo mundo
 console.log(paperForEachPeople * peopleQtd > paperQtd ? "N" : "S");
 
 
