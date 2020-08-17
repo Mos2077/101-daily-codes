@@ -1,4 +1,17 @@
-# 101 Exercícios em JavaScript
+<p align="center">
+  <img src="/src/assets/logo.svg" width="150" />
+</p>
+<p align="center">⭐⭐⭐⭐⭐</p>
+<h1 align="center">101 Exercícios em JavaScript</h1>
+<h4 align="center"><a href="https://lakscastro.github.io/snake-game"><code>Play in Browser</code></a></h4>
+<p align="center">101 exercícios em 101 dias, utilizando exercícios da plataforma URI Online</p>
+<p align="center">
+  <img  src="https://img.shields.io/badge/category-beginner-orange" alt="Application Category" />
+  <img  src="https://img.shields.io/badge/language-javascript-yellow" alt="Repo Main Language" />
+  <img  src="https://img.shields.io/badge/count-101-blueviolet" alt="Module Bundler" />
+  <img  src="https://img.shields.io/badge/type-project-success" alt="Repo Type" />
+  <img  src="https://img.shields.io/badge/name-101_daily_codes-green" alt="Proj Ref" />
+</p>
 
 ## Sobre
 Apenas alguns exercícios resolvidos utilizando JavaScript, exercícios estes, retirados da plataforma [URI Online](https://www.urionlinejudge.com.br/). Um exercício será postado por dia. 
