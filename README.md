@@ -758,5 +758,5 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
 </p>
 <p align="center">101 Daily Codes <a href="https://github.com/LaksCastro/101-daily-codes/blob/master/LICENSE.md">is MIT licensed 💖</a></p>
 <p align="center">
-  <img src="./src/assets/logo64.png" width="35" />
+  <img src="./assets/logo.png" width="35" />
 </p>
