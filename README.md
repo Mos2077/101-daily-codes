@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="/src/assets/logo.svg" width="150" />
+  <img src="/assets/logo.png" width="150" />
 </p>
 <p align="center">⭐⭐⭐⭐⭐</p>
 <h1 align="center">101 Exercícios em JavaScript</h1>
-<h4 align="center"><a href="https://lakscastro.github.io/snake-game"><code>Play in Browser</code></a></h4>
+<h4 align="center"><a href="https://github.com/LaksCastro/101-daily-codes/blob/master/src"><code>Browser Code</code></a></h4>
 <p align="center">101 exercícios em 101 dias, utilizando exercícios da plataforma URI Online</p>
 <p align="center">
   <img  src="https://img.shields.io/badge/category-beginner-orange" alt="Application Category" />
@@ -744,3 +744,19 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
       </tr>
    </tbody>
 </table>
+
+<br>
+<br>
+<br>
+<br>
+
+<h2 align="center">
+  Open Source
+</h2>
+<p align="center">
+  <sub>Copyright © 2020-present, Laks Castro.</sub>
+</p>
+<p align="center">101 Daily Codes <a href="https://github.com/LaksCastro/101-daily-codes/blob/master/LICENSE.md">is MIT licensed 💖</a></p>
+<p align="center">
+  <img src="./src/assets/logo64.png" width="35" />
+</p>
