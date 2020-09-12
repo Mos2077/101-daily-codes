@@ -3,7 +3,7 @@
 </p>
 <p align="center">⭐⭐⭐⭐⭐</p>
 <h1 align="center">101 Exercícios em JavaScript</h1>
-<h4 align="center"><a href="https://github.com/LaksCastro/101-daily-codes/blob/master/src"><code>Browser Code</code></a></h4>
+<h4 align="center"><a href="https://github.com/LaksCastro/101-daily-codes/blob/master/src"><code>Browse Code</code></a></h4>
 <p align="center">101 exercícios em 101 dias, utilizando exercícios da plataforma URI Online</p>
 <p align="center">
   <img  src="https://img.shields.io/badge/category-beginner-orange" alt="Application Category" />
