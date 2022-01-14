@@ -754,7 +754,7 @@ Viu um código e tem uma solução melhor? É só dar clonar o repositório, faz
   Open Source
 </h2>
 <p align="center">
-  <sub>Copyright © 2020-present, Laks Castro.</sub>
+  <sub>Copyright © 2022-present, Laks Castro.</sub>
 </p>
 <p align="center">101 Daily Codes <a href="https://github.com/LaksCastro/101-daily-codes/blob/master/LICENSE.md">is MIT licensed 💖</a></p>
 <p align="center">
